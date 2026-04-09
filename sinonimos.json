@@ -1,0 +1,6782 @@
+{
+  "abandonar": [
+    "dejar",
+    "desertar",
+    "renunciar",
+    "desamparar",
+    "marcharse",
+    "alejarse",
+    "retirarse",
+    "desistir"
+  ],
+  "abrazar": [
+    "estrechar",
+    "rodear",
+    "envolver",
+    "ceñir",
+    "acoger",
+    "aferrar",
+    "sujetar"
+  ],
+  "abrir": [
+    "destapar",
+    "descubrir",
+    "inaugurar",
+    "iniciar",
+    "comenzar",
+    "desplegar",
+    "extender"
+  ],
+  "aburrir": [
+    "cansar",
+    "fastidiar",
+    "hartar",
+    "hastiar",
+    "molestar",
+    "agobiar",
+    "agotar"
+  ],
+  "aceptar": [
+    "admitir",
+    "aprobar",
+    "consentir",
+    "tolerar",
+    "recibir",
+    "acoger",
+    "asumir",
+    "validar"
+  ],
+  "aclarar": [
+    "explicar",
+    "esclarecer",
+    "despejar",
+    "iluminar",
+    "precisar",
+    "definir",
+    "especificar"
+  ],
+  "acompañar": [
+    "escoltar",
+    "seguir",
+    "asistir",
+    "auxiliar",
+    "apoyar",
+    "estar con",
+    "ir junto"
+  ],
+  "acosar": [
+    "perseguir",
+    "hostigar",
+    "intimidar",
+    "molestar",
+    "presionar",
+    "amenazar",
+    "acechar"
+  ],
+  "acostar": [
+    "tumbar",
+    "recostar",
+    "tender",
+    "echar",
+    "reclinar",
+    "yacer",
+    "reposar"
+  ],
+  "actuar": [
+    "obrar",
+    "proceder",
+    "comportarse",
+    "intervenir",
+    "ejecutar",
+    "realizar",
+    "desempeñar"
+  ],
+  "adelantar": [
+    "avanzar",
+    "progresar",
+    "superar",
+    "anticipar",
+    "acelerar",
+    "mejorar",
+    "sobresalir"
+  ],
+  "admirar": [
+    "contemplar",
+    "maravillar",
+    "asombrar",
+    "venerar",
+    "respetar",
+    "estimar",
+    "reverenciar"
+  ],
+  "adorar": [
+    "amar",
+    "idolatrar",
+    "venerar",
+    "querer",
+    "apreciar",
+    "reverenciar",
+    "enaltecer"
+  ],
+  "afectar": [
+    "influir",
+    "impactar",
+    "perjudicar",
+    "dañar",
+    "alterar",
+    "modificar",
+    "concernir"
+  ],
+  "afirmar": [
+    "asegurar",
+    "confirmar",
+    "declarar",
+    "sostener",
+    "ratificar",
+    "certificar",
+    "aseverar"
+  ],
+  "agitar": [
+    "mover",
+    "sacudir",
+    "remover",
+    "revolver",
+    "inquietar",
+    "perturbar",
+    "alterar"
+  ],
+  "agregar": [
+    "añadir",
+    "sumar",
+    "incorporar",
+    "incluir",
+    "adjuntar",
+    "anexar",
+    "unir",
+    "complementar"
+  ],
+  "aguantar": [
+    "soportar",
+    "tolerar",
+    "resistir",
+    "sufrir",
+    "sobrellevar",
+    "sostener",
+    "mantener"
+  ],
+  "alegrar": [
+    "animar",
+    "regocijar",
+    "entusiasmar",
+    "complacer",
+    "contentar",
+    "deleitar",
+    "ilusionar"
+  ],
+  "alejarse": [
+    "irse",
+    "marcharse",
+    "apartarse",
+    "distanciarse",
+    "retirarse",
+    "ausentarse",
+    "huir"
+  ],
+  "amar": [
+    "querer",
+    "adorar",
+    "apreciar",
+    "estimar",
+    "idolatrar",
+    "enamorarse",
+    "encariñarse"
+  ],
+  "amenazar": [
+    "intimidar",
+    "amedrentar",
+    "asustar",
+    "atemorizar",
+    "presionar",
+    "coaccionar",
+    "advertir"
+  ],
+  "ampliar": [
+    "extender",
+    "aumentar",
+    "expandir",
+    "agrandar",
+    "desarrollar",
+    "enriquecer",
+    "crecer"
+  ],
+  "andar": [
+    "caminar",
+    "marchar",
+    "pasear",
+    "deambular",
+    "transitar",
+    "moverse",
+    "desplazarse",
+    "circular"
+  ],
+  "anunciar": [
+    "avisar",
+    "comunicar",
+    "proclamar",
+    "publicar",
+    "informar",
+    "notificar",
+    "declarar",
+    "revelar"
+  ],
+  "aparecer": [
+    "surgir",
+    "emerger",
+    "presentarse",
+    "manifestarse",
+    "asomar",
+    "brotar",
+    "mostrarse",
+    "aflorar"
+  ],
+  "apoyar": [
+    "sostener",
+    "respaldar",
+    "ayudar",
+    "asistir",
+    "defender",
+    "proteger",
+    "amparar",
+    "secundar"
+  ],
+  "aprender": [
+    "estudiar",
+    "asimilar",
+    "memorizar",
+    "instruirse",
+    "educarse",
+    "formarse",
+    "absorber"
+  ],
+  "aprovechar": [
+    "utilizar",
+    "explotar",
+    "emplear",
+    "beneficiarse",
+    "valerse",
+    "capitalizar",
+    "sacar partido"
+  ],
+  "asegurar": [
+    "garantizar",
+    "afirmar",
+    "certificar",
+    "confirmar",
+    "proteger",
+    "defender",
+    "sostener"
+  ],
+  "atacar": [
+    "agredir",
+    "asaltar",
+    "embestir",
+    "arremeter",
+    "acometer",
+    "golpear",
+    "herir",
+    "ofender"
+  ],
+  "atraer": [
+    "cautivar",
+    "seducir",
+    "fascinar",
+    "encantar",
+    "conquistar",
+    "hechizar",
+    "tentar"
+  ],
+  "aumentar": [
+    "crecer",
+    "incrementar",
+    "ampliar",
+    "subir",
+    "elevar",
+    "acrecentar",
+    "agrandar",
+    "escalar"
+  ],
+  "avanzar": [
+    "progresar",
+    "adelantar",
+    "moverse",
+    "prosperar",
+    "desarrollarse",
+    "mejorar",
+    "evolucionar"
+  ],
+  "ayudar": [
+    "asistir",
+    "apoyar",
+    "auxiliar",
+    "colaborar",
+    "socorrer",
+    "contribuir",
+    "servir",
+    "facilitar"
+  ],
+  "bajar": [
+    "descender",
+    "caer",
+    "disminuir",
+    "reducir",
+    "decrecer",
+    "declinar",
+    "menguar",
+    "apearse"
+  ],
+  "besar": [
+    "dar un beso",
+    "acariciar",
+    "rozar",
+    "tocar"
+  ],
+  "bloquear": [
+    "obstaculizar",
+    "impedir",
+    "frenar",
+    "detener",
+    "cerrar",
+    "obstruir",
+    "paralizar",
+    "cortar"
+  ],
+  "brillar": [
+    "resplandecer",
+    "relucir",
+    "lucir",
+    "fulgurar",
+    "centellear",
+    "refulgir",
+    "destacar",
+    "sobresalir"
+  ],
+  "buscar": [
+    "indagar",
+    "rastrear",
+    "investigar",
+    "explorar",
+    "inquirir",
+    "pesquisar",
+    "localizar",
+    "hallar"
+  ],
+  "caer": [
+    "desplomarse",
+    "derrumbarse",
+    "bajar",
+    "descender",
+    "precipitarse",
+    "tropezar",
+    "rodar"
+  ],
+  "callar": [
+    "silenciar",
+    "enmudecer",
+    "guardar silencio",
+    "omitir",
+    "reprimir",
+    "suprimir",
+    "cesar"
+  ],
+  "cambiar": [
+    "modificar",
+    "alterar",
+    "transformar",
+    "variar",
+    "mudar",
+    "reformar",
+    "renovar",
+    "actualizar"
+  ],
+  "caminar": [
+    "andar",
+    "marchar",
+    "pasear",
+    "transitar",
+    "deambular",
+    "moverse",
+    "desplazarse",
+    "recorrer"
+  ],
+  "cansarse": [
+    "agotarse",
+    "fatigarse",
+    "rendirse",
+    "debilitarse",
+    "extenuarse",
+    "flaquear",
+    "desgastarse"
+  ],
+  "cantar": [
+    "entonar",
+    "vocalizar",
+    "tararear",
+    "interpretar",
+    "ejecutar",
+    "salmodiar"
+  ],
+  "capturar": [
+    "atrapar",
+    "apresar",
+    "detener",
+    "aprehender",
+    "arrestar",
+    "prender",
+    "agarrar",
+    "coger"
+  ],
+  "castigar": [
+    "sancionar",
+    "penalizar",
+    "disciplinar",
+    "reprender",
+    "corregir",
+    "escarmentar",
+    "multar"
+  ],
+  "causar": [
+    "provocar",
+    "originar",
+    "generar",
+    "producir",
+    "ocasionar",
+    "motivar",
+    "suscitar",
+    "desencadenar"
+  ],
+  "ceder": [
+    "rendirse",
+    "claudicar",
+    "capitular",
+    "conceder",
+    "otorgar",
+    "entregar",
+    "desistir"
+  ],
+  "cerrar": [
+    "clausurar",
+    "sellar",
+    "tapar",
+    "obstruir",
+    "bloquear",
+    "concluir",
+    "finalizar",
+    "cubrir"
+  ],
+  "colaborar": [
+    "cooperar",
+    "participar",
+    "ayudar",
+    "contribuir",
+    "apoyar",
+    "trabajar junto",
+    "asociarse"
+  ],
+  "comer": [
+    "alimentarse",
+    "ingerir",
+    "consumir",
+    "devorar",
+    "saborear",
+    "nutrirse",
+    "engullir",
+    "masticar"
+  ],
+  "compartir": [
+    "dividir",
+    "repartir",
+    "distribuir",
+    "comunicar",
+    "participar",
+    "difundir",
+    "colaborar"
+  ],
+  "comprar": [
+    "adquirir",
+    "obtener",
+    "conseguir",
+    "procurarse",
+    "contratar",
+    "pagar",
+    "mercar"
+  ],
+  "comprender": [
+    "entender",
+    "captar",
+    "asimilar",
+    "descifrar",
+    "percibir",
+    "concebir",
+    "interpretar",
+    "razonar"
+  ],
+  "confiar": [
+    "fiar",
+    "creer",
+    "esperar",
+    "depender",
+    "contar con",
+    "apoyarse",
+    "delegar"
+  ],
+  "conocer": [
+    "saber",
+    "entender",
+    "reconocer",
+    "identificar",
+    "comprender",
+    "aprender",
+    "dominar",
+    "familiarizarse"
+  ],
+  "conseguir": [
+    "lograr",
+    "obtener",
+    "alcanzar",
+    "adquirir",
+    "ganar",
+    "procurar",
+    "conquistar"
+  ],
+  "construir": [
+    "edificar",
+    "levantar",
+    "crear",
+    "fabricar",
+    "erigir",
+    "hacer",
+    "armar",
+    "desarrollar"
+  ],
+  "contar": [
+    "narrar",
+    "relatar",
+    "referir",
+    "explicar",
+    "describir",
+    "exponer",
+    "detallar",
+    "enumerar"
+  ],
+  "continuar": [
+    "seguir",
+    "proseguir",
+    "persistir",
+    "mantener",
+    "prolongar",
+    "permanecer",
+    "insistir"
+  ],
+  "controlar": [
+    "dominar",
+    "manejar",
+    "gobernar",
+    "dirigir",
+    "supervisar",
+    "regular",
+    "gestionar",
+    "administrar"
+  ],
+  "conversar": [
+    "hablar",
+    "dialogar",
+    "charlar",
+    "platicar",
+    "discutir",
+    "intercambiar",
+    "debatir"
+  ],
+  "correr": [
+    "trotar",
+    "esprintar",
+    "apresurar",
+    "escapar",
+    "huir",
+    "galopar",
+    "precipitarse",
+    "avanzar"
+  ],
+  "crear": [
+    "hacer",
+    "producir",
+    "fabricar",
+    "construir",
+    "generar",
+    "desarrollar",
+    "inventar",
+    "diseñar"
+  ],
+  "crecer": [
+    "aumentar",
+    "desarrollarse",
+    "progresar",
+    "expandirse",
+    "prosperar",
+    "madurar",
+    "evolucionar"
+  ],
+  "creer": [
+    "pensar",
+    "considerar",
+    "opinar",
+    "imaginar",
+    "suponer",
+    "estimar",
+    "juzgar",
+    "confiar"
+  ],
+  "cuidar": [
+    "atender",
+    "proteger",
+    "velar",
+    "guardar",
+    "conservar",
+    "preservar",
+    "asistir",
+    "mantener"
+  ],
+  "culpar": [
+    "acusar",
+    "responsabilizar",
+    "inculpar",
+    "señalar",
+    "imputar",
+    "atribuir",
+    "cargar"
+  ],
+  "dar": [
+    "entregar",
+    "ofrecer",
+    "proporcionar",
+    "otorgar",
+    "conceder",
+    "donar",
+    "regalar",
+    "facilitar"
+  ],
+  "dañar": [
+    "perjudicar",
+    "lesionar",
+    "herir",
+    "afectar",
+    "estropear",
+    "deteriorar",
+    "arruinar",
+    "romper"
+  ],
+  "decidir": [
+    "resolver",
+    "determinar",
+    "elegir",
+    "optar",
+    "escoger",
+    "acordar",
+    "sentenciar",
+    "concluir"
+  ],
+  "decir": [
+    "hablar",
+    "expresar",
+    "manifestar",
+    "declarar",
+    "afirmar",
+    "pronunciar",
+    "comunicar",
+    "enunciar"
+  ],
+  "defender": [
+    "proteger",
+    "amparar",
+    "resguardar",
+    "custodiar",
+    "guardar",
+    "apoyar",
+    "sostener",
+    "avalar"
+  ],
+  "dejar": [
+    "abandonar",
+    "soltar",
+    "ceder",
+    "permitir",
+    "renunciar",
+    "desistir",
+    "omitir",
+    "prescindir"
+  ],
+  "depender": [
+    "sujetarse",
+    "necesitar",
+    "confiar",
+    "estar sujeto",
+    "subordinarse",
+    "apoyarse"
+  ],
+  "descansar": [
+    "reposar",
+    "relajarse",
+    "recuperarse",
+    "dormitar",
+    "yacer",
+    "tranquilizarse",
+    "respirar"
+  ],
+  "descubrir": [
+    "hallar",
+    "encontrar",
+    "revelar",
+    "detectar",
+    "identificar",
+    "percibir",
+    "avistar",
+    "destapar"
+  ],
+  "desear": [
+    "querer",
+    "anhelar",
+    "aspirar",
+    "pretender",
+    "ambicionar",
+    "apetecer",
+    "ansiar",
+    "codiciar"
+  ],
+  "despedir": [
+    "saludar",
+    "decir adiós",
+    "desvincular",
+    "prescindir",
+    "cesar",
+    "licenciar",
+    "apartar"
+  ],
+  "destruir": [
+    "demoler",
+    "derribar",
+    "arruinar",
+    "arrasar",
+    "devastar",
+    "romper",
+    "dañar",
+    "aniquilar"
+  ],
+  "dormir": [
+    "reposar",
+    "descansar",
+    "dormitar",
+    "yacer",
+    "adormecerse",
+    "soñar",
+    "cabecear"
+  ],
+  "dudar": [
+    "vacilar",
+    "titubear",
+    "desconfiar",
+    "sospechar",
+    "cuestionar",
+    "hesitar",
+    "recelar"
+  ],
+  "elegir": [
+    "escoger",
+    "seleccionar",
+    "optar",
+    "decidir",
+    "preferir",
+    "designar",
+    "nominar",
+    "votar"
+  ],
+  "encontrar": [
+    "hallar",
+    "descubrir",
+    "localizar",
+    "topar",
+    "dar con",
+    "tropezar",
+    "obtener"
+  ],
+  "enfrentar": [
+    "confrontar",
+    "afrontar",
+    "encarar",
+    "desafiar",
+    "resistir",
+    "pelear",
+    "competir"
+  ],
+  "engañar": [
+    "mentir",
+    "embaucar",
+    "estafar",
+    "defraudar",
+    "burlar",
+    "enredar",
+    "timar",
+    "manipular"
+  ],
+  "enseñar": [
+    "instruir",
+    "educar",
+    "capacitar",
+    "formar",
+    "guiar",
+    "orientar",
+    "demostrar",
+    "mostrar"
+  ],
+  "entrar": [
+    "ingresar",
+    "penetrar",
+    "acceder",
+    "introducirse",
+    "meterse",
+    "incorporarse",
+    "adentrarse"
+  ],
+  "enviar": [
+    "mandar",
+    "remitir",
+    "expedir",
+    "despachar",
+    "transmitir",
+    "dirigir",
+    "hacer llegar"
+  ],
+  "esconder": [
+    "ocultar",
+    "encubrir",
+    "disimular",
+    "tapar",
+    "camuflar",
+    "guardar",
+    "disfrazar"
+  ],
+  "escuchar": [
+    "oír",
+    "atender",
+    "percibir",
+    "prestar atención",
+    "auscultar",
+    "seguir",
+    "captar"
+  ],
+  "esperar": [
+    "aguardar",
+    "confiar",
+    "permanecer",
+    "quedar",
+    "anticipar",
+    "anhelar",
+    "aguantar"
+  ],
+  "estudiar": [
+    "aprender",
+    "analizar",
+    "investigar",
+    "examinar",
+    "explorar",
+    "revisar",
+    "repasar",
+    "preparar"
+  ],
+  "evitar": [
+    "esquivar",
+    "evadir",
+    "escapar",
+    "prevenir",
+    "impedir",
+    "rehuir",
+    "sortear",
+    "eludir"
+  ],
+  "exigir": [
+    "demandar",
+    "pedir",
+    "requerir",
+    "reclamar",
+    "imponer",
+    "insistir",
+    "solicitar"
+  ],
+  "existir": [
+    "ser",
+    "vivir",
+    "estar",
+    "hallarse",
+    "encontrarse",
+    "subsistir",
+    "persistir"
+  ],
+  "explicar": [
+    "aclarar",
+    "describir",
+    "detallar",
+    "comentar",
+    "exponer",
+    "desarrollar",
+    "ilustrar",
+    "esclarecer"
+  ],
+  "fallar": [
+    "errar",
+    "fracasar",
+    "equivocarse",
+    "malograr",
+    "frustrarse",
+    "faltar"
+  ],
+  "felicitar": [
+    "congratular",
+    "saludar",
+    "elogiar",
+    "alabar",
+    "celebrar",
+    "aplaudir",
+    "reconocer"
+  ],
+  "fingir": [
+    "simular",
+    "aparentar",
+    "disimular",
+    "engañar",
+    "posturear"
+  ],
+  "ganar": [
+    "vencer",
+    "triunfar",
+    "conquistar",
+    "obtener",
+    "lograr",
+    "conseguir",
+    "superar",
+    "alcanzar"
+  ],
+  "gritar": [
+    "vociferar",
+    "chillar",
+    "clamar",
+    "exclamar",
+    "bramar",
+    "aullar",
+    "gemir",
+    "berrar"
+  ],
+  "guardar": [
+    "conservar",
+    "preservar",
+    "proteger",
+    "custodiar",
+    "almacenar",
+    "retener",
+    "salvar"
+  ],
+  "gustar": [
+    "agradar",
+    "placer",
+    "encantar",
+    "deleitar",
+    "satisfacer",
+    "complacer",
+    "apetecer"
+  ],
+  "hablar": [
+    "decir",
+    "expresar",
+    "comunicar",
+    "conversar",
+    "dialogar",
+    "charlar",
+    "platicar",
+    "articular"
+  ],
+  "hacer": [
+    "crear",
+    "producir",
+    "realizar",
+    "ejecutar",
+    "efectuar",
+    "fabricar",
+    "construir",
+    "elaborar"
+  ],
+  "huir": [
+    "escapar",
+    "fugarse",
+    "evadirse",
+    "alejarse",
+    "retirarse",
+    "escabullirse",
+    "salir corriendo"
+  ],
+  "ignorar": [
+    "desconocer",
+    "omitir",
+    "pasar por alto",
+    "descuidar",
+    "olvidar",
+    "despreciar",
+    "desatender"
+  ],
+  "imaginar": [
+    "fantasear",
+    "idear",
+    "concebir",
+    "pensar",
+    "inventar",
+    "soñar",
+    "visualizar",
+    "suponer"
+  ],
+  "impedir": [
+    "obstaculizar",
+    "bloquear",
+    "frenar",
+    "evitar",
+    "prohibir",
+    "detener",
+    "frustrar",
+    "vetar"
+  ],
+  "iniciar": [
+    "comenzar",
+    "empezar",
+    "arrancar",
+    "inaugurar",
+    "abrir",
+    "originar",
+    "lanzar",
+    "impulsar"
+  ],
+  "intentar": [
+    "tratar",
+    "procurar",
+    "pretender",
+    "esforzarse",
+    "ensayar",
+    "probar",
+    "pugnar",
+    "aspirar"
+  ],
+  "interesar": [
+    "atraer",
+    "cautivar",
+    "fascinar",
+    "llamar la atención",
+    "apasionar",
+    "motivar"
+  ],
+  "ir": [
+    "moverse",
+    "desplazarse",
+    "trasladarse",
+    "caminar",
+    "partir",
+    "marchar",
+    "dirigirse",
+    "acudir"
+  ],
+  "jugar": [
+    "entretenerse",
+    "divertirse",
+    "recrearse",
+    "competir",
+    "participar",
+    "apostar"
+  ],
+  "juzgar": [
+    "evaluar",
+    "valorar",
+    "opinar",
+    "criticar",
+    "calificar",
+    "estimar",
+    "sentenciar"
+  ],
+  "lanzar": [
+    "arrojar",
+    "tirar",
+    "proyectar",
+    "disparar",
+    "enviar",
+    "impulsar",
+    "liberar",
+    "propulsar"
+  ],
+  "leer": [
+    "repasar",
+    "estudiar",
+    "ojear",
+    "hojear",
+    "descifrar",
+    "interpretar",
+    "revisar"
+  ],
+  "llegar": [
+    "arribar",
+    "venir",
+    "alcanzar",
+    "acceder",
+    "aterrizar",
+    "aparecer",
+    "presentarse",
+    "acercarse"
+  ],
+  "llevar": [
+    "transportar",
+    "cargar",
+    "traer",
+    "conducir",
+    "portar",
+    "acompañar",
+    "guiar",
+    "trasladar"
+  ],
+  "llorar": [
+    "lamentarse",
+    "sollozar",
+    "gemir",
+    "plañir",
+    "lagrimear",
+    "berrear",
+    "quejarse",
+    "suspirar"
+  ],
+  "lograr": [
+    "alcanzar",
+    "conseguir",
+    "obtener",
+    "realizar",
+    "completar",
+    "culminar",
+    "ganar",
+    "concretar"
+  ],
+  "luchar": [
+    "combatir",
+    "pelear",
+    "batallar",
+    "contender",
+    "pugnar",
+    "forcejear",
+    "resistir",
+    "competir"
+  ],
+  "mantener": [
+    "conservar",
+    "sostener",
+    "preservar",
+    "guardar",
+    "continuar",
+    "retener",
+    "prolongar"
+  ],
+  "mejorar": [
+    "progresar",
+    "avanzar",
+    "optimizar",
+    "superar",
+    "corregir",
+    "perfeccionar",
+    "desarrollar"
+  ],
+  "mentir": [
+    "engañar",
+    "falsear",
+    "embaucar",
+    "fingir",
+    "inventar",
+    "simular",
+    "enredar",
+    "tergiversar"
+  ],
+  "mirar": [
+    "observar",
+    "contemplar",
+    "ver",
+    "divisar",
+    "atisbar",
+    "fijarse"
+  ],
+  "morir": [
+    "fallecer",
+    "perecer",
+    "expirar",
+    "fenecer",
+    "sucumbir",
+    "extinguirse",
+    "desaparecer"
+  ],
+  "mover": [
+    "desplazar",
+    "trasladar",
+    "agitar",
+    "sacudir",
+    "cambiar",
+    "girar",
+    "circular",
+    "mudar"
+  ],
+  "nacer": [
+    "originarse",
+    "surgir",
+    "brotar",
+    "aparecer",
+    "emerger",
+    "iniciarse",
+    "provenir",
+    "comenzar"
+  ],
+  "necesitar": [
+    "requerir",
+    "precisar",
+    "demandar",
+    "exigir",
+    "faltar",
+    "carecer",
+    "urgir"
+  ],
+  "negar": [
+    "rechazar",
+    "desmentir",
+    "denegar",
+    "refutar",
+    "contradecir",
+    "impugnar",
+    "rehusar"
+  ],
+  "olvidar": [
+    "ignorar",
+    "descuidar",
+    "omitir",
+    "perder",
+    "prescindir",
+    "pasar por alto",
+    "borrar"
+  ],
+  "ordenar": [
+    "mandar",
+    "dirigir",
+    "organizar",
+    "arreglar",
+    "disponer",
+    "clasificar",
+    "regular",
+    "gestionar"
+  ],
+  "pagar": [
+    "abonar",
+    "cancelar",
+    "saldar",
+    "liquidar",
+    "satisfacer",
+    "costear",
+    "retribuir",
+    "compensar"
+  ],
+  "parar": [
+    "detener",
+    "cesar",
+    "interrumpir",
+    "suspender",
+    "frenar",
+    "acabar",
+    "terminar",
+    "bloquear"
+  ],
+  "partir": [
+    "salir",
+    "marcharse",
+    "irse",
+    "dividir",
+    "separar",
+    "romper",
+    "fragmentar",
+    "cortar"
+  ],
+  "pasar": [
+    "ocurrir",
+    "suceder",
+    "transcurrir",
+    "atravesar",
+    "cruzar",
+    "transitar",
+    "avanzar"
+  ],
+  "pedir": [
+    "solicitar",
+    "rogar",
+    "demandar",
+    "requerir",
+    "suplicar",
+    "exigir",
+    "reclamar",
+    "implorar"
+  ],
+  "pensar": [
+    "reflexionar",
+    "considerar",
+    "meditar",
+    "razonar",
+    "imaginar",
+    "creer",
+    "opinar",
+    "deliberar"
+  ],
+  "perder": [
+    "extraviar",
+    "desperdiciar",
+    "fracasar",
+    "malograr",
+    "fallar",
+    "sufrir",
+    "malgastar"
+  ],
+  "permitir": [
+    "autorizar",
+    "dejar",
+    "conceder",
+    "habilitar",
+    "tolerar",
+    "aceptar",
+    "aprobar"
+  ],
+  "perseguir": [
+    "seguir",
+    "rastrear",
+    "acosar",
+    "buscar",
+    "cazar",
+    "hostigar",
+    "pretender"
+  ],
+  "planear": [
+    "planificar",
+    "proyectar",
+    "diseñar",
+    "organizar",
+    "trazar",
+    "idear",
+    "prever",
+    "programar"
+  ],
+  "poder": [
+    "fuerza",
+    "autoridad",
+    "dominio",
+    "control",
+    "influencia",
+    "capacidad",
+    "mando"
+  ],
+  "poner": [
+    "colocar",
+    "situar",
+    "ubicar",
+    "instalar",
+    "depositar",
+    "establecer",
+    "fijar",
+    "disponer"
+  ],
+  "preguntar": [
+    "interrogar",
+    "consultar",
+    "inquirir",
+    "cuestionar",
+    "indagar",
+    "sondear",
+    "averiguar"
+  ],
+  "preocupar": [
+    "inquietar",
+    "angustiar",
+    "estresar",
+    "agobiar",
+    "alarmar",
+    "perturbar",
+    "intranquilizar"
+  ],
+  "proteger": [
+    "defender",
+    "amparar",
+    "resguardar",
+    "custodiar",
+    "guardar",
+    "preservar",
+    "cuidar"
+  ],
+  "publicar": [
+    "divulgar",
+    "difundir",
+    "comunicar",
+    "anunciar",
+    "editar",
+    "imprimir",
+    "revelar"
+  ],
+  "quedar": [
+    "permanecer",
+    "quedarse",
+    "mantenerse",
+    "continuar",
+    "subsistir",
+    "persistir",
+    "establecerse"
+  ],
+  "querer": [
+    "amar",
+    "desear",
+    "apreciar",
+    "estimar",
+    "necesitar",
+    "pretender",
+    "ansiar",
+    "adorar"
+  ],
+  "recibir": [
+    "aceptar",
+    "acoger",
+    "obtener",
+    "tomar",
+    "admitir",
+    "recoger",
+    "captar",
+    "percibir"
+  ],
+  "recordar": [
+    "rememorar",
+    "evocar",
+    "acordarse",
+    "memorizar",
+    "retener",
+    "recuperar",
+    "revivir"
+  ],
+  "rechazar": [
+    "negar",
+    "denegar",
+    "desestimar",
+    "rehusar",
+    "repudiar",
+    "excluir",
+    "vetar",
+    "desechar"
+  ],
+  "reflexionar": [
+    "meditar",
+    "pensar",
+    "considerar",
+    "analizar",
+    "deliberar",
+    "ponderar",
+    "contemplar"
+  ],
+  "regresar": [
+    "volver",
+    "retornar",
+    "retroceder",
+    "reaparecer",
+    "reincidir",
+    "recurrir"
+  ],
+  "reír": [
+    "carcajear",
+    "sonreír",
+    "divertirse",
+    "bromear",
+    "burlarse",
+    "mofarse",
+    "chistear"
+  ],
+  "resolver": [
+    "solucionar",
+    "arreglar",
+    "remediar",
+    "aclarar",
+    "decidir",
+    "determinar",
+    "saldar"
+  ],
+  "respetar": [
+    "honrar",
+    "valorar",
+    "estimar",
+    "acatar",
+    "considerar",
+    "admirar",
+    "reconocer"
+  ],
+  "romper": [
+    "quebrar",
+    "partir",
+    "fracturar",
+    "destruir",
+    "rasgar",
+    "dañar",
+    "estropear",
+    "fragmentar"
+  ],
+  "saber": [
+    "conocer",
+    "entender",
+    "comprender",
+    "dominar",
+    "aprender",
+    "memorizar",
+    "discernir"
+  ],
+  "salir": [
+    "partir",
+    "marcharse",
+    "irse",
+    "escapar",
+    "aparecer",
+    "surgir",
+    "emerger",
+    "alejarse"
+  ],
+  "sentir": [
+    "percibir",
+    "experimentar",
+    "notar",
+    "apreciar",
+    "padecer",
+    "sufrir",
+    "emocionarse",
+    "vivir"
+  ],
+  "seguir": [
+    "continuar",
+    "proseguir",
+    "perseguir",
+    "rastrear",
+    "mantener",
+    "persistir",
+    "insistir"
+  ],
+  "ser": [
+    "existir",
+    "estar",
+    "representar",
+    "significar",
+    "constituir",
+    "equivaler",
+    "parecer"
+  ],
+  "subir": [
+    "ascender",
+    "elevar",
+    "escalar",
+    "trepar",
+    "aumentar",
+    "crecer",
+    "alzar",
+    "montar"
+  ],
+  "sufrir": [
+    "padecer",
+    "aguantar",
+    "tolerar",
+    "soportar",
+    "sobrellevar",
+    "sentir",
+    "experimentar"
+  ],
+  "superar": [
+    "vencer",
+    "mejorar",
+    "sobrepasar",
+    "trascender",
+    "avanzar",
+    "crecer",
+    "progresar"
+  ],
+  "tener": [
+    "poseer",
+    "disponer",
+    "contar con",
+    "gozar",
+    "mantener",
+    "guardar",
+    "albergar"
+  ],
+  "trabajar": [
+    "laborar",
+    "esforzarse",
+    "ocuparse",
+    "ejercer",
+    "operar",
+    "funcionar",
+    "producir",
+    "colaborar"
+  ],
+  "traer": [
+    "llevar",
+    "transportar",
+    "conducir",
+    "aportar",
+    "entregar",
+    "presentar",
+    "suministrar"
+  ],
+  "transformar": [
+    "cambiar",
+    "convertir",
+    "mudar",
+    "alterar",
+    "modificar",
+    "reformar",
+    "renovar"
+  ],
+  "usar": [
+    "utilizar",
+    "emplear",
+    "servirse",
+    "aprovechar",
+    "manejar",
+    "operar",
+    "aplicar",
+    "ocupar"
+  ],
+  "ver": [
+    "mirar",
+    "observar",
+    "contemplar",
+    "percibir",
+    "visualizar",
+    "distinguir",
+    "avistar",
+    "notar"
+  ],
+  "vencer": [
+    "ganar",
+    "superar",
+    "derrotar",
+    "conquistar",
+    "triunfar",
+    "dominar",
+    "someter"
+  ],
+  "venir": [
+    "llegar",
+    "acudir",
+    "aparecer",
+    "presentarse",
+    "arribar",
+    "acercarse",
+    "aproximarse"
+  ],
+  "vivir": [
+    "existir",
+    "habitar",
+    "residir",
+    "morar",
+    "experimentar",
+    "disfrutar",
+    "sobrevivir"
+  ],
+  "volver": [
+    "regresar",
+    "retornar",
+    "retroceder",
+    "reaparecer",
+    "reincidir",
+    "recurrir",
+    "reaparecer"
+  ],
+  "alegre": [
+    "feliz",
+    "contento",
+    "animado",
+    "jovial",
+    "gozoso",
+    "dichoso",
+    "jubiloso",
+    "eufórico"
+  ],
+  "amable": [
+    "cordial",
+    "atento",
+    "simpático",
+    "gentil",
+    "afable",
+    "cortés",
+    "educado",
+    "agradable"
+  ],
+  "amargo": [
+    "ácido",
+    "agrio",
+    "desagradable",
+    "triste",
+    "doloroso",
+    "penoso",
+    "angustioso"
+  ],
+  "ambicioso": [
+    "codicioso",
+    "ansioso",
+    "aspirante",
+    "emprendedor",
+    "motivado",
+    "determinado"
+  ],
+  "antiguo": [
+    "viejo",
+    "arcaico",
+    "obsoleto",
+    "añejo",
+    "envejecido",
+    "tradicional",
+    "pasado",
+    "clásico"
+  ],
+  "ansioso": [
+    "nervioso",
+    "intranquilo",
+    "inquieto",
+    "agitado",
+    "impaciente",
+    "estresado",
+    "angustiado"
+  ],
+  "arrogante": [
+    "soberbio",
+    "prepotente",
+    "altivo",
+    "orgulloso",
+    "engreído",
+    "vanidoso",
+    "petulante"
+  ],
+  "asombroso": [
+    "increíble",
+    "sorprendente",
+    "impresionante",
+    "extraordinario",
+    "espectacular",
+    "maravilloso"
+  ],
+  "atrevido": [
+    "valiente",
+    "osado",
+    "audaz",
+    "intrépido",
+    "arriesgado",
+    "decidido",
+    "temerario"
+  ],
+  "bonito": [
+    "hermoso",
+    "bello",
+    "lindo",
+    "guapo",
+    "atractivo",
+    "precioso",
+    "estético",
+    "agraciado"
+  ],
+  "brillante": [
+    "inteligente",
+    "lúcido",
+    "talentoso",
+    "destacado",
+    "sobresaliente",
+    "excepcional"
+  ],
+  "bueno": [
+    "excelente",
+    "óptimo",
+    "positivo",
+    "beneficioso",
+    "virtuoso",
+    "noble",
+    "recto",
+    "bondadoso"
+  ],
+  "caliente": [
+    "cálido",
+    "tibio",
+    "ardiente",
+    "abrasador",
+    "fogoso",
+    "ardoroso",
+    "tórrido",
+    "templado"
+  ],
+  "cansado": [
+    "agotado",
+    "fatigado",
+    "extenuado",
+    "rendido",
+    "exhausto",
+    "débil",
+    "abatido",
+    "hastiado"
+  ],
+  "capaz": [
+    "hábil",
+    "competente",
+    "eficiente",
+    "talentoso",
+    "diestro",
+    "apto",
+    "habilidoso"
+  ],
+  "cariñoso": [
+    "afectuoso",
+    "tierno",
+    "amoroso",
+    "dulce",
+    "atento",
+    "considerado",
+    "entrañable"
+  ],
+  "claro": [
+    "luminoso",
+    "brillante",
+    "transparente",
+    "evidente",
+    "obvio",
+    "nítido",
+    "visible",
+    "diáfano"
+  ],
+  "cobarde": [
+    "miedoso",
+    "temeroso",
+    "pusilánime",
+    "apocado",
+    "tímido",
+    "inseguro",
+    "débil"
+  ],
+  "complejo": [
+    "difícil",
+    "complicado",
+    "intrincado",
+    "elaborado",
+    "sofisticado",
+    "profundo",
+    "denso"
+  ],
+  "confundido": [
+    "perdido",
+    "desorientado",
+    "desconcertado",
+    "aturdido",
+    "perplejo",
+    "turbado"
+  ],
+  "contento": [
+    "feliz",
+    "alegre",
+    "satisfecho",
+    "complacido",
+    "dichoso",
+    "gozoso",
+    "animado"
+  ],
+  "cruel": [
+    "despiadado",
+    "brutal",
+    "inhumano",
+    "salvaje",
+    "feroz",
+    "implacable",
+    "violento"
+  ],
+  "curioso": [
+    "interesado",
+    "inquieto",
+    "indagador",
+    "investigador",
+    "inquisitivo",
+    "ansioso"
+  ],
+  "delicado": [
+    "frágil",
+    "primoroso",
+    "fino",
+    "exquisito",
+    "susceptible"
+  ],
+  "diferente": [
+    "distinto",
+    "diverso",
+    "variado",
+    "desigual",
+    "particular",
+    "singular",
+    "único"
+  ],
+  "difícil": [
+    "complicado",
+    "arduo",
+    "complejo",
+    "duro",
+    "laborioso",
+    "penoso",
+    "intrincado",
+    "exigente"
+  ],
+  "divertido": [
+    "gracioso",
+    "entretenido",
+    "ameno",
+    "chistoso",
+    "jocoso",
+    "alegre",
+    "festivo"
+  ],
+  "dulce": [
+    "suave",
+    "agradable",
+    "tierno",
+    "afectuoso",
+    "meloso",
+    "azucarado",
+    "cariñoso"
+  ],
+  "duro": [
+    "rígido",
+    "resistente",
+    "firme",
+    "inflexible",
+    "severo",
+    "estricto",
+    "exigente",
+    "áspero"
+  ],
+  "elegante": [
+    "refinado",
+    "sofisticado",
+    "distinguido",
+    "estiloso",
+    "fino",
+    "señorial",
+    "lujoso"
+  ],
+  "enorme": [
+    "grande",
+    "vasto",
+    "inmenso",
+    "gigante",
+    "colosal",
+    "descomunal",
+    "monumental",
+    "titánico"
+  ],
+  "equivocado": [
+    "incorrecto",
+    "erróneo",
+    "inexacto",
+    "falso",
+    "impreciso",
+    "errado",
+    "confundido"
+  ],
+  "especial": [
+    "único",
+    "singular",
+    "particular",
+    "extraordinario",
+    "excepcional",
+    "destacado"
+  ],
+  "espantoso": [
+    "horrible",
+    "aterrador",
+    "terrible",
+    "horroroso",
+    "escalofriante",
+    "perturbador"
+  ],
+  "estresado": [
+    "agobiado",
+    "angustiado",
+    "presionado",
+    "tenso",
+    "abrumado",
+    "sobrecargado"
+  ],
+  "exitoso": [
+    "triunfante",
+    "próspero",
+    "brillante",
+    "logrado",
+    "ganador",
+    "realizado",
+    "afortunado"
+  ],
+  "fácil": [
+    "sencillo",
+    "simple",
+    "elemental",
+    "accesible",
+    "cómodo",
+    "manejable",
+    "ligero",
+    "básico"
+  ],
+  "falso": [
+    "mentiroso",
+    "engañoso",
+    "ficticio",
+    "inventado",
+    "simulado",
+    "hipócrita",
+    "desleal"
+  ],
+  "feliz": [
+    "contento",
+    "alegre",
+    "dichoso",
+    "gozoso",
+    "satisfecho",
+    "eufórico",
+    "radiante",
+    "jovial"
+  ],
+  "feo": [
+    "horrible",
+    "desagradable",
+    "repugnante",
+    "grotesco",
+    "repulsivo",
+    "espantoso",
+    "antiestético"
+  ],
+  "fiel": [
+    "leal",
+    "honesto",
+    "constante",
+    "confiable",
+    "dedicado",
+    "comprometido",
+    "sincero"
+  ],
+  "frío": [
+    "helado",
+    "gélido",
+    "glacial",
+    "fresco",
+    "frígido",
+    "polar",
+    "congelado",
+    "ártico"
+  ],
+  "fuerte": [
+    "robusto",
+    "poderoso",
+    "potente",
+    "vigoroso",
+    "sólido",
+    "resistente",
+    "firme",
+    "musculoso"
+  ],
+  "generoso": [
+    "dadivoso",
+    "espléndido",
+    "desprendido",
+    "noble",
+    "altruista",
+    "caritativo",
+    "bondadoso"
+  ],
+  "gracioso": [
+    "divertido",
+    "chistoso",
+    "cómico",
+    "jocoso",
+    "ingenioso",
+    "ocurrente",
+    "entretenido"
+  ],
+  "grande": [
+    "enorme",
+    "vasto",
+    "inmenso",
+    "gigante",
+    "amplio",
+    "extenso",
+    "monumental",
+    "descomunal"
+  ],
+  "grave": [
+    "serio",
+    "severo",
+    "crítico",
+    "importante",
+    "delicado",
+    "preocupante",
+    "trascendente"
+  ],
+  "hermoso": [
+    "bello",
+    "bonito",
+    "lindo",
+    "precioso",
+    "atractivo",
+    "elegante",
+    "estético",
+    "magnífico"
+  ],
+  "honesto": [
+    "sincero",
+    "veraz",
+    "íntegro",
+    "recto",
+    "leal",
+    "transparente",
+    "confiable"
+  ],
+  "horrible": [
+    "espantoso",
+    "terrible",
+    "aterrador",
+    "horrendo",
+    "atroz",
+    "monstruoso",
+    "repugnante"
+  ],
+  "humilde": [
+    "modesto",
+    "sencillo",
+    "simple",
+    "discreto",
+    "sobrio",
+    "recatado",
+    "reservado"
+  ],
+  "importante": [
+    "relevante",
+    "significativo",
+    "trascendente",
+    "esencial",
+    "fundamental",
+    "crucial",
+    "vital"
+  ],
+  "imposible": [
+    "irrealizable",
+    "inviable",
+    "impracticable",
+    "inalcanzable",
+    "inasequible",
+    "inconcebible"
+  ],
+  "inquieto": [
+    "nervioso",
+    "agitado",
+    "ansioso",
+    "intranquilo",
+    "impaciente",
+    "estresado",
+    "activo"
+  ],
+  "inteligente": [
+    "listo",
+    "astuto",
+    "sagaz",
+    "agudo",
+    "perspicaz",
+    "brillante",
+    "capaz",
+    "talentoso"
+  ],
+  "intenso": [
+    "profundo",
+    "fuerte",
+    "apasionado",
+    "vivo",
+    "marcado",
+    "poderoso",
+    "extremo"
+  ],
+  "interesante": [
+    "atractivo",
+    "fascinante",
+    "curioso",
+    "llamativo",
+    "sugerente",
+    "cautivador",
+    "singular"
+  ],
+  "joven": [
+    "juvenil",
+    "adolescente",
+    "novato",
+    "nuevo",
+    "fresco",
+    "vigente",
+    "moderno"
+  ],
+  "justo": [
+    "equitativo",
+    "imparcial",
+    "recto",
+    "honesto",
+    "íntegro",
+    "razonable",
+    "apropiado"
+  ],
+  "largo": [
+    "extenso",
+    "prolongado",
+    "alargado",
+    "amplio",
+    "interminable",
+    "dilatado"
+  ],
+  "lento": [
+    "pausado",
+    "tranquilo",
+    "despacio",
+    "tardío",
+    "moroso",
+    "calmado",
+    "sosegado"
+  ],
+  "libre": [
+    "independiente",
+    "autónomo",
+    "suelto",
+    "desatado",
+    "soberano",
+    "emancipado"
+  ],
+  "lindo": [
+    "bonito",
+    "hermoso",
+    "precioso",
+    "bello",
+    "atractivo",
+    "encantador",
+    "adorable"
+  ],
+  "listo": [
+    "inteligente",
+    "astuto",
+    "preparado",
+    "ágil",
+    "rápido",
+    "sagaz",
+    "hábil",
+    "capaz"
+  ],
+  "malo": [
+    "pésimo",
+    "terrible",
+    "perjudicial",
+    "dañino",
+    "nefasto",
+    "perverso",
+    "deficiente",
+    "negativo"
+  ],
+  "misterioso": [
+    "enigmático",
+    "extraño",
+    "secreto",
+    "oculto",
+    "incomprensible",
+    "oscuro",
+    "singular"
+  ],
+  "moderno": [
+    "actual",
+    "contemporáneo",
+    "nuevo",
+    "reciente",
+    "innovador",
+    "vanguardista",
+    "fresco"
+  ],
+  "necesario": [
+    "esencial",
+    "indispensable",
+    "imprescindible",
+    "obligatorio",
+    "vital",
+    "fundamental"
+  ],
+  "nervioso": [
+    "ansioso",
+    "agitado",
+    "inquieto",
+    "intranquilo",
+    "tenso",
+    "alterado",
+    "estresado"
+  ],
+  "nuevo": [
+    "reciente",
+    "moderno",
+    "novedoso",
+    "fresco",
+    "innovador",
+    "original",
+    "actual",
+    "flamante"
+  ],
+  "obvio": [
+    "claro",
+    "evidente",
+    "notorio",
+    "manifiesto",
+    "patente",
+    "indudable",
+    "aparente"
+  ],
+  "orgulloso": [
+    "altivo",
+    "satisfecho",
+    "vanidoso",
+    "ufano",
+    "presuntuoso",
+    "arrogante",
+    "engreído"
+  ],
+  "peligroso": [
+    "arriesgado",
+    "amenazante",
+    "dañino",
+    "nocivo",
+    "adverso",
+    "violento",
+    "temerario"
+  ],
+  "pequeño": [
+    "diminuto",
+    "minúsculo",
+    "reducido",
+    "escaso",
+    "insignificante",
+    "chico",
+    "ínfimo"
+  ],
+  "perfecto": [
+    "excelente",
+    "ideal",
+    "impecable",
+    "óptimo",
+    "magnífico",
+    "supremo",
+    "insuperable"
+  ],
+  "perezoso": [
+    "vago",
+    "holgazán",
+    "flojo",
+    "indolente",
+    "apático",
+    "desganado",
+    "inactivo"
+  ],
+  "poderoso": [
+    "fuerte",
+    "potente",
+    "dominante",
+    "influyente",
+    "todopoderoso",
+    "capaz",
+    "robusto"
+  ],
+  "posible": [
+    "viable",
+    "realizable",
+    "factible",
+    "alcanzable",
+    "probable",
+    "concebible"
+  ],
+  "profundo": [
+    "hondo",
+    "intenso",
+    "serio",
+    "reflexivo",
+    "interior",
+    "complejo",
+    "significativo"
+  ],
+  "rápido": [
+    "veloz",
+    "ágil",
+    "acelerado",
+    "ligero",
+    "pronto",
+    "fugaz",
+    "instantáneo",
+    "expedito"
+  ],
+  "raro": [
+    "extraño",
+    "peculiar",
+    "inusual",
+    "singular",
+    "curioso",
+    "bizarro",
+    "excéntrico",
+    "insólito"
+  ],
+  "rico": [
+    "adinerado",
+    "pudiente",
+    "próspero",
+    "acomodado",
+    "opulento",
+    "acaudalado",
+    "abundante"
+  ],
+  "romántico": [
+    "sentimental",
+    "apasionado",
+    "enamorado",
+    "tierno",
+    "poético",
+    "sensible",
+    "soñador"
+  ],
+  "ruidoso": [
+    "escandaloso",
+    "bullicioso",
+    "estridente",
+    "estrepitoso",
+    "ensordecedor"
+  ],
+  "sabio": [
+    "erudito",
+    "docto",
+    "ilustrado",
+    "juicioso",
+    "prudente"
+  ],
+  "seguro": [
+    "protegido",
+    "resguardado",
+    "garantizado",
+    "cierto",
+    "estable",
+    "confiable",
+    "firme"
+  ],
+  "sensible": [
+    "emotivo",
+    "susceptible",
+    "delicado",
+    "perceptivo",
+    "sentimental",
+    "empático"
+  ],
+  "serio": [
+    "formal",
+    "severo",
+    "grave",
+    "responsable",
+    "solemne",
+    "austero",
+    "riguroso"
+  ],
+  "solitario": [
+    "solo",
+    "aislado",
+    "apartado",
+    "retirado",
+    "alejado",
+    "desamparado",
+    "huérfano"
+  ],
+  "sorprendente": [
+    "asombroso",
+    "increíble",
+    "impresionante",
+    "inesperado",
+    "extraordinario",
+    "notable"
+  ],
+  "tímido": [
+    "vergonzoso",
+    "reservado",
+    "introvertido",
+    "inseguro",
+    "retraído",
+    "apocado"
+  ],
+  "tranquilo": [
+    "sereno",
+    "calmado",
+    "apacible",
+    "sosegado",
+    "reposado",
+    "pacífico",
+    "quieto",
+    "plácido"
+  ],
+  "triste": [
+    "melancólico",
+    "apesadumbrado",
+    "abatido",
+    "sombrío",
+    "afligido",
+    "deprimido",
+    "apenado"
+  ],
+  "único": [
+    "singular",
+    "especial",
+    "exclusivo",
+    "particular",
+    "incomparable",
+    "original",
+    "irrepetible"
+  ],
+  "valiente": [
+    "audaz",
+    "atrevido",
+    "valeroso",
+    "intrépido",
+    "osado",
+    "decidido",
+    "heroico",
+    "temerario"
+  ],
+  "viejo": [
+    "antiguo",
+    "anciano",
+    "envejecido",
+    "deteriorado",
+    "decrépito",
+    "añejo",
+    "obsoleto",
+    "vetusto"
+  ],
+  "violento": [
+    "agresivo",
+    "brutal",
+    "feroz",
+    "salvaje",
+    "brusco",
+    "impulsivo",
+    "furioso",
+    "rabioso"
+  ],
+  "amor": [
+    "cariño",
+    "afecto",
+    "pasión",
+    "ternura",
+    "devoción",
+    "adoración",
+    "sentimiento",
+    "querer"
+  ],
+  "amigo": [
+    "compañero",
+    "camarada",
+    "colega",
+    "aliado",
+    "confidente",
+    "conocido",
+    "allegado"
+  ],
+  "angustia": [
+    "ansiedad",
+    "miedo",
+    "terror",
+    "inquietud",
+    "nerviosismo",
+    "desesperación",
+    "congoja"
+  ],
+  "ayuda": [
+    "apoyo",
+    "asistencia",
+    "socorro",
+    "colaboración",
+    "contribución",
+    "auxilio",
+    "servicio"
+  ],
+  "belleza": [
+    "hermosura",
+    "atractivo",
+    "elegancia",
+    "gracia",
+    "encanto",
+    "estética",
+    "armonía"
+  ],
+  "bondad": [
+    "generosidad",
+    "virtud",
+    "amabilidad",
+    "nobleza",
+    "benevolencia",
+    "caridad",
+    "altruismo"
+  ],
+  "cambio": [
+    "transformación",
+    "modificación",
+    "variación",
+    "alteración",
+    "reforma",
+    "mutación",
+    "evolución"
+  ],
+  "camino": [
+    "ruta",
+    "senda",
+    "vía",
+    "trayecto",
+    "recorrido",
+    "paso",
+    "itinerario",
+    "sendero"
+  ],
+  "ciudad": [
+    "urbe",
+    "metrópoli",
+    "municipio",
+    "localidad",
+    "población",
+    "villa",
+    "capital"
+  ],
+  "conocimiento": [
+    "saber",
+    "sabiduría",
+    "ciencia",
+    "comprensión",
+    "información",
+    "cultura",
+    "aprendizaje"
+  ],
+  "corazón": [
+    "pecho",
+    "entrañas",
+    "músculo vital",
+    "latido",
+    "sentimiento",
+    "núcleo"
+  ],
+  "cosa": [
+    "objeto",
+    "elemento",
+    "artículo",
+    "asunto",
+    "tema",
+    "cuestión",
+    "aspecto",
+    "ítem"
+  ],
+  "crisis": [
+    "problema",
+    "dificultad",
+    "conflicto",
+    "emergencia",
+    "adversidad",
+    "calamidad",
+    "apuro"
+  ],
+  "decisión": [
+    "elección",
+    "opción",
+    "resolución",
+    "determinación",
+    "acuerdo",
+    "fallo",
+    "veredicto"
+  ],
+  "deseo": [
+    "anhelo",
+    "apetito",
+    "pulsión",
+    "atracción",
+    "ansia",
+    "libido"
+  ],
+  "destino": [
+    "suerte",
+    "fortuna",
+    "porvenir",
+    "futuro",
+    "paradero",
+    "meta",
+    "fin",
+    "propósito"
+  ],
+  "dolor": [
+    "sufrimiento",
+    "pena",
+    "angustia",
+    "tormento",
+    "aflicción",
+    "agonía",
+    "malestar"
+  ],
+  "duda": [
+    "incertidumbre",
+    "hesitación",
+    "vacilación",
+    "inseguridad",
+    "escepticismo",
+    "sospecha"
+  ],
+  "energía": [
+    "fuerza",
+    "vitalidad",
+    "dinamismo",
+    "vigor",
+    "potencia",
+    "impulso",
+    "brío"
+  ],
+  "esperanza": [
+    "ilusión",
+    "fe",
+    "confianza",
+    "optimismo",
+    "anhelo",
+    "deseo",
+    "aspiración"
+  ],
+  "éxito": [
+    "logro",
+    "triunfo",
+    "victoria",
+    "prosperidad",
+    "resultado",
+    "hazaña",
+    "conquista"
+  ],
+  "felicidad": [
+    "alegría",
+    "dicha",
+    "gozo",
+    "satisfacción",
+    "bienestar",
+    "contento",
+    "júbilo"
+  ],
+  "fuerza": [
+    "energía",
+    "potencia",
+    "vigor",
+    "poder",
+    "resistencia",
+    "fortaleza",
+    "capacidad"
+  ],
+  "historia": [
+    "relato",
+    "cuento",
+    "narración",
+    "crónica",
+    "pasado",
+    "memoria",
+    "anécdota"
+  ],
+  "hogar": [
+    "casa",
+    "morada",
+    "vivienda",
+    "residencia",
+    "domicilio",
+    "refugio",
+    "nido"
+  ],
+  "idea": [
+    "pensamiento",
+    "concepto",
+    "noción",
+    "propuesta",
+    "ocurrencia",
+    "proyecto",
+    "plan"
+  ],
+  "ilusión": [
+    "esperanza",
+    "fantasía",
+    "sueño",
+    "deseo",
+    "anhelo",
+    "expectativa",
+    "optimismo"
+  ],
+  "imagen": [
+    "figura",
+    "fotografía",
+    "representación",
+    "visión",
+    "retrato",
+    "ilustración",
+    "símbolo"
+  ],
+  "intención": [
+    "propósito",
+    "objetivo",
+    "meta",
+    "fin",
+    "plan",
+    "deseo",
+    "voluntad",
+    "aspiración"
+  ],
+  "jardín": [
+    "parque",
+    "huerto",
+    "vergel",
+    "patio",
+    "terreno",
+    "floresta",
+    "campo"
+  ],
+  "justicia": [
+    "equidad",
+    "imparcialidad",
+    "rectitud",
+    "integridad",
+    "honestidad",
+    "verdad"
+  ],
+  "libertad": [
+    "independencia",
+    "autonomía",
+    "soberanía",
+    "liberación",
+    "emancipación",
+    "derecho"
+  ],
+  "lucha": [
+    "combate",
+    "batalla",
+    "conflicto",
+    "esfuerzo",
+    "resistencia",
+    "pelea",
+    "contienda"
+  ],
+  "luz": [
+    "claridad",
+    "brillo",
+    "luminosidad",
+    "resplandor",
+    "destello",
+    "iluminación",
+    "fulgor"
+  ],
+  "miedo": [
+    "terror",
+    "pánico",
+    "temor",
+    "espanto",
+    "horror",
+    "fobia",
+    "angustia",
+    "pavor"
+  ],
+  "momento": [
+    "instante",
+    "tiempo",
+    "período",
+    "etapa",
+    "ocasión",
+    "punto",
+    "lapso"
+  ],
+  "mundo": [
+    "universo",
+    "tierra",
+    "cosmos",
+    "realidad",
+    "sociedad",
+    "globalidad",
+    "totalidad"
+  ],
+  "noche": [
+    "oscuridad",
+    "tinieblas",
+    "penumbra",
+    "madrugada",
+    "anochecer",
+    "tarde",
+    "crepúsculo"
+  ],
+  "noticia": [
+    "información",
+    "novedad",
+    "reporte",
+    "comunicado",
+    "anuncio",
+    "aviso",
+    "reseña"
+  ],
+  "obra": [
+    "trabajo",
+    "creación",
+    "producto",
+    "resultado",
+    "proyecto",
+    "acción",
+    "labor"
+  ],
+  "oportunidad": [
+    "ocasión",
+    "posibilidad",
+    "momento",
+    "coyuntura",
+    "circunstancia",
+    "chance"
+  ],
+  "paz": [
+    "tranquilidad",
+    "armonía",
+    "calma",
+    "serenidad",
+    "quietud",
+    "concordia",
+    "sosiego"
+  ],
+  "peligro": [
+    "riesgo",
+    "amenaza",
+    "daño",
+    "adversidad",
+    "inconveniente",
+    "problema",
+    "inseguridad"
+  ],
+  "persona": [
+    "individuo",
+    "ser",
+    "sujeto",
+    "ente",
+    "humano",
+    "ciudadano",
+    "gente"
+  ],
+  "problema": [
+    "dificultad",
+    "inconveniente",
+    "obstáculo",
+    "conflicto",
+    "dilema",
+    "apuro",
+    "tropiezo"
+  ],
+  "propósito": [
+    "objetivo",
+    "meta",
+    "fin",
+    "intención",
+    "plan",
+    "misión",
+    "motivo",
+    "razón"
+  ],
+  "recuerdo": [
+    "memoria",
+    "reminiscencia",
+    "nostalgia",
+    "evocación",
+    "añoranza",
+    "huella",
+    "imagen"
+  ],
+  "respeto": [
+    "consideración",
+    "estima",
+    "honor",
+    "deferencia",
+    "reconocimiento",
+    "admiración"
+  ],
+  "sentimiento": [
+    "emoción",
+    "sensación",
+    "afecto",
+    "percepción",
+    "pasión",
+    "reacción",
+    "vivencia"
+  ],
+  "silencio": [
+    "quietud",
+    "mudez",
+    "calma",
+    "reposo",
+    "paz"
+  ],
+  "sueño": [
+    "ilusión",
+    "deseo",
+    "fantasía",
+    "anhelo",
+    "meta",
+    "aspiración",
+    "visión",
+    "esperanza"
+  ],
+  "tiempo": [
+    "momento",
+    "período",
+    "era",
+    "época",
+    "lapso",
+    "duración",
+    "plazo",
+    "instante"
+  ],
+  "trabajo": [
+    "labor",
+    "tarea",
+    "ocupación",
+    "empleo",
+    "actividad",
+    "esfuerzo",
+    "profesión"
+  ],
+  "tristeza": [
+    "melancolía",
+    "pena",
+    "dolor",
+    "aflicción",
+    "angustia",
+    "depresión",
+    "abatimiento"
+  ],
+  "vida": [
+    "existencia",
+    "ser",
+    "vivencia",
+    "experiencia",
+    "realidad",
+    "esencia",
+    "destino"
+  ],
+  "voz": [
+    "sonido",
+    "tono",
+    "habla",
+    "expresión",
+    "palabra",
+    "grito",
+    "murmullo",
+    "acento"
+  ],
+  "anhelar": [
+    "ansiar",
+    "desear",
+    "ambicionar",
+    "pretender",
+    "aspirar",
+    "codiciar",
+    "agonizar por"
+  ],
+  "asistir": [
+    "ayudar",
+    "auxiliar",
+    "socorrer",
+    "presenciar",
+    "concurrir",
+    "acudir",
+    "servir"
+  ],
+  "asustar": [
+    "espantar",
+    "atemorizar",
+    "amendrentar",
+    "sobresaltar",
+    "intimidar",
+    "acobardar",
+    "horrorizar"
+  ],
+  "atenuar": [
+    "mitigar",
+    "suavizar",
+    "disminuir",
+    "paliar",
+    "moderar",
+    "amortiguar",
+    "debilitar"
+  ],
+  "avergonzar": [
+    "humillar",
+    "abochornar",
+    "sonrojar",
+    "degradar",
+    "deshonrar",
+    "confundir",
+    "apenar"
+  ],
+  "caos": [
+    "desorden",
+    "confusión",
+    "anarquía",
+    "desbarajuste",
+    "lío",
+    "tropel",
+    "barullo"
+  ],
+  "clandestino": [
+    "secreto",
+    "oculto",
+    "furtivo",
+    "ilegal",
+    "sigiloso",
+    "encubierto",
+    "subterráneo"
+  ],
+  "codicia": [
+    "avaricia",
+    "ambición",
+    "avidez",
+    "ansia",
+    "egocentrismo",
+    "mezquindad",
+    "deseo"
+  ],
+  "consolar": [
+    "aliviar",
+    "reconfortar",
+    "animar",
+    "sosegar",
+    "tranquilizar",
+    "mitigar",
+    "solazar"
+  ],
+  "contemplar": [
+    "mirar",
+    "observar",
+    "meditar",
+    "reflexionar",
+    "considerar",
+    "admirar",
+    "examinar"
+  ],
+  "cotidiano": [
+    "diario",
+    "habitual",
+    "común",
+    "ordinario",
+    "rutinario",
+    "frecuente",
+    "usual"
+  ],
+  "decadencia": [
+    "declive",
+    "deterioro",
+    "ocaso",
+    "caída",
+    "ruina",
+    "degradación",
+    "corrupción"
+  ],
+  "deleite": [
+    "gozo",
+    "placer",
+    "disfrute",
+    "regocijo",
+    "encanto",
+    "satisfacción",
+    "voluptuosidad"
+  ],
+  "desafío": [
+    "reto",
+    "duelo",
+    "provocación",
+    "obstáculo",
+    "incitación",
+    "competencia",
+    "apuesta"
+  ],
+  "desdén": [
+    "desprecio",
+    "indiferencia",
+    "menosprecio",
+    "altivez",
+    "asco",
+    "frialdad",
+    "desapego"
+  ],
+  "destreza": [
+    "habilidad",
+    "maestría",
+    "pericia",
+    "capacidad",
+    "aptitud",
+    "talento",
+    "arte"
+  ],
+  "efímero": [
+    "fugaz",
+    "pasajero",
+    "breve",
+    "perecedero",
+    "evanescente",
+    "mortal"
+  ],
+  "elocuente": [
+    "expresivo",
+    "convincente",
+    "persuasivo",
+    "retórico",
+    "significativo",
+    "brillante",
+    "fluido"
+  ],
+  "enigma": [
+    "acertijo",
+    "misterio",
+    "incógnita",
+    "secreto",
+    "rompecabezas",
+    "ambigüedad",
+    "oscuridad"
+  ],
+  "errante": [
+    "nómada",
+    "vagabundo",
+    "itinerante",
+    "fugitivo",
+    "extraviado",
+    "peregrino",
+    "fluctuante"
+  ],
+  "esencia": [
+    "sustancia",
+    "naturaleza",
+    "alma",
+    "quintaesencia",
+    "espíritu",
+    "fundamento",
+    "base"
+  ],
+  "esfuerzo": [
+    "empeño",
+    "ahínco",
+    "sacrificio",
+    "trabajo",
+    "fatiga",
+    "afán",
+    "dedicación"
+  ],
+  "estupor": [
+    "asombro",
+    "pasmo",
+    "perplejidad",
+    "sorpresa",
+    "aturdimiento",
+    "letargo",
+    "insensibilidad"
+  ],
+  "exilio": [
+    "destierro",
+    "confinamiento",
+    "aislamiento",
+    "ostracismo",
+    "huida",
+    "expulsión",
+    "ausencia"
+  ],
+  "fatídico": [
+    "funesto",
+    "aciago",
+    "desgraciado",
+    "nefasto",
+    "trágico",
+    "mortal",
+    "inevitable"
+  ],
+  "fragilidad": [
+    "debilidad",
+    "delicadeza",
+    "levedad",
+    "suavidad",
+    "vulnerabilidad",
+    "sutileza",
+    "finitud"
+  ],
+  "furia": [
+    "ira",
+    "cólera",
+    "rabia",
+    "enojo",
+    "saña",
+    "frenesí",
+    "violencia"
+  ],
+  "genuino": [
+    "auténtico",
+    "verdadero",
+    "puro",
+    "natural",
+    "legítimo",
+    "propio",
+    "sincero"
+  ],
+  "hostil": [
+    "enemigo",
+    "adverso",
+    "contrario",
+    "agresivo",
+    "desfavorable",
+    "antipático",
+    "belicoso"
+  ],
+  "ímpetu": [
+    "impulso",
+    "fuerza",
+    "energía",
+    "brío",
+    "ardor",
+    "vehemencia",
+    "violencia"
+  ],
+  "impetuoso": [
+    "impulsivo",
+    "vehemente",
+    "precipitado",
+    "fogoso",
+    "violento",
+    "ardiente",
+    "irreflexivo"
+  ],
+  "incertidumbre": [
+    "duda",
+    "vacilación",
+    "indecisión",
+    "perplejidad",
+    "azar",
+    "riesgo",
+    "desasosiego"
+  ],
+  "indagar": [
+    "investigar",
+    "averiguar",
+    "inquirir",
+    "explorar",
+    "escudriñar",
+    "tantear",
+    "rastrear"
+  ],
+  "infalible": [
+    "seguro",
+    "cierto",
+    "indudable",
+    "inevitable",
+    "perfecto",
+    "irrefutable",
+    "exacto"
+  ],
+  "ingenuo": [
+    "inocente",
+    "candoroso",
+    "simple",
+    "crédulo",
+    "natural",
+    "franco"
+  ],
+  "ancestral": [
+    "antiguo",
+    "milenario",
+    "remoto",
+    "atávico",
+    "primitivo",
+    "legendario",
+    "heredado"
+  ],
+  "arcano": [
+    "misterioso",
+    "secreto",
+    "esotérico",
+    "oculto",
+    "místico",
+    "impenetrable",
+    "recondito"
+  ],
+  "artilugio": [
+    "mecanismo",
+    "aparato",
+    "artefacto",
+    "dispositivo",
+    "inventiva",
+    "engendro",
+    "trasto"
+  ],
+  "augurio": [
+    "presagio",
+    "profecía",
+    "vaticinio",
+    "señal",
+    "premonición",
+    "anuncio",
+    "vaticinio"
+  ],
+  "bestia": [
+    "criatura",
+    "monstruo",
+    "engendro",
+    "fiera",
+    "animal",
+    "ser",
+    "abominación"
+  ],
+  "conjuro": [
+    "hechizo",
+    "encantamiento",
+    "sortilegio",
+    "invocación",
+    "rezo",
+    "exorcismo",
+    "ritual"
+  ],
+  "corromper": [
+    "alterar",
+    "envilecer",
+    "pudrir",
+    "contaminar",
+    "viciar",
+    "degradar",
+    "pervertir"
+  ],
+  "desolado": [
+    "yermo",
+    "ermo",
+    "abandonado",
+    "inhóspito",
+    "baladío",
+    "solitario",
+    "devastado"
+  ],
+  "don": [
+    "talento",
+    "gracia",
+    "habilidad",
+    "bendición",
+    "poder",
+    "facultad",
+    "virtud"
+  ],
+  "efervescencia": [
+    "agitación",
+    "burbujeo",
+    "exaltación",
+    "hervor",
+    "fervor",
+    "animación",
+    "entusiasmo"
+  ],
+  "emblema": [
+    "símbolo",
+    "escudo",
+    "insignia",
+    "distintivo",
+    "blasón",
+    "estandarte",
+    "divisa"
+  ],
+  "encantamiento": [
+    "hechizo",
+    "fascinación",
+    "embrujo",
+    "seducción",
+    "delirio",
+    "maravilla",
+    "atracción"
+  ],
+  "estirpe": [
+    "linaje",
+    "alcurnia",
+    "raza",
+    "familia",
+    "ascendencia",
+    "sangre",
+    "casta"
+  ],
+  "etéreo": [
+    "sutil",
+    "vaporoso",
+    "tenue",
+    "espiritual",
+    "celestial",
+    "impalpable"
+  ],
+  "evocar": [
+    "recordar",
+    "llamar",
+    "invocar",
+    "suscitar",
+    "reproducir",
+    "rememorar",
+    "manifestar"
+  ],
+  "forjar": [
+    "crear",
+    "fundir",
+    "labrar",
+    "modelar",
+    "inventar",
+    "fraguar",
+    "construir"
+  ],
+  "fortaleza": [
+    "baluarte",
+    "ciudadela",
+    "castillo",
+    "bastión",
+    "alcázar",
+    "defensa",
+    "muralla"
+  ],
+  "funesto": [
+    "aciago",
+    "fatídico",
+    "desgraciado",
+    "nefasto",
+    "trágico",
+    "mortal",
+    "sombrío"
+  ],
+  "hechizo": [
+    "encantamiento",
+    "sortilegio",
+    "embrujo",
+    "maleficio",
+    "atracción",
+    "seducción",
+    "fascinación"
+  ],
+  "herencia": [
+    "legado",
+    "sucesión",
+    "patrimonio",
+    "tradición",
+    "donación",
+    "rastro",
+    "mandato"
+  ],
+  "héroe": [
+    "paladín",
+    "campeón",
+    "guerrero",
+    "protagonista",
+    "valiente",
+    "vengador",
+    "defensor"
+  ],
+  "hueste": [
+    "ejército",
+    "tropa",
+    "multitud",
+    "muchedumbre",
+    "banda",
+    "legión",
+    "batallón"
+  ],
+  "brazos": [
+    "extremidades",
+    "miembros",
+    "fuerzas",
+    "alcance",
+    "asideros"
+  ],
+  "cabello": [
+    "pelo",
+    "melena",
+    "cabellera",
+    "rizos",
+    "hebras",
+    "trenzas",
+    "vello"
+  ],
+  "cabeza": [
+    "testa",
+    "cráneo",
+    "testuz",
+    "mollera",
+    "cerebro",
+    "mente"
+  ],
+  "cara": [
+    "rostro",
+    "semblante",
+    "faz",
+    "facciones",
+    "caras",
+    "visage"
+  ],
+  "cuello": [
+    "garganta",
+    "testuz",
+    "nuca",
+    "degolladero",
+    "cérvix"
+  ],
+  "dedos": [
+    "yemas",
+    "falanges",
+    "apéndices",
+    "extremidades"
+  ],
+  "espalda": [
+    "dorso",
+    "lomo",
+    "reverso",
+    "zaga"
+  ],
+  "estómago": [
+    "vientre",
+    "panza",
+    "abdomen",
+    "entrañas",
+    "barriga"
+  ],
+  "hombros": [
+    "espalda alta",
+    "omóplatos",
+    "base del cuello"
+  ],
+  "labios": [
+    "boca",
+    "morros",
+    "beso",
+    "bordes"
+  ],
+  "manos": [
+    "palmas",
+    "garras",
+    "diestras",
+    "extremidades superiores"
+  ],
+  "mejillas": [
+    "pómulos",
+    "carrillos",
+    "faz"
+  ],
+  "ojos": [
+    "mirada",
+    "pupilas",
+    "luceros",
+    "globos oculares",
+    "visión",
+    "orbes"
+  ],
+  "orejas": [
+    "oídos",
+    "pabellones",
+    "aurículas"
+  ],
+  "pecho": [
+    "torso",
+    "busto",
+    "pectoral",
+    "seno",
+    "tórax"
+  ],
+  "piernas": [
+    "extremidades inferiores",
+    "zancas",
+    "columnas",
+    "soporte"
+  ],
+  "pies": [
+    "plantas",
+    "pasos",
+    "extremidades",
+    "base"
+  ],
+  "piel": [
+    "cutis",
+    "tez",
+    "dermis",
+    "superficie",
+    "envoltura"
+  ],
+  "sangre": [
+    "linfa",
+    "humor",
+    "fluido vital",
+    "caudal",
+    "estirpe"
+  ],
+  "moría": [
+    "fallecía",
+    "perecía",
+    "expiraba",
+    "fenecía",
+    "agonizaba",
+    "sucumbía"
+  ],
+  "veía": [
+    "observaba",
+    "divisaba",
+    "distinguía",
+    "avistaba",
+    "percibía",
+    "contemplaba",
+    "notaba"
+  ],
+  "entendía": [
+    "comprendía",
+    "captaba",
+    "asimilaba",
+    "descifraba",
+    "interpretaba"
+  ],
+  "reía": [
+    "carajeaba",
+    "sonreía",
+    "festejaba",
+    "celebraba",
+    "burilaba"
+  ],
+  "mandar": [
+    "enviar",
+    "remitir",
+    "ordenar",
+    "dirigir",
+    "comandar",
+    "despachar",
+    "expedir"
+  ],
+  "decía": [
+    "expresaba",
+    "manifestaba",
+    "relataba",
+    "mencionaba",
+    "asertaba",
+    "exponía"
+  ],
+  "quería": [
+    "deseaba",
+    "anhelaba",
+    "ansiaba",
+    "amaba",
+    "pretendía"
+  ],
+  "entendió": [
+    "comprendió",
+    "captó",
+    "asimiló",
+    "descifró",
+    "interpretó",
+    "percibió"
+  ],
+  "murió": [
+    "falleció",
+    "pereció",
+    "expiró",
+    "sucumbió",
+    "feneció"
+  ],
+  "vio": [
+    "observó",
+    "contempló",
+    "distinguió",
+    "divisó",
+    "notó",
+    "percibió"
+  ],
+  "mandó": [
+    "envió",
+    "remitió",
+    "ordenó",
+    "dirigió",
+    "despachó",
+    "expidió"
+  ],
+  "dijo": [
+    "expresó",
+    "manifestó",
+    "relató",
+    "mencionó",
+    "aseguró",
+    "sostuvo"
+  ],
+  "rió": [
+    "sonrió",
+    "carcajeó",
+    "celebró",
+    "festejó"
+  ],
+  "quiso": [
+    "deseó",
+    "anheló",
+    "ansió",
+    "amó",
+    "pretendió"
+  ],
+  "miró": [
+    "observó",
+    "contempló",
+    "divisó",
+    "avistó",
+    "examinó",
+    "reparó",
+    "atendió"
+  ],
+  "sintió": [
+    "experimentó",
+    "percibió",
+    "notó",
+    "padeció",
+    "sufrió",
+    "presintió"
+  ],
+  "buscó": [
+    "rastreó",
+    "indagó",
+    "exploró",
+    "inquirió",
+    "persiguió",
+    "localizó"
+  ],
+  "encontró": [
+    "halló",
+    "descubrió",
+    "localizó",
+    "topó",
+    "detectó",
+    "tropezó"
+  ],
+  "llamó": [
+    "convocó",
+    "citó",
+    "nombró",
+    "apeló",
+    "invocó",
+    "clamó"
+  ],
+  "pensó": [
+    "reflexionó",
+    "meditó",
+    "razonó",
+    "creyó",
+    "estimó",
+    "consideró",
+    "imaginó"
+  ],
+  "caminó": [
+    "anduvo",
+    "marchó",
+    "recorrió",
+    "transitó",
+    "peregrinó",
+    "avanzó"
+  ],
+  "escribió": [
+    "redactó",
+    "anotó",
+    "compuso",
+    "trazó",
+    "registró",
+    "plasmó"
+  ],
+  "escuchó": [
+    "oyó",
+    "atendió",
+    "percibió",
+    "asintió"
+  ],
+  "tomó": [
+    "agarró",
+    "sujetó",
+    "cogió",
+    "asió",
+    "capturó",
+    "recogió"
+  ],
+  "exclamó": [
+    "gritó",
+    "vociferó",
+    "proclamó",
+    "espetó",
+    "anunció"
+  ],
+  "susurró": [
+    "murmuró",
+    "musitó",
+    "bisbiceó",
+    "masculló",
+    "habló bajo"
+  ],
+  "preguntó": [
+    "interrogó",
+    "inquirió",
+    "consultó",
+    "interpeló",
+    "curiosó",
+    "demandó"
+  ],
+  "respondió": [
+    "replicó",
+    "contestó",
+    "repuso",
+    "reaccionó",
+    "exclamó",
+    "satisfizo"
+  ],
+  "tenebroso": [
+    "sombrío",
+    "lúgubre",
+    "siniestro",
+    "oscuro",
+    "pavoroso",
+    "macabro"
+  ],
+  "resplandeciente": [
+    "brillante",
+    "radiante",
+    "luminoso",
+    "refulgente",
+    "centelleante"
+  ],
+  "silencioso": [
+    "callado",
+    "mutista",
+    "sigiloso",
+    "taciturno",
+    "discreto"
+  ],
+  "corrió": [
+    "apresuró",
+    "trotó",
+    "galopó",
+    "voló",
+    "escapó",
+    "se lanzó"
+  ],
+  "saltó": [
+    "brincó",
+    "rebotó",
+    "salvó",
+    "se lanzó",
+    "ascendió"
+  ],
+  "cayó": [
+    "derrumbó",
+    "descendió",
+    "colapsó",
+    "tropezó",
+    "se precipitó"
+  ],
+  "rogó": [
+    "suplicó",
+    "imploró",
+    "instó",
+    "exhortó",
+    "peticionó",
+    "solicitó"
+  ],
+  "advirtió": [
+    "notó",
+    "percibió",
+    "observó",
+    "reparó",
+    "avisó",
+    "previno"
+  ],
+  "observó": [
+    "miró",
+    "contempló",
+    "examinó",
+    "reparó",
+    "notó",
+    "advirtió",
+    "escudriñó"
+  ],
+  "marchó": [
+    "se fue",
+    "partió",
+    "salió",
+    "se alejó",
+    "desfiló"
+  ],
+  "detuvo": [
+    "paró",
+    "frenó",
+    "estancó",
+    "interrumpió",
+    "suspendió",
+    "atascó"
+  ],
+  "ayudó": [
+    "asistió",
+    "auxilió",
+    "socorrió",
+    "apoyó",
+    "colaboró",
+    "amparó"
+  ],
+  "esperó": [
+    "aguardó",
+    "permaneció",
+    "perseveró",
+    "confió",
+    "ansió"
+  ],
+  "olvidó": [
+    "descuidó",
+    "omitió",
+    "perdió",
+    "relegó",
+    "desatendió"
+  ],
+  "prometió": [
+    "juró",
+    "aseguró",
+    "pactó",
+    "comprometió",
+    "afirmó"
+  ],
+  "temió": [
+    "asustó",
+    "receló",
+    "sospechó",
+    "pavoreció",
+    "se aterró"
+  ],
+  "decidió": [
+    "resolvió",
+    "determinó",
+    "optó",
+    "zanjó",
+    "acordó"
+  ],
+  "identidad": [
+    "esencia",
+    "ser",
+    "naturaleza",
+    "autodefinición",
+    "personalidad",
+    "carácter"
+  ],
+  "orientación": [
+    "inclinación",
+    "tendencia",
+    "atracción",
+    "preferencia",
+    "predilección"
+  ],
+  "género": [
+    "condición",
+    "naturaleza",
+    "identidad sexual",
+    "rol"
+  ],
+  "vínculo": [
+    "lazo",
+    "unión",
+    "conexión",
+    "relación",
+    "afinidad",
+    "nexo"
+  ],
+  "intimidad": [
+    "privacidad",
+    "confidencialidad",
+    "proximidad",
+    "complicidad",
+    "interioridad"
+  ],
+  "erotismo": [
+    "sensualidad",
+    "seducción",
+    "voluptuosidad",
+    "atractivo",
+    "sugestión"
+  ],
+  "anatomía": [
+    "fisonomía",
+    "corporeidad",
+    "estructura",
+    "organismo",
+    "constitución"
+  ],
+  "pudor": [
+    "recato",
+    "modestia",
+    "timidez",
+    "vergüenza",
+    "discreción"
+  ],
+  "diversidad": [
+    "variedad",
+    "pluralidad",
+    "multiplicidad",
+    "heterogeneidad"
+  ],
+  "afecto": [
+    "cariño",
+    "ternura",
+    "apego",
+    "sentimiento",
+    "amor",
+    "devoción"
+  ],
+  "consentimiento": [
+    "acuerdo",
+    "permiso",
+    "aprobación",
+    "conformidad",
+    "aceptación"
+  ],
+  "titubeó": [
+    "vaciló",
+    "dudó",
+    "balbuceó",
+    "se detuvo",
+    "perplejo"
+  ],
+  "escapó": [
+    "huyó",
+    "se fugó",
+    "se escabulló",
+    "evadió",
+    "desapareció"
+  ],
+  "acechó": [
+    "espió",
+    "vigiló",
+    "observó",
+    "rondó",
+    "atendió"
+  ],
+  "amenazó": [
+    "desafió",
+    "intimidó",
+    "amagó",
+    "provocó",
+    "asustó"
+  ],
+  "golpeó": [
+    "impactó",
+    "sacudió",
+    "azotó",
+    "percutió",
+    "tundió"
+  ],
+  "soportó": [
+    "aguantó",
+    "resistió",
+    "toleró",
+    "sufrió",
+    "padeció"
+  ],
+  "encendió": [
+    "prendió",
+    "iluminó",
+    "activó",
+    "inflamó",
+    "excitó"
+  ],
+  "ocultó": [
+    "escondió",
+    "encubrió",
+    "disimuló",
+    "veló",
+    "calló"
+  ],
+  "rompió": [
+    "quebró",
+    "destrozó",
+    "partió",
+    "fragmentó",
+    "violó"
+  ],
+  "tembló": [
+    "estremeció",
+    "tiritó",
+    "vibró",
+    "vaciló",
+    "se agitó"
+  ],
+  "juró": [
+    "prometió",
+    "aseguró",
+    "testificó",
+    "afirmó",
+    "pactó"
+  ],
+  "caricia": [
+    "roce",
+    "mimo",
+    "fricción",
+    "halago",
+    "contacto",
+    "suavidad"
+  ],
+  "estremeció": [
+    "vibró",
+    "palpitó",
+    "se agitó",
+    "tembló",
+    "se conmovió",
+    "se alteró"
+  ],
+  "jadeó": [
+    "respiró fuerte",
+    "anheló",
+    "bufó",
+    "se agitó",
+    "suspiró"
+  ],
+  "gemido": [
+    "quejido",
+    "suspiro",
+    "lamento",
+    "murmullo",
+    "exclamación"
+  ],
+  "calor": [
+    "ardor",
+    "bochorno",
+    "fuego",
+    "temperatura",
+    "quemazón",
+    "incandescencia"
+  ],
+  "placer": [
+    "goce",
+    "deleite",
+    "disfrute",
+    "voluptuosidad",
+    "regocijo",
+    "satisfacción"
+  ],
+  "tensión": [
+    "rigidez",
+    "presión",
+    "tirantez",
+    "nerviosismo",
+    "excitación"
+  ],
+  "humedad": [
+    "rocío",
+    "fluidez",
+    "lubricación",
+    "mojadura"
+  ],
+  "estímulo": [
+    "incentivo",
+    "incitación",
+    "provocación",
+    "impulso",
+    "fomento"
+  ],
+  "fantasía": [
+    "quimera",
+    "ensueño",
+    "imaginación",
+    "ilusión",
+    "ficción"
+  ],
+  "rendición": [
+    "entrega",
+    "sumisión",
+    "abandono",
+    "cesión",
+    "docilidad"
+  ],
+  "gemir": [
+    "quejarse",
+    "suspirar",
+    "musitar",
+    "murmurar",
+    "lamentarse",
+    "sollozar"
+  ],
+  "gimió": [
+    "se quejó",
+    "suspiró",
+    "musitó",
+    "murmuró",
+    "sollozó",
+    "exhaló"
+  ],
+  "jadea": [
+    "resuella",
+    "anhela",
+    "se asfixia",
+    "palpita",
+    "se agita"
+  ],
+  "jadeante": [
+    "sofocado",
+    "asfixiado",
+    "agitado",
+    "ansioso",
+    "acezante"
+  ],
+  "palpitó": [
+    "latió",
+    "vibró",
+    "pulsó",
+    "osciló",
+    "se agitó"
+  ],
+  "estremecimiento": [
+    "escalofrío",
+    "temblor",
+    "vibración",
+    "sacudida",
+    "conmoción"
+  ],
+  "masculló": [
+    "murmuró",
+    "balbuceó",
+    "farfulló",
+    "gruñó",
+    "susurró"
+  ],
+  "apretó": [
+    "presionó",
+    "oprimió",
+    "estrujó",
+    "comprimió",
+    "ajustó"
+  ],
+  "tensó": [
+    "estiró",
+    "envaró",
+    "endureció",
+    "forzó",
+    "excitó"
+  ],
+  "vigilaba": [
+    "custodiaba",
+    "acechaba",
+    "observaba",
+    "rondaba",
+    "espiaba",
+    "guardaba"
+  ],
+  "notó": [
+    "advirtió",
+    "percibió",
+    "observó",
+    "reparó",
+    "sintió",
+    "distinguió"
+  ],
+  "distinguió": [
+    "diferenció",
+    "divisó",
+    "percibió",
+    "notó",
+    "separó",
+    "discernió"
+  ],
+  "examinaba": [
+    "inspeccionaba",
+    "analizaba",
+    "estudiaba",
+    "escudriñaba",
+    "chequeaba"
+  ],
+  "atisbaba": [
+    "entreveía",
+    "vislumbraba",
+    "miraba",
+    "asomaba",
+    "espiaba"
+  ],
+  "observar": [
+    "mirar",
+    "contemplar",
+    "examinar",
+    "escudriñar",
+    "notar",
+    "advertir",
+    "avisar"
+  ],
+  "observa": [
+    "mira",
+    "contempla",
+    "examina",
+    "repara",
+    "nota",
+    "advierte",
+    "distingue"
+  ],
+  "mira": [
+    "observa",
+    "contempla",
+    "ve",
+    "divisa",
+    "repara en",
+    "nota"
+  ],
+  "examinar": [
+    "inspeccionar",
+    "analizar",
+    "estudiar",
+    "escudriñar",
+    "chequear",
+    "revisar"
+  ],
+  "examina": [
+    "inspecciona",
+    "analiza",
+    "estudia",
+    "escudriña",
+    "chequea",
+    "revisa"
+  ],
+  "vigilar": [
+    "custodiar",
+    "acechar",
+    "guardar",
+    "monitorear",
+    "supervisar",
+    "rondar"
+  ],
+  "vigila": [
+    "custodia",
+    "acecha",
+    "guarda",
+    "monitorea",
+    "supervisa",
+    "ronda"
+  ],
+  "notar": [
+    "advertir",
+    "percibir",
+    "observar",
+    "reparar",
+    "sentir",
+    "distinguir"
+  ],
+  "nota": [
+    "advierte",
+    "percibe",
+    "observa",
+    "repara",
+    "siente",
+    "distingue"
+  ],
+  "búsqueda": [
+    "indagación",
+    "investigación",
+    "exploración",
+    "rastreo",
+    "pesquisa"
+  ],
+  "sospechó": [
+    "receló",
+    "conjeturó",
+    "supuso",
+    "desconfió",
+    "intuyó"
+  ],
+  "sospechar": [
+    "recelar",
+    "conjeturar",
+    "suponer",
+    "desconfiar",
+    "intuir"
+  ],
+  "ocultamiento": [
+    "escondite",
+    "disimulo",
+    "clandestinidad",
+    "reserva",
+    "sigilo"
+  ],
+  "descubrimiento": [
+    "hallazgo",
+    "revelación",
+    "invención",
+    "detección",
+    "encuentro"
+  ],
+  "encuentra": [
+    "halla",
+    "descubre",
+    "localiza",
+    "topa",
+    "detecta"
+  ],
+  "percepción": [
+    "sensación",
+    "impresión",
+    "intuición",
+    "comprensión"
+  ],
+  "fijación": [
+    "obsesión",
+    "empeño",
+    "atención",
+    "insistencia",
+    "sujeción"
+  ],
+  "acechando": [
+    "espiando",
+    "vigilando",
+    "rondando",
+    "observando",
+    "atendiendo"
+  ],
+  "fingió": [
+    "simuló",
+    "aparentó",
+    "disimuló",
+    "engañó",
+    "pretendió"
+  ],
+  "estremecedor": [
+    "conmovedor",
+    "impactante",
+    "terrible",
+    "escalofriante",
+    "vibrante"
+  ],
+  "brillantez": [
+    "esplendor",
+    "lucidez",
+    "resplandor",
+    "talento",
+    "claridad"
+  ],
+  "silenciar": [
+    "callar",
+    "acallar",
+    "amordazar",
+    "mitigar",
+    "sosegar"
+  ],
+  "anochecer": [
+    "ocaso",
+    "crepúsculo",
+    "atardecer",
+    "vísperas",
+    "decadencia"
+  ],
+  "melancolía": [
+    "añoranza",
+    "morriña",
+    "tristeza",
+    "pesadumbre",
+    "desaliento",
+    "nostalgia"
+  ],
+  "lumbre": [
+    "fulgor",
+    "resplandor",
+    "brillo",
+    "claridad",
+    "destello",
+    "fuego"
+  ],
+  "soledad": [
+    "aislamiento",
+    "retiro",
+    "desamparo",
+    "abandono",
+    "ermita",
+    "clausura"
+  ],
+  "suspirar": [
+    "anhelar",
+    "aspirar",
+    "exhalar",
+    "desear",
+    "lamentar"
+  ],
+  "fragancia": [
+    "aroma",
+    "perfume",
+    "esencia",
+    "bálsamo",
+    "emanación"
+  ],
+  "infinito": [
+    "eterno",
+    "ilimitado",
+    "inconmensurable",
+    "inmortal",
+    "perpetuo"
+  ],
+  "penumbra": [
+    "sombra",
+    "oscuridad",
+    "tinieblas",
+    "claroscuro",
+    "opacidad"
+  ],
+  "idilio": [
+    "romance",
+    "amorío",
+    "ensueño",
+    "aventura",
+    "poema"
+  ],
+  "vasto": [
+    "amplio",
+    "extenso",
+    "inmenso",
+    "dilatado",
+    "espacioso"
+  ],
+  "peregrino": [
+    "viajero",
+    "extraño",
+    "insólito",
+    "errante",
+    "extranjero"
+  ],
+  "alba": [
+    "aurora",
+    "amanecer",
+    "alborada",
+    "mañana",
+    "nacimiento"
+  ],
+  "evanescente": [
+    "fugaz",
+    "sutil",
+    "efímero",
+    "imperceptible",
+    "desvaneciente"
+  ],
+  "anochecía": [
+    "oscurecía",
+    "atardecía",
+    "sombreaba",
+    "declunaba",
+    "crepusculaba"
+  ],
+  "añoranza": [
+    "nostalgia",
+    "melancolía",
+    "recuerdo",
+    "pena",
+    "soledad"
+  ],
+  "añorar": [
+    "extrañar",
+    "recordar",
+    "anhelar",
+    "suspira por",
+    "echar de menos"
+  ],
+  "fulgor": [
+    "brillo",
+    "resplandor",
+    "destello",
+    "claridad",
+    "lumbre"
+  ],
+  "fulgurante": [
+    "brillante",
+    "radiante",
+    "centelleante",
+    "resplandeciente",
+    "vivo"
+  ],
+  "soledades": [
+    "aislamientos",
+    "retiros",
+    "vacíos",
+    "desamparos"
+  ],
+  "suspiro": [
+    "aliento",
+    "exhalación",
+    "gemido",
+    "soplo",
+    "anhelo"
+  ],
+  "aromatizar": [
+    "perfumar",
+    "embalsamar",
+    "impregnar",
+    "sahumar"
+  ],
+  "eternidad": [
+    "perpetuidad",
+    "infinito",
+    "inmortalidad",
+    "perdurabilidad"
+  ],
+  "sombrío": [
+    "oscuro",
+    "tenebroso",
+    "lúgubre",
+    "penumbroso",
+    "triste"
+  ],
+  "ensueño": [
+    "fantasía",
+    "quimera",
+    "ilusión",
+    "idilio",
+    "sueño"
+  ],
+  "inmensidad": [
+    "vastedad",
+    "amplitud",
+    "extensión",
+    "infinitud",
+    "magnitud"
+  ],
+  "amanecía": [
+    "alboreaba",
+    "despuntaba",
+    "clareaba",
+    "nacía el día"
+  ],
+  "crepuscular": [
+    "atardecer",
+    "oscurecer",
+    "declinar",
+    "sombrear"
+  ],
+  "observaba": [
+    "miraba",
+    "contemplaba",
+    "examinaba",
+    "reparaba",
+    "notaba",
+    "advertía",
+    "escudriñaba"
+  ],
+  "miraba": [
+    "observaba",
+    "contemplaba",
+    "veía",
+    "divisaba",
+    "atisbaba",
+    "fijaba la vista"
+  ],
+  "contemplaba": [
+    "miraba",
+    "observaba",
+    "admiraba",
+    "consideraba",
+    "apreciaba",
+    "meditaba"
+  ],
+  "buscaba": [
+    "rastreaba",
+    "indagaba",
+    "escudriñaba",
+    "inquiría",
+    "exploraba",
+    "perseguía"
+  ],
+  "sentía": [
+    "experimentaba",
+    "percibía",
+    "notaba",
+    "palpaba",
+    "padecía"
+  ],
+  "deseaba": [
+    "anhelaba",
+    "ansiaba",
+    "quería",
+    "ambicionaba",
+    "codiciaba"
+  ],
+  "esperaba": [
+    "aguardaba",
+    "permanecía",
+    "confiaba",
+    "ansiaba",
+    "preveía"
+  ],
+  "acechaba": [
+    "espiaba",
+    "vigilaba",
+    "rondaba",
+    "observaba",
+    "seguía"
+  ],
+  "escudriñaba": [
+    "investigaba",
+    "inquiría",
+    "examinaba",
+    "rastreaba",
+    "exploraba"
+  ],
+  "vislumbraba": [
+    "entreveía",
+    "divisaba",
+    "atisbaba",
+    "notaba",
+    "sospechaba"
+  ],
+  "observaban": [
+    "miraban",
+    "vigilaban",
+    "contemplaban",
+    "examinaban",
+    "escudriñaban"
+  ],
+  "miraban": [
+    "observaban",
+    "veían",
+    "contemplaban",
+    "divisaban",
+    "notaban",
+    "fijaban la vista"
+  ],
+  "buscaban": [
+    "rastreaban",
+    "indagaban",
+    "escudriñaban",
+    "exploraban",
+    "perseguían",
+    "inquirían"
+  ],
+  "sentían": [
+    "experimentaban",
+    "percibían",
+    "notaban",
+    "palpaban",
+    "padecían",
+    "presentían"
+  ],
+  "anhelaba": [
+    "ansiaba",
+    "deseaba",
+    "aspiraba",
+    "suspiraba",
+    "ambicionaba",
+    "esperaba"
+  ],
+  "sospechaba": [
+    "recelaba",
+    "conjeturaba",
+    "suponía",
+    "desconfiaba",
+    "intuía",
+    "temía"
+  ],
+  "imaginaba": [
+    "fantaseaba",
+    "proyectaba",
+    "ideaba",
+    "visualizaba",
+    "suponía",
+    "creía"
+  ],
+  "recorría": [
+    "transitaba",
+    "caminaba",
+    "exploraba",
+    "surcaba",
+    "atravesaba",
+    "viajaba"
+  ],
+  "anhelaban": [
+    "ansiaban",
+    "deseaban",
+    "querían",
+    "esperaban",
+    "suspiraban por"
+  ],
+  "murmuraba": [
+    "susurraba",
+    "musitaba",
+    "mascullaba",
+    "hablaba bajo",
+    "bisbiceaba"
+  ],
+  "estremecían": [
+    "temblaban",
+    "vibraban",
+    "se agitaban",
+    "se conmovían",
+    "palpitaban"
+  ],
+  "ocultaba": [
+    "escondía",
+    "disimulaba",
+    "encubría",
+    "velaba",
+    "callaba",
+    "guardaba"
+  ],
+  "fingía": [
+    "simulaba",
+    "aparentaba",
+    "engañaba",
+    "postureaba",
+    "disfrazaba"
+  ],
+  "asustó": [
+    "espantó",
+    "atemorizó",
+    "sobresaltó",
+    "intimidó",
+    "aterró",
+    "alarmó"
+  ],
+  "asustaba": [
+    "espantaba",
+    "atemorizaba",
+    "sobresaltaba",
+    "intimidaba",
+    "aterraba",
+    "alarmaba"
+  ],
+  "confesó": [
+    "reveló",
+    "admitió",
+    "declaró",
+    "reconoció",
+    "manifestó",
+    "desveló"
+  ],
+  "confesaba": [
+    "revelaba",
+    "admitía",
+    "declaraba",
+    "reconocía",
+    "manifestaba",
+    "desvelaba"
+  ],
+  "golpeaba": [
+    "impactaba",
+    "sacudía",
+    "azotaba",
+    "percutía",
+    "tundía",
+    "martilleaba"
+  ],
+  "acercó": [
+    "aproximó",
+    "arrimó",
+    "juntó",
+    "avanzó hacia",
+    "estrechó"
+  ],
+  "acercaba": [
+    "aproximaba",
+    "arrimaba",
+    "juntaba",
+    "avanzaba hacia",
+    "rondaba"
+  ],
+  "alejó": [
+    "distanció",
+    "apartó",
+    "retiró",
+    "desvió",
+    "separó"
+  ],
+  "alejaba": [
+    "distanciaba",
+    "apartaba",
+    "retiraba",
+    "desviaba",
+    "separaba"
+  ],
+  "comprendía": [
+    "entendía",
+    "captaba",
+    "asimilaba",
+    "discernía",
+    "alcanzaba",
+    "penetraba"
+  ],
+  "negó": [
+    "rechazó",
+    "rehusó",
+    "desmintió",
+    "contradijo",
+    "reprobó"
+  ],
+  "negaba": [
+    "rechazaba",
+    "rehusaba",
+    "desmentía",
+    "contradecía",
+    "reprobaba"
+  ],
+  "buscan": [
+    "rastrean",
+    "indagan",
+    "escudriñan",
+    "exploran",
+    "persiguen",
+    "inquieren"
+  ],
+  "miran": [
+    "observan",
+    "ven",
+    "contemplan",
+    "divisan",
+    "notan",
+    "fijan la vista"
+  ],
+  "preguntaba": [
+    "interrogaba",
+    "inquiría",
+    "consultaba",
+    "interpelaba",
+    "curioseaba"
+  ],
+  "respondía": [
+    "replicaba",
+    "contestaba",
+    "reponía",
+    "reaccionaba",
+    "exclamaba"
+  ],
+  "detenía": [
+    "paraba",
+    "frenaba",
+    "estancaba",
+    "interrumpía",
+    "suspendía"
+  ],
+  "lloraba": [
+    "sollozaba",
+    "lagrimeaba",
+    "lamentaba",
+    "gemía",
+    "sufría"
+  ],
+  "escapaba": [
+    "huía",
+    "se fugaba",
+    "se escabullía",
+    "evadía",
+    "desaparecía"
+  ],
+  "sujetó": [
+    "agarró",
+    "prendió",
+    "asió",
+    "atrapó",
+    "aferró",
+    "sostuvo"
+  ],
+  "sujetaba": [
+    "agarraba",
+    "prendía",
+    "asía",
+    "atrapaba",
+    "aferraba",
+    "sostenía"
+  ],
+  "lanzó": [
+    "arrojó",
+    "tiró",
+    "disparó",
+    "proyectó",
+    "echó",
+    "impulsó"
+  ],
+  "lanzaba": [
+    "arrojaba",
+    "tiraba",
+    "disparaba",
+    "proyectaba",
+    "echaba"
+  ],
+  "apareció": [
+    "surgió",
+    "asomó",
+    "emergió",
+    "se presentó",
+    "brotó",
+    "manifestó"
+  ],
+  "aparecía": [
+    "surgía",
+    "asomaba",
+    "emergía",
+    "se presentaba",
+    "brotaba"
+  ],
+  "acarició": [
+    "rozó",
+    "mimó",
+    "frotó",
+    "halagó",
+    "tentó",
+    "palpó"
+  ],
+  "acariciaba": [
+    "rozaba",
+    "mimaba",
+    "frotaba",
+    "palpaba",
+    "recorría"
+  ],
+  "enfureció": [
+    "enojó",
+    "irritó",
+    "exasperó",
+    "indignó",
+    "encolerizó",
+    "excitó"
+  ],
+  "enfurecía": [
+    "enojaba",
+    "irritaba",
+    "exasperaba",
+    "indignaba",
+    "encolerizaba"
+  ],
+  "sospecha": [
+    "recela",
+    "conjetura",
+    "supone",
+    "desconfía",
+    "intuye",
+    "teme"
+  ],
+  "ayudaba": [
+    "asistía",
+    "auxiliaba",
+    "socorría",
+    "apoyaba",
+    "colaboraba"
+  ],
+  "olvidaba": [
+    "descuidaba",
+    "omitía",
+    "relegaba",
+    "desatendía"
+  ],
+  "recordó": [
+    "evocó",
+    "rememoró",
+    "mencionó",
+    "citó",
+    "recapituló"
+  ],
+  "recordaba": [
+    "evocaba",
+    "rememoraba",
+    "añoraba",
+    "tenía presente"
+  ],
+  "soportaba": [
+    "aguantaba",
+    "resistía",
+    "toleraba",
+    "sobrellevaba"
+  ],
+  "logró": [
+    "alcanzó",
+    "obtuvo",
+    "consiguió",
+    "ganó",
+    "conquistó",
+    "realizó"
+  ],
+  "lograba": [
+    "alcanzaba",
+    "obtenía",
+    "consiguía",
+    "conquistaba"
+  ],
+  "advertía": [
+    "notaba",
+    "percibía",
+    "observaba",
+    "reparaba",
+    "avisaba",
+    "prevenía"
+  ],
+  "exclamaba": [
+    "gritaba",
+    "vociferaba",
+    "proclamaba",
+    "espetaba",
+    "anunciaba"
+  ],
+  "sonrió": [
+    "rio",
+    "muequeó",
+    "festejó",
+    "gració",
+    "carajeó"
+  ],
+  "sonreía": [
+    "reía",
+    "festejaba",
+    "celebraba",
+    "mostraba alegría"
+  ],
+  "apresuró": [
+    "aceleró",
+    "agilizó",
+    "urgió",
+    "adelantó",
+    "corrió"
+  ],
+  "apresuraba": [
+    "aceleraba",
+    "agilizaba",
+    "urgía",
+    "adelantaba"
+  ],
+  "temía": [
+    "recelaba",
+    "sospechaba",
+    "desconfiaba",
+    "se asustaba"
+  ],
+  "sacudió": [
+    "agitó",
+    "movió",
+    "golpeó",
+    "conmovió",
+    "alteró"
+  ],
+  "sacudía": [
+    "agitaba",
+    "movía",
+    "golpeaba",
+    "conmovía"
+  ],
+  "surgió": [
+    "apareció",
+    "emergió",
+    "asomó",
+    "brotó",
+    "nació"
+  ],
+  "surgía": [
+    "aparecía",
+    "emergía",
+    "asomaba",
+    "brotaba"
+  ],
+  "reprender": [
+    "corregir",
+    "regañar",
+    "amonestar",
+    "reprochar",
+    "censurar",
+    "reñir"
+  ],
+  "reprendió": [
+    "corrigió",
+    "regañó",
+    "amonestó",
+    "reprochó",
+    "riñó"
+  ],
+  "terca": [
+    "obstinada",
+    "testaruda",
+    "pertinaz",
+    "cabezona",
+    "reacia"
+  ],
+  "grosera": [
+    "descortés",
+    "maleducada",
+    "tosca",
+    "incivil",
+    "insolente"
+  ],
+  "respondona": [
+    "contestataria",
+    "insolente",
+    "deslenguada",
+    "replicadora"
+  ],
+  "limpieza": [
+    "aseo",
+    "higiene",
+    "pulcritud",
+    "saneamiento",
+    "lavado"
+  ],
+  "sucio": [
+    "manchado",
+    "mugriento",
+    "puerco",
+    "impuro",
+    "desaseado"
+  ],
+  "mordisco": [
+    "dentellada",
+    "mordedura",
+    "muesca",
+    "presa"
+  ],
+  "patada": [
+    "puntapié",
+    "coz",
+    "golpe",
+    "impacto"
+  ],
+  "cuento": [
+    "relato",
+    "historia",
+    "fábula",
+    "narración",
+    "leyenda"
+  ],
+  "crecía": [
+    "aumentaba",
+    "desarrollaba",
+    "maduraba",
+    "agrandaba",
+    "progresaba"
+  ],
+  "ayudara": [
+    "asistiera",
+    "auxiliara",
+    "colaborara",
+    "apoyara",
+    "socorriera"
+  ],
+  "buscara": [
+    "rastreara",
+    "indagara",
+    "localizara",
+    "escudriñara"
+  ],
+  "cediendo": [
+    "claudicando",
+    "transigiendo",
+    "consintiendo",
+    "abandonando",
+    "capitulando"
+  ],
+  "desconsoladamente": [
+    "angustiadamente",
+    "amargamente",
+    "profundamente",
+    "inconsolablemente"
+  ],
+  "consejo": [
+    "sugerencia",
+    "recomendación",
+    "advertencia",
+    "parecer",
+    "exhortación"
+  ],
+  "angustiada": [
+    "atribulada",
+    "afligida",
+    "preocupada",
+    "ansiosa",
+    "atormentada"
+  ],
+  "irrespetuosa": [
+    "insolente",
+    "atrevida",
+    "descortés",
+    "desvergonzada",
+    "irreverente"
+  ],
+  "ademán": [
+    "gesto",
+    "seña",
+    "movimiento",
+    "mueca",
+    "actitud"
+  ],
+  "asintió": [
+    "confirmó",
+    "aprobó",
+    "aceptó",
+    "corroboró",
+    "admitió"
+  ],
+  "comportamiento": [
+    "conducta",
+    "proceder",
+    "actuación",
+    "hábito",
+    "manera"
+  ],
+  "tirana": [
+    "dictadora",
+    "déspota",
+    "opresora",
+    "dominante",
+    "autoritaria"
+  ],
+  "correcto": [
+    "adecuado",
+    "justo",
+    "apropiado",
+    "debido",
+    "íntegro"
+  ],
+  "obrando": [
+    "actuando",
+    "procediendo",
+    "haciendo",
+    "ejecutando",
+    "gestionando"
+  ],
+  "remediar": [
+    "solucionar",
+    "subsanar",
+    "corregir",
+    "reparar",
+    "aliviar"
+  ],
+  "veían": [
+    "observaban",
+    "divisaban",
+    "distinguían",
+    "avistaban",
+    "percibían",
+    "contemplaban"
+  ],
+  "creía": [
+    "pensaba",
+    "opinaba",
+    "consideraba",
+    "juzgaba",
+    "suponía",
+    "estimaba",
+    "asumía"
+  ],
+  "creían": [
+    "pensaban",
+    "opinaban",
+    "consideraban",
+    "juzgaban",
+    "suponían",
+    "estimaban"
+  ],
+  "suponía": [
+    "conjeturaba",
+    "presumía",
+    "creía",
+    "sospechaba",
+    "hipotetizaba",
+    "intuía"
+  ],
+  "parecía": [
+    "aparentaba",
+    "semejaba",
+    "figuraba",
+    "asomaba",
+    "resultaba"
+  ],
+  "sabía": [
+    "conocía",
+    "dominaba",
+    "entendía",
+    "ignoraba",
+    "recordaba"
+  ],
+  "intentó": [
+    "procuró",
+    "trató",
+    "pretendió",
+    "ensayó",
+    "tentó",
+    "esforzó"
+  ],
+  "intentaba": [
+    "procuraba",
+    "trataba",
+    "pretendía",
+    "ensayaba",
+    "se esforzaba"
+  ],
+  "corría": [
+    "trotaba",
+    "galopaba",
+    "se apresuraba",
+    "fluía",
+    "deslizaba"
+  ],
+  "saltaba": [
+    "brincaba",
+    "rebotaba",
+    "repicaba",
+    "ondulaba"
+  ],
+  "caía": [
+    "descendía",
+    "goteaba",
+    "derrumbaba",
+    "se hundía"
+  ],
+  "subió": [
+    "ascendió",
+    "escaló",
+    "elevó",
+    "trepó",
+    "montó"
+  ],
+  "subía": [
+    "ascendía",
+    "elevaba",
+    "trepaba",
+    "incrementaba"
+  ],
+  "bajó": [
+    "descendió",
+    "aminoró",
+    "inclinó",
+    "humilló",
+    "agachó"
+  ],
+  "bajaba": [
+    "descendía",
+    "caía",
+    "aminoraba",
+    "se deslizaba"
+  ],
+  "morder": [
+    "dentellar",
+    "mordiscar",
+    "hincar",
+    "roer",
+    "masticar",
+    "clavar"
+  ],
+  "mordió": [
+    "dentelló",
+    "mordiscó",
+    "hincó",
+    "royó",
+    "masticó",
+    "clavó"
+  ],
+  "mordía": [
+    "dentellaba",
+    "mordiscaba",
+    "hincaba",
+    "roía",
+    "masticaba"
+  ],
+  "suave": [
+    "terso",
+    "sedoso",
+    "aterciopelado",
+    "fino",
+    "delicado",
+    "liso"
+  ],
+  "suavemente": [
+    "delicadamente",
+    "ligeramente",
+    "tenuemente",
+    "sutilmente",
+    "apaciblemente"
+  ],
+  "áspero": [
+    "rugoso",
+    "craso",
+    "tosco",
+    "rasposo",
+    "irregular"
+  ],
+  "rozar": [
+    "tocar",
+    "frotar",
+    "raspar",
+    "acariciar",
+    "lindar"
+  ],
+  "rozó": [
+    "tocó",
+    "frotó",
+    "raspó",
+    "acarició",
+    "lindó"
+  ],
+  "rozaba": [
+    "tocaba",
+    "frotaba",
+    "raspaba",
+    "acariciaba",
+    "lindaba"
+  ],
+  "apretaba": [
+    "presionaba",
+    "oprimía",
+    "estrujaba",
+    "comprimía"
+  ],
+  "susurraba": [
+    "murmuraba",
+    "musitaba",
+    "bisbiceaba",
+    "mascullaba"
+  ],
+  "gritó": [
+    "exclamó",
+    "vociferó",
+    "chilló",
+    "bramó",
+    "alzó la voz"
+  ],
+  "gritaba": [
+    "vociferaba",
+    "chillaba",
+    "bramaba",
+    "escandalizaba"
+  ],
+  "estruendo": [
+    "estrépito",
+    "fragor",
+    "estallido",
+    "retumbe",
+    "ruido"
+  ],
+  "brilló": [
+    "relució",
+    "resplandeció",
+    "centelleó",
+    "refulgió",
+    "destelló"
+  ],
+  "brillaba": [
+    "relucía",
+    "resplandecía",
+    "centelleaba",
+    "refulgía",
+    "irradiaba"
+  ],
+  "iluminó": [
+    "alumbró",
+    "esclareció",
+    "bañó de luz",
+    "encendió",
+    "irradió"
+  ],
+  "oscuridad": [
+    "tinieblas",
+    "penumbra",
+    "sombra",
+    "negrura",
+    "lobreguez"
+  ],
+  "tenue": [
+    "débil",
+    "suave",
+    "delicado",
+    "borroso",
+    "vago"
+  ],
+  "resplandor": [
+    "fulgor",
+    "destello",
+    "claridad",
+    "reflejo",
+    "brillo"
+  ],
+  "rojo": [
+    "carmesí",
+    "escarlata",
+    "rubí",
+    "granate",
+    "bermejo",
+    "rojizo",
+    "sangre",
+    "encarnado"
+  ],
+  "azul": [
+    "celeste",
+    "índigo",
+    "zafiro",
+    "cobalto",
+    "marino",
+    "añil",
+    "azulado",
+    "turquesa"
+  ],
+  "verde": [
+    "esmeralda",
+    "jade",
+    "oliva",
+    "musgo",
+    "menta",
+    "verdoso",
+    "clorofila",
+    "viridian"
+  ],
+  "amarillo": [
+    "dorado",
+    "áureo",
+    "ocre",
+    "ámbar",
+    "canario",
+    "miel",
+    "pálido",
+    "luminoso"
+  ],
+  "negro": [
+    "oscuro",
+    "azabache",
+    "ébano",
+    "tenebroso",
+    "sombrío",
+    "carbón",
+    "opaco",
+    "noche"
+  ],
+  "blanco": [
+    "inmaculado",
+    "níveo",
+    "pálido",
+    "albino",
+    "marfil",
+    "plateado",
+    "puro",
+    "cándido"
+  ],
+  "gris": [
+    "ceniza",
+    "plomizo",
+    "apagado",
+    "pizarra",
+    "perla",
+    "neblinoso",
+    "neutro",
+    "acerado"
+  ],
+  "morado": [
+    "violeta",
+    "lila",
+    "púrpura",
+    "lavanda",
+    "malva",
+    "amatista",
+    "violáceo",
+    "berenjena"
+  ],
+  "rosa": [
+    "rosado",
+    "carmín",
+    "salmón",
+    "rubicundo",
+    "sonrosado",
+    "fucsia",
+    "pétalo",
+    "rubor"
+  ],
+  "naranja": [
+    "anaranjado",
+    "ámbar",
+    "cobrizo",
+    "cítrico",
+    "melocotón",
+    "teja",
+    "bronce",
+    "cobre"
+  ],
+  "marrón": [
+    "café",
+    "castaño",
+    "ocre",
+    "pardo",
+    "terroso",
+    "avellana",
+    "chocolate",
+    "sepia"
+  ],
+  "dorado": [
+    "áureo",
+    "esplendente",
+    "suntuoso",
+    "reluciente",
+    "radiante",
+    "glorioso",
+    "brillante"
+  ],
+  "plateado": [
+    "argénteo",
+    "metálico",
+    "nacarado",
+    "acerado",
+    "lustroso",
+    "brillante",
+    "espejado"
+  ],
+  "madre": [
+    "mamá",
+    "progenitora",
+    "matriarca",
+    "mami",
+    "genitora",
+    "materna",
+    "ascendiente"
+  ],
+  "padre": [
+    "papá",
+    "progenitor",
+    "patriarca",
+    "papi",
+    "genitor",
+    "paterno",
+    "ascendiente"
+  ],
+  "hijo": [
+    "vástago",
+    "descendiente",
+    "heredero",
+    "retoño",
+    "criatura",
+    "prole",
+    "sucesor"
+  ],
+  "hermano": [
+    "sibling",
+    "mellizo",
+    "gemelo",
+    "hermandad",
+    "igual",
+    "compañero de sangre",
+    "par"
+  ],
+  "abuelo": [
+    "anciano",
+    "patriarca",
+    "mayor",
+    "ancestro",
+    "vejete",
+    "bisabuelo",
+    "antepasado"
+  ],
+  "esposo": [
+    "cónyuge",
+    "consorte",
+    "compañero",
+    "pareja",
+    "marido",
+    "conviviente",
+    "prometido"
+  ],
+  "esposa": [
+    "cónyuge",
+    "consorte",
+    "compañera",
+    "pareja",
+    "mujer",
+    "conviviente",
+    "prometida"
+  ],
+  "novio": [
+    "prometido",
+    "pretendiente",
+    "enamorado",
+    "amante",
+    "galán",
+    "admirador",
+    "cortejador"
+  ],
+  "novia": [
+    "prometida",
+    "pretendida",
+    "enamorada",
+    "amante",
+    "adorada",
+    "amada",
+    "cortejada"
+  ],
+  "árbol": [
+    "roble",
+    "cedro",
+    "pino",
+    "arbusto",
+    "tronco",
+    "vegetal",
+    "ejemplar",
+    "espécimen"
+  ],
+  "flor": [
+    "pétalo",
+    "capullo",
+    "botón",
+    "floración",
+    "blossoming",
+    "planta",
+    "fragancia",
+    "corola"
+  ],
+  "río": [
+    "corriente",
+    "cauce",
+    "arroyo",
+    "afluente",
+    "caudal",
+    "riachuelo",
+    "torrente",
+    "riada"
+  ],
+  "mar": [
+    "océano",
+    "aguas",
+    "piélago",
+    "abismo",
+    "profundidad",
+    "oleaje",
+    "pleamar",
+    "maremágnum"
+  ],
+  "montaña": [
+    "monte",
+    "cumbre",
+    "cima",
+    "pico",
+    "serranía",
+    "cordillera",
+    "altura",
+    "macizo"
+  ],
+  "bosque": [
+    "selva",
+    "arboleda",
+    "floresta",
+    "fronda",
+    "espesura",
+    "jungla",
+    "maraña",
+    "foresta"
+  ],
+  "cielo": [
+    "firmamento",
+    "bóveda celeste",
+    "éter",
+    "espacio",
+    "infinito",
+    "horizonte",
+    "empíreo"
+  ],
+  "estrella": [
+    "astro",
+    "lucero",
+    "fulgente",
+    "constelación",
+    "luz",
+    "destello",
+    "luminaria"
+  ],
+  "luna": [
+    "satélite",
+    "plenilunio",
+    "creciente",
+    "menguante",
+    "lunación",
+    "luminar",
+    "selenio"
+  ],
+  "tierra": [
+    "suelo",
+    "terreno",
+    "piso",
+    "polvo",
+    "arcilla",
+    "humus",
+    "sustrato",
+    "barro"
+  ],
+  "piedra": [
+    "roca",
+    "guijarro",
+    "canto",
+    "peñasco",
+    "pedregal",
+    "granito",
+    "mineral",
+    "escombro"
+  ],
+  "hoja": [
+    "follaje",
+    "fronda",
+    "lámina",
+    "verdor",
+    "hojita",
+    "vegetal",
+    "frondosidad"
+  ],
+  "raíz": [
+    "origen",
+    "base",
+    "fundamento",
+    "cimiento",
+    "principio",
+    "cepa",
+    "rizoma",
+    "sostén"
+  ],
+  "agua": [
+    "líquido",
+    "fluido",
+    "corriente",
+    "humedad",
+    "rocío",
+    "aguacero",
+    "manantial",
+    "cristal"
+  ],
+  "lluvia": [
+    "aguacero",
+    "chubasco",
+    "precipitación",
+    "diluvio",
+    "llovizna",
+    "temporal",
+    "chaparrón"
+  ],
+  "sol": [
+    "astro",
+    "luz solar",
+    "brillo",
+    "claridad",
+    "fulgor",
+    "irradiación",
+    "astro rey"
+  ],
+  "viento": [
+    "brisa",
+    "soplo",
+    "ráfaga",
+    "vendaval",
+    "huracán",
+    "corriente",
+    "aire",
+    "torbellino"
+  ],
+  "nieve": [
+    "escarcha",
+    "hielo",
+    "ventisca",
+    "cristales",
+    "blancura",
+    "copos",
+    "helada",
+    "aguanieve"
+  ],
+  "tormenta": [
+    "tempestad",
+    "temporal",
+    "galerna",
+    "tifón",
+    "vendaval",
+    "borrasca",
+    "ciclón"
+  ],
+  "niebla": [
+    "neblina",
+    "bruma",
+    "vapor",
+    "vaho",
+    "calima",
+    "penumbra",
+    "veladura",
+    "nubosidad"
+  ],
+  "nube": [
+    "cúmulo",
+    "celaje",
+    "vapor",
+    "sombra",
+    "nublado",
+    "nimbo",
+    "estrato",
+    "cirro"
+  ],
+  "trueno": [
+    "estruendo",
+    "retumbo",
+    "fragor",
+    "estrépito",
+    "resonancia",
+    "tronada",
+    "retumbido"
+  ],
+  "relámpago": [
+    "rayo",
+    "fulgor",
+    "destello",
+    "centelleo",
+    "fogonazo",
+    "chispa",
+    "resplandor"
+  ],
+  "mano": [
+    "palma",
+    "puño",
+    "zarpa",
+    "garra",
+    "apéndice",
+    "extremidad",
+    "diestra",
+    "siniestra"
+  ],
+  "ojo": [
+    "pupila",
+    "mirada",
+    "iris",
+    "retina",
+    "vista",
+    "orbe",
+    "globo ocular",
+    "órgano visual"
+  ],
+  "nariz": [
+    "olfato",
+    "pituitaria",
+    "trompa",
+    "morro",
+    "hocico",
+    "tabique nasal",
+    "narices"
+  ],
+  "boca": [
+    "labios",
+    "jeta",
+    "abertura",
+    "cavidad oral",
+    "fauces",
+    "orificio",
+    "trompa"
+  ],
+  "pie": [
+    "extremidad",
+    "pata",
+    "planta",
+    "casco",
+    "pezuña",
+    "apoyo",
+    "base",
+    "talón"
+  ],
+  "pierna": [
+    "extremidad",
+    "pata",
+    "muslo",
+    "pantorrilla",
+    "miembro",
+    "canilla",
+    "zanca"
+  ],
+  "frente": [
+    "sien",
+    "testa",
+    "parietal",
+    "faz",
+    "cara anterior",
+    "parte delantera",
+    "ceja"
+  ],
+  "alto": [
+    "elevado",
+    "erguido",
+    "imponente",
+    "encumbrado",
+    "espigado",
+    "esbelto",
+    "colosal",
+    "eminente"
+  ],
+  "bajo": [
+    "pequeño",
+    "enano",
+    "corto",
+    "menudo",
+    "chico",
+    "diminuto",
+    "achaparrado",
+    "inferior"
+  ],
+  "gordo": [
+    "obeso",
+    "rollizo",
+    "corpulento",
+    "voluminoso",
+    "fornido",
+    "robusto",
+    "grueso",
+    "carnoso"
+  ],
+  "delgado": [
+    "flaco",
+    "esbelto",
+    "fino",
+    "enjuto",
+    "magro",
+    "estilizado",
+    "liviano",
+    "esquelético"
+  ],
+  "limpio": [
+    "pulcro",
+    "aseado",
+    "nítido",
+    "impecable",
+    "reluciente",
+    "inmaculado",
+    "higiénico"
+  ],
+  "oscuro": [
+    "tenebroso",
+    "sombrío",
+    "lúgubre",
+    "negro",
+    "nublado",
+    "velado",
+    "opaco",
+    "penumbroso"
+  ],
+  "ira": [
+    "furia",
+    "rabia",
+    "cólera",
+    "indignación",
+    "arrebato",
+    "berrinche",
+    "exasperación",
+    "encono"
+  ],
+  "enojo": [
+    "molestia",
+    "irritación",
+    "disgusto",
+    "cabreo",
+    "enfado",
+    "berrinche",
+    "resentimiento"
+  ],
+  "odio": [
+    "rencor",
+    "aversión",
+    "hostilidad",
+    "animadversión",
+    "antipatía",
+    "desprecio",
+    "aborrecimiento"
+  ],
+  "nostalgia": [
+    "añoranza",
+    "melancolía",
+    "morriña",
+    "reminiscencia",
+    "evocación",
+    "pena",
+    "languidez"
+  ],
+  "vergüenza": [
+    "rubor",
+    "sonrojo",
+    "bochorno",
+    "pudor",
+    "humillación",
+    "oprobio",
+    "deshonra"
+  ],
+  "culpa": [
+    "remordimiento",
+    "cargo de conciencia",
+    "arrepentimiento",
+    "pesar",
+    "responsabilidad"
+  ],
+  "orgullo": [
+    "vanidad",
+    "soberbia",
+    "altivez",
+    "dignidad",
+    "honra",
+    "autoestima",
+    "arrogancia"
+  ],
+  "celos": [
+    "envidia",
+    "desconfianza",
+    "posesividad",
+    "recelo",
+    "suspicacia",
+    "rivalidad"
+  ],
+  "envidia": [
+    "codicia",
+    "ambición",
+    "celos",
+    "resentimiento",
+    "animadversión",
+    "avaricia"
+  ],
+  "asco": [
+    "repulsión",
+    "náusea",
+    "repugnancia",
+    "aversión",
+    "horror",
+    "rechazo",
+    "indignación"
+  ],
+  "aburrimiento": [
+    "hastío",
+    "tedio",
+    "monotonía",
+    "desgana",
+    "inercia",
+    "apatía",
+    "sopor"
+  ],
+  "sorpresa": [
+    "asombro",
+    "estupefacción",
+    "estupor",
+    "impacto",
+    "desconcierto",
+    "conmoción"
+  ],
+  "espacio": [
+    "lugar",
+    "sitio",
+    "vacío",
+    "dimensión",
+    "extensión",
+    "cosmos",
+    "universo",
+    "ámbito"
+  ],
+  "verdad": [
+    "certeza",
+    "realidad",
+    "evidencia",
+    "veracidad",
+    "autenticidad",
+    "franqueza",
+    "exactitud"
+  ],
+  "mentira": [
+    "falsedad",
+    "engaño",
+    "patraña",
+    "embuste",
+    "ficción",
+    "trampa",
+    "farsa",
+    "fingimiento"
+  ],
+  "guerra": [
+    "conflicto",
+    "batalla",
+    "contienda",
+    "lucha",
+    "combate",
+    "enfrentamiento",
+    "pugna"
+  ],
+  "muerte": [
+    "fallecimiento",
+    "deceso",
+    "óbito",
+    "tránsito",
+    "expiración",
+    "fin",
+    "extinción"
+  ],
+  "tocar": [
+    "palpar",
+    "rozar",
+    "acariciar",
+    "tentar",
+    "manosear",
+    "contactar",
+    "presionar"
+  ],
+  "oler": [
+    "olfatear",
+    "husmear",
+    "aspirar",
+    "inhalar",
+    "percibir",
+    "detectar",
+    "rastrear"
+  ],
+  "probar": [
+    "degustar",
+    "saborear",
+    "catar",
+    "experimentar",
+    "ensayar",
+    "intentar",
+    "testear"
+  ],
+  "susurrar": [
+    "murmurar",
+    "musitar",
+    "balbucear",
+    "cuchichear",
+    "sisear",
+    "bisbisear"
+  ],
+  "saltar": [
+    "brincar",
+    "botar",
+    "rebotar",
+    "impulsarse",
+    "elevarse",
+    "dar un salto"
+  ],
+  "nadar": [
+    "chapotear",
+    "bracear",
+    "flotar",
+    "sumergirse",
+    "bucear",
+    "surcar",
+    "atravesar"
+  ],
+  "volar": [
+    "planear",
+    "elevarse",
+    "surcar",
+    "sobrevolar",
+    "ascender",
+    "alzar vuelo",
+    "flotar"
+  ],
+  "agarrar": [
+    "asir",
+    "coger",
+    "tomar",
+    "sujetar",
+    "sostener",
+    "aprehender",
+    "pillar",
+    "capturar"
+  ],
+  "soltar": [
+    "liberar",
+    "aflojar",
+    "desatar",
+    "librar",
+    "desprender",
+    "eximir",
+    "dejar ir"
+  ],
+  "unir": [
+    "juntar",
+    "ligar",
+    "conectar",
+    "fusionar",
+    "atar",
+    "enlazar",
+    "vincular",
+    "cohesionar"
+  ],
+  "casa": [
+    "hogar",
+    "morada",
+    "domicilio",
+    "vivienda",
+    "residencia",
+    "refugio",
+    "cobijo",
+    "mansión"
+  ],
+  "puerta": [
+    "portal",
+    "entrada",
+    "acceso",
+    "umbral",
+    "pasaje",
+    "abertura",
+    "vano",
+    "portón"
+  ],
+  "ventana": [
+    "abertura",
+    "vano",
+    "ojo",
+    "claraboya",
+    "tragaluz",
+    "vidrio",
+    "mirilla"
+  ],
+  "cuarto": [
+    "habitación",
+    "aposento",
+    "estancia",
+    "alcoba",
+    "dormitorio",
+    "cámara",
+    "sala"
+  ],
+  "pueblo": [
+    "aldea",
+    "villa",
+    "caserío",
+    "localidad",
+    "vecindad",
+    "comunidad",
+    "arrabal"
+  ],
+  "día": [
+    "jornada",
+    "diurno",
+    "claridad",
+    "vigilia",
+    "amanecer",
+    "mañana",
+    "sol"
+  ],
+  "instante": [
+    "momento",
+    "segundo",
+    "parpadeo",
+    "destello",
+    "brevedad",
+    "flash",
+    "lapso"
+  ],
+  "siempre": [
+    "eternamente",
+    "perpetuamente",
+    "constantemente",
+    "invariablemente",
+    "sin cesar"
+  ],
+  "nunca": [
+    "jamás",
+    "en ningún momento",
+    "de ningún modo",
+    "ni por asomo",
+    "en absoluto"
+  ],
+  "alejar": [
+    "distanciar",
+    "separar",
+    "apartar",
+    "retirar",
+    "expulsar",
+    "desplazar",
+    "relegar",
+    "desterrar"
+  ],
+  "dispersar": [
+    "esparcir",
+    "diseminar",
+    "desparramar",
+    "fragmentar",
+    "disgregarse",
+    "desperdigar",
+    "disolver"
+  ],
+  "desvanecerse": [
+    "diluirse",
+    "esfumarse",
+    "evaporarse",
+    "difuminarse",
+    "extinguirse",
+    "borrarse",
+    "perderse"
+  ],
+  "acercar": [
+    "aproximar",
+    "arrimar",
+    "juntar",
+    "acortar",
+    "atraer",
+    "avanzar",
+    "traer",
+    "conectar"
+  ],
+  "aproximar": [
+    "acercar",
+    "arrimar",
+    "reducir distancia",
+    "estrechar",
+    "traer cerca",
+    "avanzar"
+  ],
+  "distancia": [
+    "separación",
+    "lejanía",
+    "espacio",
+    "intervalo",
+    "brecha",
+    "amplitud",
+    "extensión",
+    "trecho"
+  ],
+  "lejanía": [
+    "distancia",
+    "remotidad",
+    "alejamiento",
+    "profundidad",
+    "horizonte",
+    "confín",
+    "lontananza"
+  ],
+  "cercanía": [
+    "proximidad",
+    "inmediatez",
+    "vecindad",
+    "contigüidad",
+    "adyacencia",
+    "colindancia"
+  ],
+  "separación": [
+    "distancia",
+    "brecha",
+    "abismo",
+    "fisura",
+    "intervalo",
+    "grieta",
+    "escisión",
+    "ruptura"
+  ],
+  "brecha": [
+    "abertura",
+    "fisura",
+    "grieta",
+    "abismo",
+    "separación",
+    "hendidura",
+    "vacío",
+    "espacio"
+  ],
+  "trecho": [
+    "tramo",
+    "trayecto",
+    "recorrido",
+    "espacio",
+    "distancia",
+    "intervalo",
+    "segmento"
+  ],
+  "lejos": [
+    "lejano",
+    "distante",
+    "remoto",
+    "apartado",
+    "retirado",
+    "recóndito",
+    "inaccesible",
+    "extraviado"
+  ],
+  "lejano": [
+    "distante",
+    "remoto",
+    "apartado",
+    "retirado",
+    "recóndito",
+    "inaccesible",
+    "perdido"
+  ],
+  "distante": [
+    "lejano",
+    "remoto",
+    "apartado",
+    "frío",
+    "indiferente",
+    "esquivo",
+    "retirado",
+    "ajeno"
+  ],
+  "recóndito": [
+    "oculto",
+    "escondido",
+    "remoto",
+    "ignoto",
+    "inaccesible",
+    "secreto",
+    "profundo",
+    "insondable"
+  ],
+  "cerca": [
+    "cercano",
+    "próximo",
+    "adyacente",
+    "contiguo",
+    "colindante",
+    "vecino",
+    "junto",
+    "pegado"
+  ],
+  "cercano": [
+    "próximo",
+    "adyacente",
+    "contiguo",
+    "inmediato",
+    "vecino",
+    "aledaño",
+    "lindante",
+    "colindante"
+  ],
+  "próximo": [
+    "cercano",
+    "adyacente",
+    "contiguo",
+    "inmediato",
+    "inminente",
+    "vecino",
+    "colindante"
+  ],
+  "adyacente": [
+    "contiguo",
+    "colindante",
+    "lindante",
+    "aledaño",
+    "vecino",
+    "pegado",
+    "próximo"
+  ],
+  "contiguo": [
+    "adyacente",
+    "colindante",
+    "lindante",
+    "inmediato",
+    "pegado",
+    "junto",
+    "fronterizo"
+  ],
+  "aquí": [
+    "acá",
+    "en este lugar",
+    "en este punto",
+    "en este sitio",
+    "junto a mí",
+    "presente"
+  ],
+  "allá": [
+    "allí",
+    "en aquel lugar",
+    "en aquel punto",
+    "en ese sitio",
+    "lejos",
+    "a lo lejos"
+  ],
+  "dentro": [
+    "adentro",
+    "en el interior",
+    "en el centro",
+    "internamente",
+    "en las entrañas",
+    "al fondo"
+  ],
+  "fuera": [
+    "afuera",
+    "en el exterior",
+    "externamente",
+    "al aire libre",
+    "en la superficie",
+    "fuera de"
+  ]
+}

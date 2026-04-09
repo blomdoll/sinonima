@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinónima</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Sinónima</h1>
+  <span>editor con sinónimos en tiempo real</span>
+</header>
+
+<div class="workspace">
+  <div class="editor-pane">
+    <div class="editor-toolbar">
+      <div class="word-count" id="wordCount">0 palabras</div>
+      <button class="copy-btn" id="copyBtn">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="5" y="5" width="9" height="9" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2H3.5A1.5 1.5 0 0 0 2 3.5V9.5A1.5 1.5 0 0 0 3.5 11H5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        Copiar texto
+      </button>
+    </div>
+    <textarea id="editor" placeholder="Empieza a escribir… cada vez que pausas, el panel derecho muestra sinónimos de tu última palabra."></textarea>
+    <div class="active-word-display" id="activeWordDisplay">
+      Buscando sinónimos de: <strong id="activeWordLabel"></strong>
+    </div>
+  </div>
+
+  <div class="syn-pane">
+    <div class="syn-header">
+      <p>Sinónimos de</p>
+      <div class="current-word" id="currentWord">—</div>
+    </div>
+    <div class="syn-list" id="synList">
+      <div class="syn-empty">Escribe algo para ver sinónimos aquí.</div>
+    </div>
+    <div class="tip">
+      Haz <span>click</span> en un sinónimo para reemplazarlo en el texto
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+  let lastWord = '';
+  let lastSynonyms = [];
+  let debounceTimer = null;
+  let DICC = null;
+
+  const editor = document.getElementById('editor');
+  const currentWord = document.getElementById('currentWord');
+  const synList = document.getElementById('synList');
+  const wordCount = document.getElementById('wordCount');
+  const activeDisplay = document.getElementById('activeWordDisplay');
+  const activeLabel = document.getElementById('activeWordLabel');
+  const toast = document.getElementById('toast');
+
+  function normalizar(texto) {
+    if (!texto) return '';
+    return texto
+      .toLowerCase()
+      .trim()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+  }
+
+  const jsonUrl = new URL('sinonimos.json', window.location.href).href;
+  
+  fetch(jsonUrl)
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(data => { 
+      DICC = data;
+      console.log('✓ Sinónimos cargados:', Object.keys(DICC).length, 'palabras');
+    })
+    .catch(error => {
+      console.error('✗ Error cargando sinonimos.json:', error);
+      showToast("Error al cargar diccionario", "#e74c3c");
+    });
+
+  editor.addEventListener('input', () => {
+    const text = editor.value;
+    const count = text.trim() === '' ? 0 : text.trim().split(/\s+/).length;
+    wordCount.textContent = `${count} palabra${count !== 1 ? 's' : ''}`;
+
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      const words = text.trim().split(/\s+/);
+      const word = (words[words.length - 1] || '').replace(/[.,;:!?¿¡"'()]+$/, '');
+      
+      if (word && word.toLowerCase() !== lastWord) {
+        lastWord = word.toLowerCase();
+        fetchSynonyms(word);
+      }
+    }, 400); 
+  });
+
+  async function fetchSynonyms(word) {
+    if (!word || word.length < 2 || !DICC) return;
+
+    const palabraBuscada = normalizar(word);
+    activeLabel.textContent = word;
+    activeDisplay.style.display = 'block';
+
+    let resultados = [];
+
+    if (DICC[palabraBuscada]) {
+      resultados = [...DICC[palabraBuscada]];
+    } 
+    
+    else {
+      for (let llave in DICC) {
+        const listaSinonimos = DICC[llave].map(s => normalizar(s));
+        
+        if (listaSinonimos.includes(palabraBuscada)) {
+          resultados.push(llave);
+          DICC[llave].forEach(s => {
+            if (normalizar(s) !== palabraBuscada) resultados.push(s);
+          });
+          break;
+        }
+      }
+    }
+
+    renderSynonyms(resultados, word);
+  }
+
+  function renderSynonyms(synonyms, originalWord) {
+    currentWord.textContent = originalWord;
+    synList.innerHTML = '';
+    activeDisplay.style.display = 'none';
+
+    if (!synonyms || !synonyms.length) {
+      synList.innerHTML = `<div class="syn-empty">No se encontraron sinónimos para <em>${originalWord}</em>.</div>`;
+      return;
+    }
+
+    synonyms.forEach(syn => {
+      const item = document.createElement('div');
+      item.className = 'syn-item';
+
+      const bar = document.createElement('div');
+      bar.className = 'syn-color';
+      bar.style.background = 'var(--accent)';
+
+      const label = document.createElement('div');
+      label.className = 'syn-word';
+      label.textContent = syn;
+
+      const hint = document.createElement('div');
+      hint.className = 'syn-hint';
+      hint.textContent = '↩ usar';
+
+      item.appendChild(bar);
+      item.appendChild(label);
+      item.appendChild(hint);
+      item.addEventListener('click', () => replaceWord(originalWord, syn));
+      synList.appendChild(item);
+    });
+  }
+
+  function replaceWord(original, replacement) {
+    const text = editor.value;
+    const regex = new RegExp(`\\b${escapeRegex(original)}\\b`, 'gi');
+    let lastMatch = null, m;
+    while ((m = regex.exec(text)) !== null) lastMatch = m;
+    
+    if (!lastMatch) {
+      showToast(`No se encontró "${original}"`);
+      return;
+    }
+
+    editor.value = text.slice(0, lastMatch.index) + replacement + text.slice(lastMatch.index + lastMatch[0].length);
+    
+    lastWord = replacement.toLowerCase();
+    editor.dispatchEvent(new Event('input'));
+    showToast(`"${original}" → "${replacement}"`);
+  }
+
+document.getElementById('copyBtn').addEventListener('click', () => {
+  const text = editor.value;
+  if (!text.trim()) {
+    showToast('No hay texto para copiar');
+    return;
+  }
+
+  const btn = document.getElementById('copyBtn');
+  const iconCopy = `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="5" width="9" height="9" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2H3.5A1.5 1.5 0 0 0 2 3.5V9.5A1.5 1.5 0 0 0 3.5 11H5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg> Copiar texto`;
+  const iconCheck = `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><polyline points="2,8 6,12 14,4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Copiado`;
+
+  function confirmar() {
+    btn.classList.add('copied');
+    btn.innerHTML = iconCheck;
+    showToast('Texto copiado al portapapeles');
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerHTML = iconCopy;
+    }, 2000);
+  }
+
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).then(confirmar);
+  } else {
+    // Fallback para file://
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    confirmar();
+  }
+});
+
+  function escapeRegex(str) { return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+  function showToast(msg, bg = null) {
+    toast.textContent = msg;
+    toast.style.background = bg || 'var(--accent)';
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 2200);
+  }
+</script>
+</body>
+</html>
