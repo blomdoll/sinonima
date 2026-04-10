@@ -411,7 +411,10 @@ header {
     white-space: nowrap;
 }
 
-/* Ajuste para que en móviles el texto no se amontone */
+/* Donaciones: visible en escritorio, oculto en móvil */
+.header-actions { display: flex; }
+.donate-mobile  { display: none; }
+
 @media (max-width: 640px) {
     header {
         flex-direction: column;
@@ -421,12 +424,28 @@ header {
     }
 
     .header-actions {
-        flex-direction: column;
-        gap: 0.8rem;
+        display: none; /* se oculta en móvil */
     }
 
     .support-message {
         text-align: center;
         max-width: 100%;
+    }
+}
+
+/* Bloque de donaciones en el footer (solo móvil) */
+.donate-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--border);
+}
+
+@media (max-width: 640px) {
+    .donate-mobile {
+        display: flex;
     }
 }
