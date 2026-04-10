@@ -372,31 +372,40 @@
 }
 
 header {
-    padding: 1.5rem 2.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 1.5rem 0; /* Quitamos padding lateral para controlar las columnas */
     border-bottom: 1px solid var(--border);
+    display: grid;
+    /* La primera columna mide lo mismo que el editor, la segunda como el panel lateral */
+    grid-template-columns: 1fr 280px; 
+}
+
+.header-info {
+    padding-left: 3rem; /* Alineado con el inicio del texto del editor */
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
 }
 
 .header-actions {
+    grid-column: 1; /* Forzamos a que se quede en la columna del editor */
+    justify-self: end; /* Lo empujamos al final de su columna (donde marcaste en rojo) */
+    padding-right: 3rem; /* Alineado con el botón de "Copiar texto" */
     display: flex;
     align-items: center;
-    gap: 1.5rem; /* Espacio entre el texto y el botón */
+    gap: 1.5rem;
 }
 
-.support-message {
+.support-text {
     font-size: 0.65rem;
     color: var(--ink-dim);
-    max-width: 200px; /* Evita que el texto sea muy largo */
     text-align: right;
     line-height: 1.4;
-    letter-spacing: 0.02rem;
+    max-width: 220px;
 }
 
-.support-message strong {
+.support-text strong {
     color: var(--accent);
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .donate-btn {
@@ -407,30 +416,30 @@ header {
     font-size: 0.7rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    border-radius: 2px;
+    transition: all 0.3s ease;
     white-space: nowrap;
 }
 
-/* Ajuste para que en móviles el texto no se amontone */
+.donate-btn:hover {
+    background: var(--accent);
+    color: var(--bg);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+/* Ajuste para que no se amontone en móvil */
 @media (max-width: 640px) {
     header {
+        display: flex;
         flex-direction: column;
-        text-align: center;
-        padding: 1.2rem;
-        gap: 1rem;
+        padding: 1.5rem 1rem;
     }
-
     .header-actions {
-        flex-direction: column;
-        gap: 0.8rem;
+        padding-right: 0;
+        text-align: center;
+        margin-top: 1rem;
     }
-
-    .support-message {
+    .support-text {
         text-align: center;
         max-width: 100%;
-    }
-}
-        padding: 0.8rem;
-        background: var(--syn-bg);
     }
 }
