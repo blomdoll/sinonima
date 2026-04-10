@@ -6797,5 +6797,45 @@
     "concha",
     "parte íntima",
     "flor"
+  ],
+  "caminando": [
+    "andando",
+    "marchando",
+    "paseando",
+    "deambulando",
+    "transitando",
+    "pateando"
+  ],
+  "yendo_deprisa": [
+    "trotando",
+    "apresurando",
+    "correteando",
+    "galopando",
+    "aligerando",
+    "volando"
+  ],
+  "yendo_sin_rumbo": [
+    "vagando",
+    "callejeando",
+    "errando",
+    "boludeando",
+    "paveando",
+    "perdiéndose"
+  ],
+  "caminando_con_dificultad": [
+    "cojeando",
+    "tambaleando",
+    "rastrillando",
+    "arrastrando los pies",
+    "tanteando",
+    "tropezando"
+  ],
+  "explorando": [
+    "recorriendo",
+    "peregrinando",
+    "rumbando",
+    "curioseando",
+    "patrullando",
+    "avanzando"
   ]
 }
