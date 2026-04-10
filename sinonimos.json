@@ -6837,5 +6837,342 @@
     "curioseando",
     "patrullando",
     "avanzando"
+  ],
+  "acariciar": [
+    "rozar",
+    "tocar",
+    "palpar",
+    "frotar",
+    "deslizar",
+    "mimar",
+    "halagar"
+  ],
+  "alegría": [
+    "felicidad",
+    "gozo",
+    "júbilo",
+    "regocijo",
+    "alborozo",
+    "contento",
+    "euforia",
+    "dicha"
+  ],
+  "alma": [
+    "espíritu",
+    "ánima",
+    "ser",
+    "esencia",
+    "interior",
+    "conciencia",
+    "psique"
+  ],
+  "bondadoso": [
+    "generoso",
+    "bueno",
+    "benévolo",
+    "amable",
+    "caritativo",
+    "noble",
+    "compasivo"
+  ],
+  "cobardía": [
+    "timidez",
+    "miedo",
+    "pusilanimidad",
+    "temor",
+    "apocamiento",
+    "pánico",
+    "indecisión"
+  ],
+  "cuerpo": [
+    "figura",
+    "forma",
+    "silueta",
+    "anatomía",
+    "físico",
+    "carnadura",
+    "complexión"
+  ],
+  "debilidad": [
+    "fragilidad",
+    "flaqueza",
+    "delicadeza",
+    "vulnerabilidad",
+    "impotencia",
+    "rendición"
+  ],
+  "despertar": [
+    "levantarse",
+    "espabilarse",
+    "avivar",
+    "excitar",
+    "estimular",
+    "resurgir",
+    "despabilar"
+  ],
+  "disfrutar": [
+    "gozar",
+    "deleitarse",
+    "saborear",
+    "regodearse",
+    "recrearse",
+    "complacerse",
+    "exultar"
+  ],
+  "débil": [
+    "frágil",
+    "delicado",
+    "endeble",
+    "vulnerable",
+    "tenue",
+    "leve",
+    "flojo",
+    "apagado"
+  ],
+  "egoísta": [
+    "interesado",
+    "avaro",
+    "mezquino",
+    "ambicioso",
+    "codicioso",
+    "narcisista",
+    "individualista"
+  ],
+  "elegancia": [
+    "gracia",
+    "distinción",
+    "refinamiento",
+    "porte",
+    "finura",
+    "galanura",
+    "donaire"
+  ],
+  "entregar": [
+    "dar",
+    "ceder",
+    "ofrecer",
+    "otorgar",
+    "confiar",
+    "depositar",
+    "transferir",
+    "proporcionar"
+  ],
+  "envejecer": [
+    "encanecerse",
+    "marchitarse",
+    "decaer",
+    "deteriorarse",
+    "avejentarse",
+    "consumirse"
+  ],
+  "fealdad": [
+    "deformidad",
+    "imperfección",
+    "irregularidad",
+    "tosquedad",
+    "rudeza",
+    "desaliño"
+  ],
+  "gozar": [
+    "disfrutar",
+    "deleitarse",
+    "saborear",
+    "complacerse",
+    "regodearse",
+    "alegrarse",
+    "exultar"
+  ],
+  "gracia": [
+    "elegancia",
+    "donaire",
+    "encanto",
+    "delicadeza",
+    "finura",
+    "galantería",
+    "gentileza"
+  ],
+  "ignorante": [
+    "ingenuo",
+    "desconocedor",
+    "inculto",
+    "iletrado",
+    "novato",
+    "profano",
+    "incauto"
+  ],
+  "iluminar": [
+    "alumbrar",
+    "irradiar",
+    "brillar",
+    "esclarecer",
+    "aclarar",
+    "resplandecer",
+    "encender"
+  ],
+  "injusto": [
+    "arbitrario",
+    "parcial",
+    "desleal",
+    "inequitativo",
+    "abusivo",
+    "corrupto",
+    "caprichoso"
+  ],
+  "mente": [
+    "intelecto",
+    "razón",
+    "pensamiento",
+    "psique",
+    "conciencia",
+    "cerebro",
+    "entendimiento"
+  ],
+  "misterio": [
+    "secreto",
+    "enigma",
+    "incógnita",
+    "arcano",
+    "intriga",
+    "acertijo",
+    "velo"
+  ],
+  "odiar": [
+    "detestar",
+    "aborrecer",
+    "execrar",
+    "repudiar",
+    "maldecir",
+    "rechazar",
+    "despreciar"
+  ],
+  "ofrecer": [
+    "proponer",
+    "brindar",
+    "presentar",
+    "dar",
+    "tender",
+    "otorgar",
+    "donar",
+    "regalar"
+  ],
+  "origen": [
+    "comienzo",
+    "inicio",
+    "raíz",
+    "fuente",
+    "germen",
+    "nacimiento",
+    "procedencia",
+    "cuna"
+  ],
+  "oscurecer": [
+    "ensombrecer",
+    "nublar",
+    "entenebrecer",
+    "anublar",
+    "eclipsar",
+    "opacar",
+    "velar"
+  ],
+  "oír": [
+    "escuchar",
+    "percibir",
+    "distinguir",
+    "captar",
+    "atender",
+    "notar",
+    "auscultar"
+  ],
+  "rabia": [
+    "ira",
+    "furia",
+    "cólera",
+    "enojo",
+    "indignación",
+    "arrebato",
+    "berrinche",
+    "coraje"
+  ],
+  "realidad": [
+    "verdad",
+    "existencia",
+    "hechos",
+    "certeza",
+    "actualidad",
+    "concreción"
+  ],
+  "ruido": [
+    "estrépito",
+    "estruendo",
+    "alboroto",
+    "fragor",
+    "bullicio",
+    "escándalo",
+    "barullo"
+  ],
+  "secreto": [
+    "misterio",
+    "enigma",
+    "arcano",
+    "confidencia",
+    "sigilo",
+    "reserva",
+    "ocultamiento"
+  ],
+  "soñar": [
+    "imaginar",
+    "fantasear",
+    "idear",
+    "desear",
+    "anhelar",
+    "evocar",
+    "vislumbrar"
+  ],
+  "temer": [
+    "asustarse",
+    "aterrarse",
+    "atemorizarse",
+    "inquietarse",
+    "angustiarse",
+    "recelar",
+    "estremecerse"
+  ],
+  "traicionar": [
+    "engañar",
+    "delatar",
+    "vender",
+    "abandonar",
+    "desertar",
+    "claudicar",
+    "fallar"
+  ],
+  "traidor": [
+    "desleal",
+    "infiel",
+    "falso",
+    "traicionero",
+    "pérfido",
+    "hipócrita",
+    "ingrato"
+  ],
+  "valor": [
+    "valentía",
+    "coraje",
+    "audacia",
+    "entereza",
+    "bravura",
+    "heroísmo",
+    "arrojo",
+    "temple"
+  ],
+  "viaje": [
+    "travesía",
+    "recorrido",
+    "periplo",
+    "excursión",
+    "expedición",
+    "ruta",
+    "trayecto",
+    "marcha"
   ]
 }
