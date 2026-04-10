@@ -11,34 +11,17 @@
 </head>
 <body>
 
-<!-- Overlay y drawer lateral (solo móvil) -->
-<div class="drawer-overlay" id="drawerOverlay"></div>
-<nav class="drawer" id="drawer">
-  <div class="drawer-top">
-    <span class="drawer-title">Menú</span>
-    <button class="drawer-theme-toggle" id="drawerThemeToggle" aria-label="Cambiar tema">
-      <svg class="d-moon" viewBox="0 0 24 24" fill="none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <svg class="d-sun" viewBox="0 0 24 24" fill="none" style="display:none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.8"/><line x1="12" y1="2" x2="12" y2="4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="12" y1="20" x2="12" y2="22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="2" y1="12" x2="4" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="20" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-      <span class="d-label">Modo claro</span>
-    </button>
-  </div>
-  <div class="drawer-section">
-    <div class="drawer-section-title">Donaciones</div>
-    <p class="drawer-support-text">Ayúdame a conseguir un <strong>dominio propio</strong> y mantener el sitio activo.</p>
-    <a href="https://ko-fi.com/sageaksnes" target="_blank" class="donate-btn">DONACIONES</a>
-  </div>
-</nav>
-
 <header>
-  <button class="hamburger" id="hamburger" aria-label="Abrir menú">
-    <span></span><span></span><span></span>
-  </button>
   <div class="header-info">
     <h1>Sinónima</h1>
     <span>editor con sinónimos en tiempo real</span>
   </div>
   
   <div class="header-actions">
+    <div class="support-message">
+      Ayúdame a conseguir un <strong>dominio propio</strong> y mantener el sitio activo.
+    </div>
+    <a href="https://ko-fi.com/sageaksnes" target="_blank" class="donate-btn">DONACIONES</a>
     <button class="theme-toggle" id="themeToggle" title="Cambiar tema" aria-label="Cambiar entre modo claro y oscuro">
       <!-- ícono luna (modo oscuro activo) -->
       <svg id="iconMoon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,10 +40,6 @@
         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
       </svg>
     </button>
-    <div class="support-message">
-      Ayúdame a conseguir un <strong>dominio propio</strong> y mantener el sitio activo.
-    </div>
-    <a href="https://ko-fi.com/sageaksnes" target="_blank" class="donate-btn">DONACIONES</a>
   </div>
 </header>
 
@@ -302,39 +281,19 @@ document.getElementById('copyBtn').addEventListener('click', () => {
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('sinonima-theme', theme);
-    // iconos del header (desktop)
-    if (iconMoon) iconMoon.style.display = theme === 'light' ? 'none' : 'block';
-    if (iconSun)  iconSun.style.display  = theme === 'light' ? 'block' : 'none';
-    // iconos del drawer (móvil)
-    const dMoon = document.querySelector('.d-moon');
-    const dSun  = document.querySelector('.d-sun');
-    const dLabel = document.querySelector('.d-label');
-    if (dMoon)  dMoon.style.display  = theme === 'light' ? 'none' : 'block';
-    if (dSun)   dSun.style.display   = theme === 'light' ? 'block' : 'none';
-    if (dLabel) dLabel.textContent   = theme === 'light' ? 'Modo oscuro' : 'Modo claro';
+    if (theme === 'light') {
+      iconMoon.style.display = 'none';
+      iconSun.style.display  = 'block';
+    } else {
+      iconMoon.style.display = 'block';
+      iconSun.style.display  = 'none';
+    }
   }
   
   const savedTheme = localStorage.getItem('sinonima-theme') || 'dark';
   setTheme(savedTheme);
 
   themeToggle.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    setTheme(current === 'light' ? 'dark' : 'light');
-  });
-
-  // ── Drawer ──
-  const hamburger = document.getElementById('hamburger');
-  const drawer    = document.getElementById('drawer');
-  const overlay   = document.getElementById('drawerOverlay');
-  const drawerThemeToggle = document.getElementById('drawerThemeToggle');
-
-  function openDrawer()  { drawer.classList.add('open'); overlay.classList.add('open'); }
-  function closeDrawer() { drawer.classList.remove('open'); overlay.classList.remove('open'); }
-
-  hamburger.addEventListener('click', () => drawer.classList.contains('open') ? closeDrawer() : openDrawer());
-  overlay.addEventListener('click', closeDrawer);
-
-  drawerThemeToggle.addEventListener('click', () => {
     const current = document.documentElement.getAttribute('data-theme');
     setTheme(current === 'light' ? 'dark' : 'light');
   });
