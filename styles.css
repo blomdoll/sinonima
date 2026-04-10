@@ -266,7 +266,7 @@
 }
 
 
-/* ─── Ajuste para móviles: Panel de Sinónimos abajo ─── */
+/* ─── celular ─── */
 @media (max-width: 640px) {
     header {
         padding: 1rem;
@@ -276,15 +276,14 @@
     }
 
     .workspace {
-        /* Cambiamos grid por flex para apilar elementos verticalmente */
         display: flex; 
         flex-direction: column;
         height: 100vh;
-        overflow: hidden; /* Evitamos que la pantalla entera baile */
+        overflow: hidden;
     }
 
     .editor-pane {
-        flex: 1; /* El editor ocupa el espacio de arriba */
+        flex: 1;
         padding: 1rem;
         border-right: none;
         border-bottom: 2px solid var(--border);
@@ -294,16 +293,15 @@
 
     #editor {
         flex-grow: 1;
-        font-size: 16px; /* Evita zoom molesto en iPhone */
+        font-size: 16px; 
         min-height: 200px;
     }
 
     .syn-pane {
-        /* Definimos que el panel de sinónimos esté abajo con un tamaño fijo */
         width: 100%;
         height: 45vh; 
         background: var(--syn-bg);
-        box-shadow: 0 -10px 30px rgba(0,0,0,0.5); /* Sombra para dar profundidad */
+        box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
         z-index: 10;
     }
 
@@ -314,13 +312,12 @@
     }
 
     .syn-list {
-        /* Organizamos los sinónimos en cuadrícula para que no sea una lista infinita */
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
         gap: 0.6rem;
         padding: 1rem;
         overflow-y: auto;
-        height: calc(100% - 60px); /* Ajuste para el scroll interno */
+        height: calc(100% - 60px);
     }
 
     .syn-item {
@@ -332,17 +329,15 @@
     }
 
     .syn-hint {
-        display: none; /* Quitamos el texto "usar" en móvil para ahorrar espacio */
+        display: none;
     }
 
-    /* Ajuste para que el contador de palabras no estorbe */
     .word-count {
         font-size: 0.7rem;
         margin-bottom: 0.5rem;
     }
 }
 
-/* ─── Footer Estilo ─── */
 .main-footer {
     padding: 1rem;
     text-align: center;
@@ -368,10 +363,10 @@
     text-decoration: underline;
 }
 
-/* Ajuste para móvil para que no ocupe demasiado espacio */
+
 @media (max-width: 640px) {
     .main-footer {
         padding: 0.8rem;
-        background: var(--syn-bg); /* Un tono ligeramente distinto para separar */
+        background: var(--syn-bg);
     }
 }
