@@ -390,13 +390,13 @@
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 1.5rem; /* Espacio entre el texto y el botón */
+    gap: 1.5rem;
 }
 
 .support-message {
     font-size: 0.65rem;
     color: var(--ink-dim);
-    max-width: 200px; /* Evita que el texto sea muy largo */
+    max-width: 200px;
     text-align: right;
     line-height: 1.4;
     letter-spacing: 0.02rem;
@@ -419,7 +419,6 @@
     white-space: nowrap;
 }
 
-/* Donaciones: visible en escritorio, oculto en móvil */
 .header-actions { display: flex; }
 .donate-mobile  { display: none; }
 
@@ -432,7 +431,7 @@
     }
 
     .header-actions {
-        display: none; /* se oculta en móvil */
+        display: none; /* se oculta en celu */
     }
 
     .support-message {
@@ -441,7 +440,7 @@
     }
 }
 
-/* Bloque de donaciones en el footer (solo móvil) */
+/* bloque de donaciones en el footer (solo celu) */
 .donate-mobile {
     display: none;
     flex-direction: column;
@@ -458,7 +457,6 @@
     }
 }
 
-/* ─── theme toggle ─── */
 .theme-toggle {
     background: transparent;
     border: 1px solid var(--border);
@@ -484,7 +482,6 @@
     transition: opacity 0.2s ease, transform 0.3s ease;
 }
 
-/* En móvil el toggle va junto al título */
 @media (max-width: 640px) {
     .theme-toggle {
         position: absolute;
