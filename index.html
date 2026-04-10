@@ -12,9 +12,20 @@
 <body>
 
 <header>
-  <h1>Sinónima</h1>
-  <span>editor con sinónimos en tiempo real</span>
+  <div class="header-info">
+    <h1>Sinónima</h1>
+    <span>editor con sinónimos en tiempo real</span>
+  </div>
+  
+  <div class="header-actions">
+    <div class="support-message">
+      Ayúdame a conseguir un <strong>dominio propio</strong> y mantener el sitio activo.
+    </div>
+    <a href="https://ko-fi.com/sageaksnes" target="_blank" class="donate-btn">DONACIONES</a>
+  </div>
 </header>
+
+  <div class="header-right"></div> </header>
 
 <div class="workspace">
   <div class="editor-pane">
@@ -238,6 +249,9 @@ document.getElementById('copyBtn').addEventListener('click', () => {
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 2200);
   }
+</script>
+</body>
+</html>
 </script>
 </body>
 </html>
