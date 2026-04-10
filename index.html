@@ -252,7 +252,7 @@ document.getElementById('copyBtn').addEventListener('click', () => {
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(text).then(confirmar);
   } else {
-    // Fallback para file://
+    
     const textarea = document.createElement('textarea');
     textarea.value = text;
     textarea.style.position = 'fixed';
@@ -273,8 +273,7 @@ document.getElementById('copyBtn').addEventListener('click', () => {
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 2200);
   }
-
-  // ─── Theme toggle ───
+  
   const themeToggle = document.getElementById('themeToggle');
   const iconMoon = document.getElementById('iconMoon');
   const iconSun  = document.getElementById('iconSun');
@@ -290,8 +289,7 @@ document.getElementById('copyBtn').addEventListener('click', () => {
       iconSun.style.display  = 'none';
     }
   }
-
-  // Cargar preferencia guardada, por defecto oscuro
+  
   const savedTheme = localStorage.getItem('sinonima-theme') || 'dark';
   setTheme(savedTheme);
 
