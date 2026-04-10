@@ -422,11 +422,6 @@
 .header-actions { display: flex; }
 .donate-mobile  { display: none; }
 
-/* En desktop, el toggle está en el header como elemento flex normal */
-header .theme-toggle {
-    order: 1; /* después de header-actions */
-}
-
 @media (max-width: 640px) {
     header {
         flex-direction: column;
@@ -436,7 +431,19 @@ header .theme-toggle {
     }
 
     .header-actions {
-        display: none; /* se oculta en celu */
+        /* no se oculta el contenedor para que el toggle siga accesible */
+    }
+
+    .header-actions .support-message,
+    .header-actions .donate-btn {
+        display: none; /* se ocultan en celu */
+    }
+
+    .header-actions .theme-toggle {
+        display: flex;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
     }
 
     .support-message {
@@ -488,12 +495,6 @@ header .theme-toggle {
 }
 
 @media (max-width: 640px) {
-    .theme-toggle {
-        position: absolute;
-        top: 1rem;
-        left: 1rem;
-        right: auto;
-    }
     header {
         position: relative;
     }
