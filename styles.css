@@ -370,3 +370,67 @@
         background: var(--syn-bg);
     }
 }
+
+header {
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Espacio entre el texto y el botón */
+}
+
+.support-message {
+    font-size: 0.65rem;
+    color: var(--ink-dim);
+    max-width: 200px; /* Evita que el texto sea muy largo */
+    text-align: right;
+    line-height: 1.4;
+    letter-spacing: 0.02rem;
+}
+
+.support-message strong {
+    color: var(--accent);
+    font-weight: normal;
+}
+
+.donate-btn {
+    padding: 0.5rem 1.2rem;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+/* Ajuste para que en móviles el texto no se amontone */
+@media (max-width: 640px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .header-actions {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .support-message {
+        text-align: center;
+        max-width: 100%;
+    }
+}
+        padding: 0.8rem;
+        background: var(--syn-bg);
+    }
+}
