@@ -537,7 +537,11 @@
     "comprender",
     "aprender",
     "dominar",
-    "familiarizarse"
+    "familiarizarse",
+    "encontrarse",
+    "tratarse",
+    "relacionarse",
+    "descubrir"
   ],
   "conseguir": [
     "lograr",
@@ -594,7 +598,8 @@
     "platicar",
     "discutir",
     "intercambiar",
-    "debatir"
+    "debatir",
+    "comentar"
   ],
   "correr": [
     "trotar",
@@ -3020,7 +3025,12 @@
     "mudez",
     "calma",
     "reposo",
-    "paz"
+    "paz",
+    "mutismo",
+    "pausa",
+    "reserva",
+    "sigilo",
+    "hermetismo"
   ],
   "sueño": [
     "ilusión",
@@ -6779,7 +6789,7 @@
     "en la superficie",
     "fuera de"
   ],
-    "pene": [
+  "pene": [
     "falo",
     "miembro",
     "miembro viril",
@@ -7222,22 +7232,6 @@
     "intercambio",
     "parlamento"
   ],
-  "conocer": [
-    "encontrarse",
-    "tratarse",
-    "relacionarse",
-    "familiarizarse",
-    "descubrir"
-  ],
-  "conversar": [
-    "dialogar",
-    "charlar",
-    "platicar",
-    "hablar",
-    "comentar",
-    "intercambiar",
-    "debatir"
-  ],
   "despedida": [
     "separación",
     "partida",
@@ -7315,14 +7309,6 @@
     "si no es molestia",
     "te lo suplico"
   ],
-  "preguntar": [
-    "interrogar",
-    "indagar",
-    "cuestionar",
-    "consultar",
-    "averiguar",
-    "inquirir"
-  ],
   "presentar": [
     "introducir",
     "mostrar",
@@ -7370,15 +7356,6 @@
     "salutación",
     "reverencia",
     "abrazo"
-  ],
-  "silencio": [
-    "mutismo",
-    "quietud",
-    "pausa",
-    "calma",
-    "reserva",
-    "sigilo",
-    "hermetismo"
   ],
   "sí": [
     "claro",
