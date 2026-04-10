@@ -8,6 +8,21 @@
     --highlight: #c9a96e22;
     --border: #2e2820;
   }
+
+  [data-theme="light"] {
+    --bg: #f5f0e8;
+    --ink: #2a2018;
+    --ink-dim: #8a7a68;
+    --accent: #a07840;
+    --accent-glow: rgba(160, 120, 64, 0.12);
+    --syn-bg: #ede8df;
+    --highlight: #a0784022;
+    --border: #d4c8b8;
+  }
+
+  body {
+    transition: background 0.3s ease, color 0.3s ease;
+  }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: var(--bg);
@@ -440,5 +455,43 @@
 @media (max-width: 640px) {
     .donate-mobile {
         display: flex;
+    }
+}
+
+/* ─── theme toggle ─── */
+.theme-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--ink-dim);
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.theme-toggle svg {
+    width: 14px;
+    height: 14px;
+    transition: opacity 0.2s ease, transform 0.3s ease;
+}
+
+/* En móvil el toggle va junto al título */
+@media (max-width: 640px) {
+    .theme-toggle {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+    header {
+        position: relative;
     }
 }
