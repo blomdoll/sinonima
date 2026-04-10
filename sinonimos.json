@@ -7174,5 +7174,227 @@
     "ruta",
     "trayecto",
     "marcha"
+  ],
+  "adiós": [
+    "hasta luego",
+    "chao",
+    "hasta pronto",
+    "nos vemos",
+    "que te vaya bien",
+    "despedida"
+  ],
+  "agradecer": [
+    "reconocer",
+    "valorar",
+    "apreciar",
+    "estimar",
+    "dar las gracias",
+    "quedar agradecido"
+  ],
+  "agradecido": [
+    "reconocido",
+    "obligado",
+    "complacido",
+    "satisfecho",
+    "en deuda",
+    "dichoso"
+  ],
+  "arrepentirse": [
+    "lamentarse",
+    "pesarle",
+    "lamentar",
+    "recapacitar",
+    "rectificar",
+    "reconocer"
+  ],
+  "bienvenida": [
+    "recibimiento",
+    "acogida",
+    "saludo",
+    "hospitalidad",
+    "salutación"
+  ],
+  "charla": [
+    "conversación",
+    "diálogo",
+    "plática",
+    "coloquio",
+    "intercambio",
+    "parlamento"
+  ],
+  "conocer": [
+    "encontrarse",
+    "tratarse",
+    "relacionarse",
+    "familiarizarse",
+    "descubrir"
+  ],
+  "conversar": [
+    "dialogar",
+    "charlar",
+    "platicar",
+    "hablar",
+    "comentar",
+    "intercambiar",
+    "debatir"
+  ],
+  "despedida": [
+    "separación",
+    "partida",
+    "alejamiento",
+    "adiós",
+    "cierre",
+    "último adiós"
+  ],
+  "despedirse": [
+    "marcharse",
+    "partir",
+    "alejarse",
+    "separarse",
+    "irse",
+    "decir adiós"
+  ],
+  "disculpa": [
+    "perdón",
+    "lo siento",
+    "excusa",
+    "remordimiento",
+    "arrepentimiento"
+  ],
+  "disculpar": [
+    "perdonar",
+    "excusar",
+    "absolver",
+    "indultar",
+    "comprender",
+    "eximir"
+  ],
+  "gracias": [
+    "agradecimiento",
+    "gratitud",
+    "reconocimiento",
+    "apreciación",
+    "te lo agradezco"
+  ],
+  "gratitud": [
+    "agradecimiento",
+    "reconocimiento",
+    "apreciación",
+    "deuda",
+    "estima"
+  ],
+  "hola": [
+    "saludos",
+    "bienvenido",
+    "buenas",
+    "qué tal",
+    "cómo estás",
+    "hey",
+    "ey"
+  ],
+  "no": [
+    "jamás",
+    "nunca",
+    "negativo",
+    "para nada",
+    "de ningún modo",
+    "imposible"
+  ],
+  "perdón": [
+    "disculpa",
+    "lo siento",
+    "excusa",
+    "clemencia",
+    "indulgencia",
+    "absolución"
+  ],
+  "por favor": [
+    "te lo ruego",
+    "te lo pido",
+    "si puedes",
+    "si no es molestia",
+    "te lo suplico"
+  ],
+  "preguntar": [
+    "interrogar",
+    "indagar",
+    "cuestionar",
+    "consultar",
+    "averiguar",
+    "inquirir"
+  ],
+  "presentar": [
+    "introducir",
+    "mostrar",
+    "dar a conocer",
+    "anunciar",
+    "exhibir",
+    "revelar"
+  ],
+  "quizás": [
+    "tal vez",
+    "acaso",
+    "a lo mejor",
+    "puede ser",
+    "probablemente",
+    "posiblemente"
+  ],
+  "responder": [
+    "contestar",
+    "replicar",
+    "rebatir",
+    "retrucar",
+    "reaccionar",
+    "aclarar"
+  ],
+  "rogar": [
+    "suplicar",
+    "implorar",
+    "pedir",
+    "solicitar",
+    "exhortar",
+    "clamar"
+  ],
+  "saludar": [
+    "dar la bienvenida",
+    "recibir",
+    "acoger",
+    "presentarse",
+    "dirigirse",
+    "acercarse"
+  ],
+  "saludo": [
+    "bienvenida",
+    "recibimiento",
+    "acogida",
+    "salutación",
+    "reverencia",
+    "abrazo"
+  ],
+  "silencio": [
+    "mutismo",
+    "quietud",
+    "pausa",
+    "calma",
+    "reserva",
+    "sigilo",
+    "hermetismo"
+  ],
+  "sí": [
+    "claro",
+    "por supuesto",
+    "desde luego",
+    "cierto",
+    "afirmativo",
+    "correcto",
+    "exacto"
+  ],
+  "súplica": [
+    "ruego",
+    "petición",
+    "solicitud",
+    "imploración",
+    "clamor",
+    "llamado"
   ]
 }
