@@ -1,4 +1,4 @@
-  :root {
+:root {
     --bg: #0e0c0a;
     --ink: #e8dcc8;
     --ink-dim: #7a6e60;
@@ -263,4 +263,84 @@
 .toast.show {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
+}
+
+
+/* ─── Mobile ─── */
+
+@media (max-width: 640px) {
+
+    header {
+        padding: 1rem 1.2rem;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    .workspace {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        height: auto;
+        min-height: calc(100vh - 52px);
+        overflow: visible;
+    }
+
+    .editor-pane {
+        padding: 1.2rem 1.2rem 1rem;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        min-height: 45vh;
+    }
+
+    #editor {
+        font-size: 1rem;
+        line-height: 1.8;
+        min-height: 180px;
+    }
+  
+    .syn-pane {
+        max-height: 50vh;
+        overflow: hidden;
+    }
+
+    .syn-header {
+        padding: 0.8rem 1rem 0.7rem;
+    }
+
+    .syn-header .current-word {
+        font-size: 1rem;
+    }
+
+    .syn-list {
+        padding: 0.5rem 0;
+    }
+
+    .syn-word {
+        font-size: 0.85rem;
+        padding: 0.65rem 1rem;
+    }
+
+    .syn-hint {
+        opacity: 1;
+        font-size: 0.58rem;
+        padding-right: 0.8rem;
+    }
+
+    .copy-btn {
+        font-size: 0.62rem;
+        padding: 0.3rem 0.6rem;
+    }
+
+    .tip {
+        font-size: 0.58rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .active-word-display {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
 }
