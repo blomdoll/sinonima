@@ -266,81 +266,52 @@
 }
 
 
-/* ─── Mobile ─── */
-
+/* ─── Mobile Optimized ─── */
 @media (max-width: 640px) {
-
     header {
-        padding: 1rem 1.2rem;
-        flex-wrap: wrap;
-        gap: 0.3rem;
-    }
-
-    header h1 {
-        font-size: 1.2rem;
+        padding: 1rem;
+        justify-content: center;
     }
 
     .workspace {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto;
-        height: auto;
-        min-height: calc(100vh - 52px);
-        overflow: visible;
+        display: flex;
+        flex-direction: column; /* Apila el editor arriba y sinónimos abajo */
+        height: 100vh;
+        overflow: hidden; /* Evita doble scroll en la página */
     }
 
     .editor-pane {
-        padding: 1.2rem 1.2rem 1rem;
+        flex: 1; /* El editor toma el espacio que necesite */
+        padding: 1rem;
         border-right: none;
         border-bottom: 1px solid var(--border);
-        min-height: 45vh;
+        display: flex;
+        flex-direction: column;
     }
 
     #editor {
-        font-size: 1rem;
-        line-height: 1.8;
-        min-height: 180px;
+        font-size: 16px; /* Evita que iOS haga zoom automático al enfocar */
+        flex-grow: 1;
     }
-  
+
     .syn-pane {
-        max-height: 50vh;
-        overflow: hidden;
-    }
-
-    .syn-header {
-        padding: 0.8rem 1rem 0.7rem;
-    }
-
-    .syn-header .current-word {
-        font-size: 1rem;
+        height: 40vh; /* Altura fija para la sección de sinónimos en móvil */
+        background: var(--syn-bg);
+        border-top: 2px solid var(--accent); /* Un toque visual para separar */
+        display: flex;
+        flex-direction: column;
     }
 
     .syn-list {
-        padding: 0.5rem 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); /* Los sinónimos se ven en cuadrícula */
+        gap: 0.5rem;
+        padding: 1rem;
+        overflow-y: auto; /* Permite scroll solo dentro de los sinónimos */
     }
 
-    .syn-word {
-        font-size: 0.85rem;
-        padding: 0.65rem 1rem;
-    }
-
-    .syn-hint {
-        opacity: 1;
-        font-size: 0.58rem;
-        padding-right: 0.8rem;
-    }
-
-    .copy-btn {
-        font-size: 0.62rem;
-        padding: 0.3rem 0.6rem;
-    }
-
-    .tip {
-        font-size: 0.58rem;
-        padding: 0.6rem 1rem;
-    }
-
-    .active-word-display {
-        font-size: 0.7rem;
-        margin-top: 1rem;
+    .syn-item {
+        padding: 0.8rem; /* Botones más grandes para dedos */
+        font-size: 0.9rem;
     }
 }
