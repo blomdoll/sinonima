@@ -390,13 +390,13 @@
 .header-actions {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.5rem; /* Espacio entre el texto y el botón */
 }
 
 .support-message {
     font-size: 0.65rem;
     color: var(--ink-dim);
-    max-width: 200px;
+    max-width: 200px; /* Evita que el texto sea muy largo */
     text-align: right;
     line-height: 1.4;
     letter-spacing: 0.02rem;
@@ -419,6 +419,7 @@
     white-space: nowrap;
 }
 
+/* Donaciones: visible en escritorio, oculto en móvil */
 .header-actions { display: flex; }
 .donate-mobile  { display: none; }
 
@@ -431,7 +432,7 @@
     }
 
     .header-actions {
-        display: none; /* se oculta en celu */
+        display: none; /* se oculta en móvil */
     }
 
     .support-message {
@@ -440,7 +441,7 @@
     }
 }
 
-/* bloque de donaciones en el footer (solo celu) */
+/* Bloque de donaciones en el footer (solo móvil) */
 .donate-mobile {
     display: none;
     flex-direction: column;
@@ -457,6 +458,7 @@
     }
 }
 
+/* ─── theme toggle ─── */
 .theme-toggle {
     background: transparent;
     border: 1px solid var(--border);
@@ -482,6 +484,7 @@
     transition: opacity 0.2s ease, transform 0.3s ease;
 }
 
+/* En móvil el toggle va junto al título */
 @media (max-width: 640px) {
     .theme-toggle {
         position: absolute;
@@ -491,152 +494,4 @@
     header {
         position: relative;
     }
-}
-
-/* ─── Botón hamburguesa (solo móvil) ─── */
-.menu-btn-mobile {
-    display: none;
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    z-index: 200;
-    background: transparent;
-    border: 1px solid var(--border);
-    padding: 0.45rem 0.55rem;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 4px;
-    border-radius: 2px;
-}
-
-.menu-btn-mobile span {
-    display: block;
-    width: 18px;
-    height: 2px;
-    background: var(--ink-dim);
-    transition: background 0.2s;
-}
-
-.menu-btn-mobile:hover span {
-    background: var(--accent);
-}
-
-@media (max-width: 640px) {
-    .menu-btn-mobile {
-        display: flex;
-    }
-}
-
-/* ─── Overlay / panel lateral ─── */
-.nav-overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.55);
-    z-index: 300;
-    backdrop-filter: blur(2px);
-}
-
-.nav-overlay.active {
-    display: block;
-}
-
-.nav-menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 260px;
-    height: 100%;
-    background: var(--syn-bg);
-    border-right: 1px solid var(--border);
-    padding: 2rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.close-menu {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    background: transparent;
-    border: none;
-    color: var(--ink-dim);
-    font-size: 1.4rem;
-    cursor: pointer;
-    line-height: 1;
-    transition: color 0.2s;
-}
-
-.close-menu:hover {
-    color: var(--accent);
-}
-
-.nav-content {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.nav-section {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-}
-
-.nav-label {
-    font-size: 0.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    color: var(--ink-dim);
-}
-
-.theme-toggle-mobile {
-    background: transparent;
-    border: 1px solid var(--border);
-    color: var(--ink-dim);
-    font-family: 'DM Mono', monospace;
-    font-size: 0.65rem;
-    letter-spacing: 0.1em;
-    padding: 0.5rem 0.8rem;
-    cursor: pointer;
-    text-align: left;
-    transition: all 0.2s ease;
-    border-radius: 2px;
-}
-
-.theme-toggle-mobile:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-}
-
-.support-text-mobile {
-    font-size: 0.68rem;
-    color: var(--ink-dim);
-    line-height: 1.5;
-}
-
-.support-text-mobile strong {
-    color: var(--accent);
-    font-weight: normal;
-}
-
-.donate-btn-mobile {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    border: 1px solid var(--accent);
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 0.65rem;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-    border-radius: 2px;
-    transition: all 0.2s ease;
-    text-align: center;
-}
-
-.donate-btn-mobile:hover {
-    background: var(--accent);
-    color: var(--bg);
 }
