@@ -7396,5 +7396,89 @@
     "imploración",
     "clamor",
     "llamado"
+  ],
+  "convertirse": [
+    "tornarse",
+    "volverse",
+    "transformarse",
+    "devenir",
+    "hacerse",
+    "mutar",
+    "evolucionar"
+  ],
+  "volverse": [
+    "convertirse",
+    "tornarse",
+    "transformarse",
+    "hacerse",
+    "devenir",
+    "cambiar"
+  ],
+  "tornarse": [
+    "volverse",
+    "convertirse",
+    "transformarse",
+    "devenir",
+    "hacerse",
+    "mudar"
+  ],
+  "resultar": [
+    "salir",
+    "quedar",
+    "tornarse",
+    "acabar",
+    "derivar",
+    "concluir",
+    "terminar"
+  ],
+  "situarse": [
+    "ubicarse",
+    "hallarse",
+    "posicionarse",
+    "colocarse",
+    "instalarse",
+    "establecerse"
+  ],
+  "ubicarse": [
+    "situarse",
+    "hallarse",
+    "posicionarse",
+    "encontrarse",
+    "colocarse",
+    "establecerse"
+  ],
+  "importar": [
+    "interesar",
+    "preocupar",
+    "concernir",
+    "incumbir",
+    "significar",
+    "valer",
+    "pesar"
+  ],
+  "pertenecer": [
+    "corresponder",
+    "ser de",
+    "depender",
+    "formar parte",
+    "integrarse",
+    "adscribirse"
+  ],
+  "empeorar": [
+    "deteriorarse",
+    "agravarse",
+    "decaer",
+    "declinar",
+    "degenerar",
+    "estropearse"
+  ],
+  "haber": [
+    "existir",
+    "tener",
+    "ocurrir",
+    "encontrarse",
+    "hallarse",
+    "darse",
+    "presentarse"
   ]
 }
