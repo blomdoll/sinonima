@@ -266,52 +266,78 @@
 }
 
 
-/* ─── Mobile Optimized ─── */
+/* ─── Ajuste para móviles: Panel de Sinónimos abajo ─── */
 @media (max-width: 640px) {
     header {
         padding: 1rem;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .workspace {
-        display: flex;
-        flex-direction: column; /* Apila el editor arriba y sinónimos abajo */
+        /* Cambiamos grid por flex para apilar elementos verticalmente */
+        display: flex; 
+        flex-direction: column;
         height: 100vh;
-        overflow: hidden; /* Evita doble scroll en la página */
+        overflow: hidden; /* Evitamos que la pantalla entera baile */
     }
 
     .editor-pane {
-        flex: 1; /* El editor toma el espacio que necesite */
+        flex: 1; /* El editor ocupa el espacio de arriba */
         padding: 1rem;
         border-right: none;
-        border-bottom: 1px solid var(--border);
+        border-bottom: 2px solid var(--border);
         display: flex;
         flex-direction: column;
     }
 
     #editor {
-        font-size: 16px; /* Evita que iOS haga zoom automático al enfocar */
         flex-grow: 1;
+        font-size: 16px; /* Evita zoom molesto en iPhone */
+        min-height: 200px;
     }
 
     .syn-pane {
-        height: 40vh; /* Altura fija para la sección de sinónimos en móvil */
+        /* Definimos que el panel de sinónimos esté abajo con un tamaño fijo */
+        width: 100%;
+        height: 45vh; 
         background: var(--syn-bg);
-        border-top: 2px solid var(--accent); /* Un toque visual para separar */
-        display: flex;
-        flex-direction: column;
+        box-shadow: 0 -10px 30px rgba(0,0,0,0.5); /* Sombra para dar profundidad */
+        z-index: 10;
+    }
+
+    .syn-header {
+        padding: 0.8rem 1.2rem;
+        background: var(--bg);
+        border-bottom: 1px solid var(--border);
     }
 
     .syn-list {
+        /* Organizamos los sinónimos en cuadrícula para que no sea una lista infinita */
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); /* Los sinónimos se ven en cuadrícula */
-        gap: 0.5rem;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 0.6rem;
         padding: 1rem;
-        overflow-y: auto; /* Permite scroll solo dentro de los sinónimos */
+        overflow-y: auto;
+        height: calc(100% - 60px); /* Ajuste para el scroll interno */
     }
 
     .syn-item {
-        padding: 0.8rem; /* Botones más grandes para dedos */
-        font-size: 0.9rem;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid var(--border);
+        background: var(--bg);
+        border-radius: 4px;
+    }
+
+    .syn-hint {
+        display: none; /* Quitamos el texto "usar" en móvil para ahorrar espacio */
+    }
+
+    /* Ajuste para que el contador de palabras no estorbe */
+    .word-count {
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
     }
 }
