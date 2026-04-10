@@ -21,7 +21,8 @@
     padding: 1.5rem 2.5rem;
     border-bottom: 1px solid var(--border);
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
     gap: 1rem;
   }
   header h1 {
@@ -369,14 +370,6 @@
         padding: 0.8rem;
         background: var(--syn-bg);
     }
-}
-
-header {
-    padding: 1.5rem 2.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--border);
 }
 
 .header-actions {
