@@ -341,3 +341,37 @@
         margin-bottom: 0.5rem;
     }
 }
+
+/* ─── Footer Estilo ─── */
+.main-footer {
+    padding: 1rem;
+    text-align: center;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    font-size: 0.75rem;
+    color: var(--ink-dim);
+}
+
+.main-footer strong {
+    color: var(--accent);
+    font-weight: 400;
+}
+
+.main-footer a {
+    color: var(--ink-dim);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.main-footer a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+/* Ajuste para móvil para que no ocupe demasiado espacio */
+@media (max-width: 640px) {
+    .main-footer {
+        padding: 0.8rem;
+        background: var(--syn-bg); /* Un tono ligeramente distinto para separar */
+    }
+}
