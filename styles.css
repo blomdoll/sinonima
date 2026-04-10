@@ -503,6 +503,18 @@
     }
 }
 
+/* ─── Drawer y overlay ocultos en desktop ─── */
+.drawer,
+.drawer-overlay {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .drawer        { display: flex; }
+  .drawer-overlay { display: none; } /* solo se muestra al abrir */
+  .drawer-overlay.open { display: block; }
+}
+
 /* ─── Hamburger (solo móvil) ─── */
 .hamburger {
   display: none;
