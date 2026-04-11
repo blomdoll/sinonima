@@ -43,7 +43,7 @@
   </div>
 </header>
 
-  <div class="header-right"></div> </header>
+  <div class="header-right"></div>
 
 <div class="workspace">
   <div class="editor-pane">
@@ -79,7 +79,6 @@
 
 <div class="toast" id="toast"></div>
 
-<div class="toast" id="toast"></div>
 </div> </div> <footer class="main-footer">
   <div class="donate-mobile">
     <div class="support-message">
@@ -137,7 +136,9 @@
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {
       const words = text.trim().split(/\s+/);
-      const word = (words[words.length - 1] || '').replace(/[.,;:!?¿¡"'()]+$/, '');
+      const word = (words[words.length - 1] || '')
+        .replace(/^[.,;:!?¿¡"'()\-]+/, '')
+        .replace(/[.,;:!?¿¡"'()]+$/, '');
       
       if (word && word.toLowerCase() !== lastWord) {
         lastWord = word.toLowerCase();
@@ -212,7 +213,7 @@
 
   function replaceWord(original, replacement) {
     const text = editor.value;
-    const regex = new RegExp(`\\b${escapeRegex(original)}\\b`, 'gi');
+    const regex = new RegExp(`(?<![\\wáéíóúüñÁÉÍÓÚÜÑ])${escapeRegex(original)}(?![\\wáéíóúüñÁÉÍÓÚÜÑ])`, 'gi');
     let lastMatch = null, m;
     while ((m = regex.exec(text)) !== null) lastMatch = m;
     
