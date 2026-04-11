@@ -7690,5 +7690,85 @@
     "sobresalir",
     "predominar",
     "ir más allá"
+  ],
+  "transitando": [
+    "caminando",
+    "circulando",
+    "recorriendo",
+    "andando",
+    "pasando",
+    "traficando"
+  ],
+  "deambulando": [
+    "vagando",
+    "errando",
+    "paveando",
+    "callejeando",
+    "merodeando",
+    "rondando"
+  ],
+  "merodeando": [
+    "acechando",
+    "rondando",
+    "vigilando",
+    "espidando",
+    "curioseando",
+    "deambulando"
+  ],
+  "callejeando": [
+    "paseando",
+    "vagueando",
+    "pateando",
+    "lagarteando",
+    "andando",
+    "deambulando"
+  ],
+  "trotando": [
+    "correteando",
+    "apresurando",
+    "acelerando",
+    "galopando",
+    "pateando",
+    "avanzando"
+  ],
+  "pateando": [
+    "andando",
+    "recorriendo",
+    "marchando",
+    "callejeando",
+    "trotando",
+    "machacando"
+  ],
+  "avanzando": [
+    "progresando",
+    "adelantando",
+    "subiendo",
+    "marchando",
+    "acercándose",
+    "continuando"
+  ],
+  "vagando": [
+    "deambulando",
+    "errando",
+    "flotando",
+    "divagando",
+    "rondando",
+    "boyando"
+  ],
+  "errando": [
+    "vagando",
+    "perdiéndose",
+    "divagando",
+    "tanteando",
+    "deambulando",
+    "flotando"
+  ],
+  "marchando": [
+    "desfilando",
+    "avanzando",
+    "partiendo",
+    "caminando",
+    "yendo",
+    "progresando"
   ]
 }
