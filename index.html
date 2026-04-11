@@ -41,7 +41,49 @@
       </svg>
     </button>
   </div>
+
+  <!-- Menú hamburguesa (solo móvil) -->
+  <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir menú" title="Menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </header>
+
+<!-- Menú lateral desplegable (solo móvil) -->
+<div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+<nav class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-header">
+    <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Cerrar menú">&times;</button>
+  </div>
+  <div class="mobile-menu-content">
+    <div class="mobile-theme-toggle">
+      <span class="mobile-theme-label">Tema</span>
+      <button class="mobile-theme-btn" id="mobileThemeToggle" title="Cambiar tema" aria-label="Cambiar entre modo claro y oscuro">
+        <svg id="mobileIconMoon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg id="mobileIconSun" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:none">
+          <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.8"/>
+          <line x1="12" y1="2" x2="12" y2="4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="12" y1="20" x2="12" y2="22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="2" y1="12" x2="4" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="20" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu-footer">
+    <div class="mobile-support-message">
+      Ayúdame a conseguir un <strong>dominio propio</strong> y mantener el sitio activo.
+    </div>
+    <a href="https://ko-fi.com/sageaksnes" target="_blank" class="mobile-donate-btn">DONACIONES</a>
+  </div>
+</nav>
 
   <div class="header-right"></div>
 
@@ -287,9 +329,19 @@ document.getElementById('copyBtn').addEventListener('click', () => {
     if (theme === 'light') {
       iconMoon.style.display = 'none';
       iconSun.style.display  = 'block';
+      // sincronizar en menú móvil
+      const mobileIconMoon = document.getElementById('mobileIconMoon');
+      const mobileIconSun = document.getElementById('mobileIconSun');
+      if (mobileIconMoon) mobileIconMoon.style.display = 'none';
+      if (mobileIconSun) mobileIconSun.style.display = 'block';
     } else {
       iconMoon.style.display = 'block';
       iconSun.style.display  = 'none';
+      // sincronizar en menú móvil
+      const mobileIconMoon = document.getElementById('mobileIconMoon');
+      const mobileIconSun = document.getElementById('mobileIconSun');
+      if (mobileIconMoon) mobileIconMoon.style.display = 'block';
+      if (mobileIconSun) mobileIconSun.style.display = 'none';
     }
   }
 
@@ -297,6 +349,37 @@ document.getElementById('copyBtn').addEventListener('click', () => {
   setTheme(savedTheme);
 
   themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    setTheme(current === 'light' ? 'dark' : 'light');
+  });
+
+  /* ─── Menú Hamburguesa ─── */
+  const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+  const mobileMenuClose = document.getElementById('mobileMenuClose');
+  const mobileThemeToggle = document.getElementById('mobileThemeToggle');
+
+  function openMenu() {
+    mobileMenu.classList.add('active');
+    mobileMenuOverlay.classList.add('active');
+    mobileMenuToggle.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    mobileMenu.classList.remove('active');
+    mobileMenuOverlay.classList.remove('active');
+    mobileMenuToggle.classList.remove('active');
+    document.body.style.overflow = 'auto';
+  }
+
+  mobileMenuToggle.addEventListener('click', openMenu);
+  mobileMenuClose.addEventListener('click', closeMenu);
+  mobileMenuOverlay.addEventListener('click', closeMenu);
+
+  // sincronizar tema en menú móvil
+  mobileThemeToggle.addEventListener('click', () => {
     const current = document.documentElement.getAttribute('data-theme');
     setTheme(current === 'light' ? 'dark' : 'light');
   });
