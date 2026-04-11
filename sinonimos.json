@@ -8042,5 +8042,189 @@
     "agazapándose",
     "encerrándose",
     "protegiéndose"
+  ],
+  "existiendo": [
+    "hallándose",
+    "subsistiendo",
+    "permaneciendo",
+    "figurando",
+    "presentándose",
+    "ocurriendo"
+  ],
+  "hallándose": [
+    "encontrándose",
+    "situándose",
+    "ubicándose",
+    "localizándose",
+    "estando",
+    "existiendo"
+  ],
+  "subsistiendo": [
+    "perviviendo",
+    "resistiendo",
+    "manteniéndose",
+    "perdurando",
+    "sobreviviendo",
+    "quedando"
+  ],
+  "permaneciendo": [
+    "quedándose",
+    "durando",
+    "persistiendo",
+    "continuando",
+    "manteniéndose",
+    "perviviendo"
+  ],
+  "sucediendo": [
+    "ocurriendo",
+    "aconteciendo",
+    "pasando",
+    "derivándose",
+    "produciéndose",
+    "sobreviniendo"
+  ],
+  "ubicándose": [
+    "situándose",
+    "localizándose",
+    "radicando",
+    "instalándose",
+    "hallándose",
+    "posicionándose"
+  ],
+  "perviviendo": [
+    "durando",
+    "persistiendo",
+    "subsistiendo",
+    "conservándose",
+    "manteniéndose",
+    "quedando"
+  ],
+  "figurando": [
+    "apareciendo",
+    "pareciendo",
+    "constando",
+    "sobresaliendo",
+    "destacando",
+    "existiendo"
+  ],
+  "había": [
+    "existía",
+    "se hallaba",
+    "se encontraba",
+    "ocurría",
+    "se presentaba",
+    "constaba"
+  ],
+  "hubo": [
+    "sucedió",
+    "aconteció",
+    "se produjo",
+    "tuvo lugar",
+    "acaeció",
+    "surgió"
+  ],
+  "habrá": [
+    "existirá",
+    "ocurrirá",
+    "sucederá",
+    "tendrá lugar",
+    "se dará",
+    "aparecerá"
+  ],
+  "estaba": [
+    "se encontraba",
+    "se hallaba",
+    "permanecía",
+    "residía",
+    "yacía",
+    "figuraba"
+  ],
+  "estuvo": [
+    "se encontró",
+    "permaneció",
+    "se halló",
+    "quedó",
+    "asistió",
+    "figuró"
+  ],
+  "estará": [
+    "se encontrará",
+    "permanecerá",
+    "se hallará",
+    "asistirá",
+    "estará presente",
+    "quedará"
+  ],
+  "existía": [
+    "había",
+    "subsistía",
+    "pervivía",
+    "permanecía",
+    "se daba",
+    "figuraba"
+  ],
+  "yacía": [
+    "descansaba",
+    "reposaba",
+    "estaba",
+    "se encontraba",
+    "dormía",
+    "permanecía"
+  ],
+  "abundaba": [
+    "proliferaba",
+    "crecía",
+    "se multiplicaba",
+    "había",
+    "sobraba",
+    "colmaba"
+  ],
+  "prevalecía": [
+    "dominaba",
+    "persistía",
+    "reinaba",
+    "sobresalía",
+    "imperaba",
+    "predominaba"
+  ],
+  "moraba": [
+    "residía",
+    "vivía",
+    "habitaba",
+    "permanecía",
+    "se hallaba",
+    "poblaba"
+  ],
+  "residía": [
+    "moraba",
+    "se encontraba",
+    "habitaba",
+    "radicaba",
+    "estaba",
+    "permanecía"
+  ],
+  "transcurría": [
+    "pasaba",
+    "sucedía",
+    "avanzaba",
+    "fluía",
+    "corría",
+    "iba"
+  ],
+  "pervivía": [
+    "persistía",
+    "duraba",
+    "se mantenía",
+    "quedaba",
+    "existía",
+    "permanecía"
+  ],
+  "ocurría": [
+    "pasaba",
+    "sucedía",
+    "acaecía",
+    "se produjo",
+    "emergía",
+    "tenía lugar"
   ]
 }
