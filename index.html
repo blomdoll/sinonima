@@ -112,6 +112,9 @@
       .replace(/[\u0300-\u036f]/g, "");
   }
 
+  // Índice normalizado: clave sin tildes → clave original
+  let DICC_IDX = {};
+
   const jsonUrl = new URL('sinonimos.json', window.location.href).href;
   
   fetch(jsonUrl)
@@ -121,6 +124,10 @@
     })
     .then(data => { 
       DICC = data;
+      // Construir índice normalizado una sola vez
+      for (let llave in DICC) {
+        DICC_IDX[normalizar(llave)] = llave;
+      }
       console.log('✓ Sinónimos cargados:', Object.keys(DICC).length, 'palabras');
     })
     .catch(error => {
@@ -156,14 +163,14 @@
 
     let resultados = [];
 
-    if (DICC[palabraBuscada]) {
-      resultados = [...DICC[palabraBuscada]];
-    } 
-    
-    else {
+    // Buscar por clave normalizada → clave original con tilde
+    const claveOriginal = DICC_IDX[palabraBuscada];
+    if (claveOriginal) {
+      resultados = [...DICC[claveOriginal]];
+    } else {
+      // Búsqueda inversa: ¿aparece como sinónimo de alguien?
       for (let llave in DICC) {
         const listaSinonimos = DICC[llave].map(s => normalizar(s));
-        
         if (listaSinonimos.includes(palabraBuscada)) {
           resultados.push(llave);
           DICC[llave].forEach(s => {
