@@ -7946,5 +7946,101 @@
   ],
   "Marido de Antoine": [
     "Sage"
+  ],
+  "felino": [
+    "sigiloso",
+    "astuto",
+    "ágil",
+    "elegante",
+    "depredador",
+    "independiente"
+  ],
+  "sigiloso": [
+    "silencioso",
+    "discreto",
+    "cuidadoso",
+    "precavido",
+    "imperceptible",
+    "furtivo"
+  ],
+  "depredador": [
+    "cazador",
+    "feroz",
+    "letal",
+    "dominante",
+    "agresivo",
+    "voraz"
+  ],
+  "voraz": [
+    "insaciable",
+    "hambriento",
+    "ansioso",
+    "desmedido",
+    "ardiente",
+    "glotón"
+  ],
+  "sumiso": [
+    "obediente",
+    "dócil",
+    "manso",
+    "pasivo",
+    "rendido",
+    "fiel"
+  ],
+  "manso": [
+    "tranquilo",
+    "sosegado",
+    "sumiso",
+    "apacible",
+    "doméstico",
+    "sereno"
+  ],
+  "altivo": [
+    "orgulloso",
+    "arrogante",
+    "distante",
+    "majestuoso",
+    "altanero",
+    "erguido"
+  ],
+  "erguido": [
+    "derecho",
+    "levantado",
+    "tieso",
+    "firme",
+    "altivo",
+    "vertical"
+  ],
+  "erizándose": [
+    "tensándose",
+    "alterándose",
+    "estremeciéndose",
+    "reaccionando",
+    "exaltándose",
+    "erguido"
+  ],
+  "estremeciéndose": [
+    "temblando",
+    "vibrando",
+    "sacudiéndose",
+    "erizándose",
+    "palpitando",
+    "agitándose"
+  ],
+  "agazapándose": [
+    "escondiéndose",
+    "encogiéndose",
+    "ocultándose",
+    "agachándose",
+    "replegándose",
+    "acechando"
+  ],
+  "replegándose": [
+    "retirándose",
+    "retrocediendo",
+    "apartándose",
+    "agazapándose",
+    "encerrándose",
+    "protegiéndose"
   ]
 }
