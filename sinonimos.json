@@ -7770,5 +7770,181 @@
     "caminando",
     "yendo",
     "progresando"
+  ],
+  "percibiendo": [
+    "notando",
+    "divisando",
+    "atisbando",
+    "distinguiendo",
+    "avistando",
+    "detectando"
+  ],
+  "atisbando": [
+    "mirando",
+    "observando",
+    "espiando",
+    "percibiendo",
+    "vislumbrando",
+    "asomando"
+  ],
+  "vislumbrando": [
+    "imaginando",
+    "suponiendo",
+    "entreviendo",
+    "atisbando",
+    "descubriendo",
+    "soñando"
+  ],
+  "reflexionando": [
+    "meditando",
+    "cavilando",
+    "deliberando",
+    "ponderando",
+    "razonando",
+    "analizando"
+  ],
+  "cavilando": [
+    "pensando",
+    "dudando",
+    "maquinando",
+    "reflexionando",
+    "preocupándose",
+    "obsesionándose"
+  ],
+  "acechando": [
+    "espiando",
+    "vigilando",
+    "merodeando",
+    "observando",
+    "aguardando",
+    "acosando"
+  ],
+  "espiando": [
+    "fisgoneando",
+    "acechando",
+    "curioseando",
+    "mirando",
+    "infiltrándose",
+    "escuchando"
+  ],
+  "desvaneciéndose": [
+    "borrándose",
+    "difuminándose",
+    "evaporándose",
+    "agotándose",
+    "muriendo",
+    "perdiéndose"
+  ],
+  "difuminándose": [
+    "oscureciéndose",
+    "nublándose",
+    "desvaneciéndose",
+    "mezclándose",
+    "velándose",
+    "borrándose"
+  ],
+  "emergiendo": [
+    "surgiendo",
+    "apareciendo",
+    "brotando",
+    "creciendo",
+    "naciendo",
+    "asomando"
+  ],
+  "fluyendo": [
+    "corriendo",
+    "manando",
+    "brotando",
+    "circulando",
+    "deslizándose",
+    "emanando"
+  ],
+  "deslizándose": [
+    "escurriéndose",
+    "resbalando",
+    "fluyendo",
+    "pasando",
+    "filtrándose",
+    "serpenteando"
+  ],
+  "serpenteando": [
+    "zigzagueando",
+    "ondulando",
+    "curvándose",
+    "torciéndose",
+    "enroscándose",
+    "desviándose"
+  ],
+  "acechando": [
+    "espiando",
+    "vigilando",
+    "merodeando",
+    "observando",
+    "aguardando",
+    "acosando"
+  ],
+  "merodeando": [
+    "rondando",
+    "vagando",
+    "circulando",
+    "acechando",
+    "curioseando",
+    "husmeando"
+  ],
+  "husmeando": [
+    "olfateando",
+    "rastreando",
+    "indagando",
+    "fisgoneando",
+    "curioseando",
+    "merodeando"
+  ],
+  "emergiendo": [
+    "surgiendo",
+    "apareciendo",
+    "brotando",
+    "asomando",
+    "brotando",
+    "emanando"
+  ],
+  "emanando": [
+    "irradiando",
+    "desprendiendo",
+    "exhalando",
+    "fluyendo",
+    "brotando",
+    "emergiendo"
+  ],
+  "anhelando": [
+    "deseando",
+    "ansiando",
+    "aspirando",
+    "pretendiendo",
+    "suspirando",
+    "ambicionando"
+  ],
+  "vacilando": [
+    "dudando",
+    "titubeando",
+    "tambaleándose",
+    "oscilando",
+    "tanteando",
+    "fluctuando"
+  ],
+  "Antoine": [
+    "Marido de Sage",
+    "Compañero de vida",
+    "Pareja de Sage",
+  ],
+  "Sage": [
+    "Marido de Antoine",
+    "Compañero de vida",
+    "Pareja de Antoine",
+  ],
+  "Marido de Sage": [
+    "Antoine"
+  ],
+  "Marido de Antoine": [
+    "Sage"
   ]
 }
