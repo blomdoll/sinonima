@@ -111,8 +111,7 @@
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "");
   }
-
-  // Índice normalizado: clave sin tildes → clave original
+  
   let DICC_IDX = {};
 
   const jsonUrl = new URL('sinonimos.json', window.location.href).href;
@@ -124,7 +123,6 @@
     })
     .then(data => { 
       DICC = data;
-      // Construir índice normalizado una sola vez
       for (let llave in DICC) {
         DICC_IDX[normalizar(llave)] = llave;
       }
@@ -162,13 +160,11 @@
     activeDisplay.style.display = 'block';
 
     let resultados = [];
-
-    // Buscar por clave normalizada → clave original con tilde
+    
     const claveOriginal = DICC_IDX[palabraBuscada];
     if (claveOriginal) {
       resultados = [...DICC[claveOriginal]];
     } else {
-      // Búsqueda inversa: ¿aparece como sinónimo de alguien?
       for (let llave in DICC) {
         const listaSinonimos = DICC[llave].map(s => normalizar(s));
         if (listaSinonimos.includes(palabraBuscada)) {
@@ -260,7 +256,6 @@ document.getElementById('copyBtn').addEventListener('click', () => {
   if (navigator.clipboard && window.isSecureContext) {
     navigator.clipboard.writeText(text).then(confirmar);
   } else {
-    // Fallback para file://
     const textarea = document.createElement('textarea');
     textarea.value = text;
     textarea.style.position = 'fixed';
@@ -282,7 +277,6 @@ document.getElementById('copyBtn').addEventListener('click', () => {
     setTimeout(() => toast.classList.remove('show'), 2200);
   }
 
-  // ─── Theme toggle ───
   const themeToggle = document.getElementById('themeToggle');
   const iconMoon = document.getElementById('iconMoon');
   const iconSun  = document.getElementById('iconSun');
@@ -299,7 +293,6 @@ document.getElementById('copyBtn').addEventListener('click', () => {
     }
   }
 
-  // Cargar preferencia guardada, por defecto oscuro
   const savedTheme = localStorage.getItem('sinonima-theme') || 'dark';
   setTheme(savedTheme);
 
