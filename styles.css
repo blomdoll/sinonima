@@ -450,23 +450,6 @@
     }
 }
 
-/* bloque de donaciones en el footer (solo móvil) */
-.donate-mobile {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.6rem;
-    margin-bottom: 0.8rem;
-    padding-bottom: 0.8rem;
-    border-bottom: 1px solid var(--border);
-}
-
-@media (max-width: 640px) {
-    .donate-mobile {
-        display: flex;
-    }
-}
-
 .theme-toggle {
     background: transparent;
     border: 1px solid var(--border);
