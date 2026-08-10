@@ -9071,5 +9071,772 @@
     "habitualmente",
     "con frecuencia",
     "seguido"
+  ],
+  "escribía": [
+    "redactaba",
+    "plasmaba",
+    "anotaba",
+    "componía",
+    "transcribía",
+    "garabateaba"
+  ],
+  "empezaba": [
+    "comenzaba",
+    "iniciaba",
+    "arrancaba",
+    "emprendía",
+    "principiaba"
+  ],
+  "empezó": [
+    "comenzó",
+    "inició",
+    "arrancó",
+    "emprendió",
+    "dio inicio"
+  ],
+  "terminaba": [
+    "acababa",
+    "finalizaba",
+    "concluía",
+    "cerraba",
+    "culminaba"
+  ],
+  "terminó": [
+    "acabó",
+    "finalizó",
+    "concluyó",
+    "cerró",
+    "culminó",
+    "remató"
+  ],
+  "mostraba": [
+    "enseñaba",
+    "exhibía",
+    "exponía",
+    "revelaba",
+    "presentaba"
+  ],
+  "mostró": [
+    "enseñó",
+    "exhibió",
+    "expuso",
+    "reveló",
+    "presentó"
+  ],
+  "molestaba": [
+    "fastidiaba",
+    "incomodaba",
+    "importunaba",
+    "incordiaba",
+    "irritaba"
+  ],
+  "molestó": [
+    "fastidió",
+    "incomodó",
+    "importunó",
+    "irritó"
+  ],
+  "sorprendía": [
+    "asombraba",
+    "maravillaba",
+    "pasmaba",
+    "impresionaba",
+    "desconcertaba"
+  ],
+  "sorprendió": [
+    "asombró",
+    "maravilló",
+    "pasmó",
+    "impresionó",
+    "desconcertó"
+  ],
+  "emocionaba": [
+    "conmovía",
+    "enternecía",
+    "impresionaba",
+    "exaltaba"
+  ],
+  "emocionó": [
+    "conmovió",
+    "enterneció",
+    "impresionó",
+    "exaltó"
+  ],
+  "arreglaba": [
+    "reparaba",
+    "componía",
+    "solucionaba",
+    "remediaba",
+    "ajustaba"
+  ],
+  "arregló": [
+    "reparó",
+    "compuso",
+    "solucionó",
+    "remedió",
+    "ajustó"
+  ],
+  "reparaba": [
+    "arreglaba",
+    "componía",
+    "restauraba",
+    "remendaba",
+    "subsanaba"
+  ],
+  "reparó": [
+    "arregló",
+    "compuso",
+    "restauró",
+    "remendó",
+    "subsanó"
+  ],
+  "retrocedía": [
+    "se retiraba",
+    "reculaba",
+    "se replegaba",
+    "cedía terreno"
+  ],
+  "retrocedió": [
+    "se retiró",
+    "reculó",
+    "se replegó",
+    "cedió terreno"
+  ],
+  "permanecía": [
+    "se quedaba",
+    "se mantenía",
+    "continuaba",
+    "persistía"
+  ],
+  "permaneció": [
+    "se quedó",
+    "se mantuvo",
+    "continuó",
+    "persistió"
+  ],
+  "desaparecía": [
+    "se esfumaba",
+    "se evaporaba",
+    "se extinguía",
+    "se disipaba",
+    "se desvanecía"
+  ],
+  "desapareció": [
+    "se esfumó",
+    "se evaporó",
+    "se extinguió",
+    "se disipó",
+    "se desvaneció"
+  ],
+  "describía": [
+    "narraba",
+    "detallaba",
+    "relataba",
+    "retrataba",
+    "exponía"
+  ],
+  "describió": [
+    "narró",
+    "detalló",
+    "relató",
+    "retrató",
+    "expuso"
+  ],
+  "narraba": [
+    "relataba",
+    "contaba",
+    "describía",
+    "refería",
+    "exponía"
+  ],
+  "narró": [
+    "relató",
+    "contó",
+    "describió",
+    "refirió",
+    "expuso"
+  ],
+  "comentaba": [
+    "mencionaba",
+    "opinaba",
+    "señalaba",
+    "observaba",
+    "apuntaba"
+  ],
+  "comentó": [
+    "mencionó",
+    "opinó",
+    "señaló",
+    "observó",
+    "apuntó"
+  ],
+  "mencionaba": [
+    "nombraba",
+    "citaba",
+    "aludía",
+    "refería",
+    "señalaba"
+  ],
+  "mencionó": [
+    "nombró",
+    "citó",
+    "aludió",
+    "refirió",
+    "señaló"
+  ],
+  "declaraba": [
+    "manifestaba",
+    "afirmaba",
+    "exponía",
+    "testificaba",
+    "sostenía"
+  ],
+  "declaró": [
+    "manifestó",
+    "afirmó",
+    "expuso",
+    "testificó",
+    "sostuvo"
+  ],
+  "percibía": [
+    "sentía",
+    "notaba",
+    "advertía",
+    "captaba",
+    "distinguía"
+  ],
+  "percibió": [
+    "sintió",
+    "notó",
+    "advirtió",
+    "captó",
+    "distinguió"
+  ],
+  "distinguía": [
+    "diferenciaba",
+    "discernía",
+    "identificaba",
+    "reconocía",
+    "apreciaba"
+  ],
+  "divisaba": [
+    "avistaba",
+    "distinguía",
+    "atisbaba",
+    "vislumbraba"
+  ],
+  "divisó": [
+    "avistó",
+    "distinguió",
+    "atisbó",
+    "vislumbró"
+  ],
+  "cooperaba": [
+    "colaboraba",
+    "ayudaba",
+    "contribuía",
+    "participaba"
+  ],
+  "cooperó": [
+    "colaboró",
+    "ayudó",
+    "contribuyó",
+    "participó"
+  ],
+  "asistía": [
+    "ayudaba",
+    "acudía",
+    "colaboraba",
+    "presenciaba"
+  ],
+  "asistió": [
+    "ayudó",
+    "acudió",
+    "colaboró",
+    "presenció"
+  ],
+  "captaba": [
+    "entendía",
+    "comprendía",
+    "percibía",
+    "asimilaba"
+  ],
+  "captó": [
+    "entendió",
+    "comprendió",
+    "percibió",
+    "asimiló"
+  ],
+  "asimilaba": [
+    "comprendía",
+    "absorbía",
+    "incorporaba",
+    "integraba"
+  ],
+  "asimiló": [
+    "comprendió",
+    "absorbió",
+    "incorporó",
+    "integró"
+  ],
+  "realizaba": [
+    "efectuaba",
+    "ejecutaba",
+    "cumplía",
+    "concretaba"
+  ],
+  "realizó": [
+    "efectuó",
+    "ejecutó",
+    "cumplió",
+    "concretó"
+  ],
+  "ejecutaba": [
+    "realizaba",
+    "efectuaba",
+    "cumplía",
+    "desempeñaba"
+  ],
+  "ejecutó": [
+    "realizó",
+    "efectuó",
+    "cumplió",
+    "desempeñó"
+  ],
+  "efectuaba": [
+    "realizaba",
+    "ejecutaba",
+    "cumplía",
+    "hacía"
+  ],
+  "efectuó": [
+    "realizó",
+    "ejecutó",
+    "cumplió",
+    "hizo"
+  ],
+  "utilizaba": [
+    "usaba",
+    "empleaba",
+    "aprovechaba",
+    "manejaba"
+  ],
+  "utilizó": [
+    "usó",
+    "empleó",
+    "aprovechó",
+    "manejó"
+  ],
+  "empleaba": [
+    "usaba",
+    "utilizaba",
+    "aprovechaba",
+    "manejaba"
+  ],
+  "empleó": [
+    "usó",
+    "utilizó",
+    "aprovechó",
+    "manejó"
+  ],
+  "otorgaba": [
+    "concedía",
+    "daba",
+    "brindaba",
+    "proporcionaba"
+  ],
+  "otorgó": [
+    "concedió",
+    "dio",
+    "brindó",
+    "proporcionó"
+  ],
+  "concedía": [
+    "otorgaba",
+    "daba",
+    "brindaba",
+    "ofrecía"
+  ],
+  "concedió": [
+    "otorgó",
+    "dio",
+    "brindó",
+    "ofreció"
+  ],
+  "proporcionaba": [
+    "daba",
+    "otorgaba",
+    "suministraba",
+    "brindaba"
+  ],
+  "proporcionó": [
+    "dio",
+    "otorgó",
+    "suministró",
+    "brindó"
+  ],
+  "brindaba": [
+    "ofrecía",
+    "daba",
+    "proporcionaba",
+    "otorgaba"
+  ],
+  "brindó": [
+    "ofreció",
+    "dio",
+    "proporcionó",
+    "otorgó"
+  ],
+  "tomaba": [
+    "cogía",
+    "agarraba",
+    "asía",
+    "sujetaba"
+  ],
+  "cogía": [
+    "tomaba",
+    "agarraba",
+    "asía",
+    "sujetaba"
+  ],
+  "cogió": [
+    "tomó",
+    "agarró",
+    "asió",
+    "sujetó"
+  ],
+  "solicitaba": [
+    "pedía",
+    "requería",
+    "demandaba",
+    "rogaba"
+  ],
+  "solicitó": [
+    "pidió",
+    "requirió",
+    "demandó",
+    "rogó"
+  ],
+  "suplicaba": [
+    "rogaba",
+    "imploraba",
+    "pedía",
+    "clamaba"
+  ],
+  "suplicó": [
+    "rogó",
+    "imploró",
+    "pidió",
+    "clamó"
+  ],
+  "autorizaba": [
+    "permitía",
+    "aprobaba",
+    "facultaba",
+    "habilitaba"
+  ],
+  "autorizó": [
+    "permitió",
+    "aprobó",
+    "facultó",
+    "habilitó"
+  ],
+  "consentía": [
+    "permitía",
+    "toleraba",
+    "aceptaba",
+    "autorizaba"
+  ],
+  "consintió": [
+    "permitió",
+    "toleró",
+    "aceptó",
+    "autorizó"
+  ],
+  "prohibía": [
+    "impedía",
+    "negaba",
+    "denegaba",
+    "restringía"
+  ],
+  "prohibió": [
+    "impidió",
+    "negó",
+    "denegó",
+    "restringió"
+  ],
+  "vetaba": [
+    "prohibía",
+    "rechazaba",
+    "denegaba",
+    "impedía"
+  ],
+  "vetó": [
+    "prohibió",
+    "rechazó",
+    "denegó",
+    "impidió"
+  ],
+  "obligaba": [
+    "forzaba",
+    "imponía",
+    "exigía",
+    "coaccionaba"
+  ],
+  "obligó": [
+    "forzó",
+    "impuso",
+    "exigió",
+    "coaccionó"
+  ],
+  "forzaba": [
+    "obligaba",
+    "imponía",
+    "coaccionaba",
+    "presionaba"
+  ],
+  "forzó": [
+    "obligó",
+    "impuso",
+    "coaccionó",
+    "presionó"
+  ],
+  "imponía": [
+    "obligaba",
+    "forzaba",
+    "exigía",
+    "dictaba"
+  ],
+  "impuso": [
+    "obligó",
+    "forzó",
+    "exigió",
+    "dictó"
+  ],
+  "alcanzaba": [
+    "lograba",
+    "conseguía",
+    "obtenía",
+    "llegaba a"
+  ],
+  "alcanzó": [
+    "logró",
+    "consiguió",
+    "obtuvo",
+    "llegó a"
+  ],
+  "obtenía": [
+    "conseguía",
+    "lograba",
+    "adquiría",
+    "alcanzaba"
+  ],
+  "obtuvo": [
+    "consiguió",
+    "logró",
+    "adquirió",
+    "alcanzó"
+  ],
+  "fracasaba": [
+    "fallaba",
+    "se malograba",
+    "se frustraba",
+    "naufragaba"
+  ],
+  "fracasó": [
+    "falló",
+    "se malogró",
+    "se frustró",
+    "naufragó"
+  ],
+  "se equivocaba": [
+    "erraba",
+    "se confundía",
+    "fallaba"
+  ],
+  "se equivocó": [
+    "erró",
+    "se confundió",
+    "falló"
+  ],
+  "demostraba": [
+    "probaba",
+    "evidenciaba",
+    "comprobaba",
+    "confirmaba"
+  ],
+  "demostró": [
+    "probó",
+    "evidenció",
+    "comprobó",
+    "confirmó"
+  ],
+  "confirmaba": [
+    "ratificaba",
+    "corroboraba",
+    "verificaba",
+    "certificaba"
+  ],
+  "confirmó": [
+    "ratificó",
+    "corroboró",
+    "verificó",
+    "certificó"
+  ],
+  "verificaba": [
+    "comprobaba",
+    "confirmaba",
+    "constataba",
+    "revisaba"
+  ],
+  "verificó": [
+    "comprobó",
+    "confirmó",
+    "constató",
+    "revisó"
+  ],
+  "consideraba": [
+    "opinaba",
+    "juzgaba",
+    "estimaba",
+    "evaluaba"
+  ],
+  "consideró": [
+    "opinó",
+    "juzgó",
+    "estimó",
+    "evaluó"
+  ],
+  "opinaba": [
+    "consideraba",
+    "juzgaba",
+    "pensaba",
+    "creía"
+  ],
+  "opinó": [
+    "consideró",
+    "juzgó",
+    "pensó",
+    "creyó"
+  ],
+  "determinaba": [
+    "decidía",
+    "resolvía",
+    "establecía",
+    "fijaba"
+  ],
+  "determinó": [
+    "decidió",
+    "resolvió",
+    "estableció",
+    "fijó"
+  ],
+  "sugería": [
+    "proponía",
+    "recomendaba",
+    "aconsejaba",
+    "insinuaba"
+  ],
+  "sugirió": [
+    "propuso",
+    "recomendó",
+    "aconsejó",
+    "insinuó"
+  ],
+  "proponía": [
+    "sugería",
+    "planteaba",
+    "ofrecía",
+    "presentaba"
+  ],
+  "propuso": [
+    "sugirió",
+    "planteó",
+    "ofreció",
+    "presentó"
+  ],
+  "recomendaba": [
+    "aconsejaba",
+    "sugería",
+    "indicaba",
+    "orientaba"
+  ],
+  "recomendó": [
+    "aconsejó",
+    "sugirió",
+    "indicó",
+    "orientó"
+  ],
+  "aconsejaba": [
+    "recomendaba",
+    "sugería",
+    "orientaba",
+    "guiaba"
+  ],
+  "aconsejó": [
+    "recomendó",
+    "sugirió",
+    "orientó",
+    "guio"
+  ],
+  "criticaba": [
+    "censuraba",
+    "reprochaba",
+    "cuestionaba",
+    "desaprobaba"
+  ],
+  "criticó": [
+    "censuró",
+    "reprochó",
+    "cuestionó",
+    "desaprobó"
+  ],
+  "elogiaba": [
+    "alababa",
+    "felicitaba",
+    "halagaba",
+    "ensalzaba"
+  ],
+  "elogió": [
+    "alabó",
+    "felicitó",
+    "halagó",
+    "ensalzó"
+  ],
+  "alababa": [
+    "elogiaba",
+    "halagaba",
+    "ensalzaba",
+    "celebraba"
+  ],
+  "alabó": [
+    "elogió",
+    "halagó",
+    "ensalzó",
+    "celebró"
+  ],
+  "cuestionaba": [
+    "preguntaba",
+    "indagaba",
+    "dudaba",
+    "objetaba"
+  ],
+  "cuestionó": [
+    "preguntó",
+    "indagó",
+    "dudó",
+    "objetó"
+  ],
+  "averiguaba": [
+    "indagaba",
+    "investigaba",
+    "descubría",
+    "inquiría"
+  ],
+  "averiguó": [
+    "indagó",
+    "investigó",
+    "descubrió",
+    "inquirió"
   ]
 }
