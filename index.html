@@ -132,11 +132,7 @@
 </footer>
   
 <script>
-  let lastWord = '';
-  let lastSynonyms = [];
-  let debounceTimer = null;
-  let DICC = null;
-
+  // refs del editor y el panel de sinónimos
   const editor = document.getElementById('editor');
   const currentWord = document.getElementById('currentWord');
   const synList = document.getElementById('synList');
@@ -144,245 +140,231 @@
   const activeDisplay = document.getElementById('activeWordDisplay');
   const activeLabel = document.getElementById('activeWordLabel');
   const toast = document.getElementById('toast');
+  const copyBtn = document.getElementById('copyBtn');
 
+  let dataSinonimos = null;   // el json completo, se llena cuando termina el fetch
+  let indiceNormalizado = {};
+  let ultimaPalabra = '';
+  let timerDebounce = null;
+
+  // quita tildes y pasa a minúsculas
   function normalizar(texto) {
     if (!texto) return '';
-    return texto
-      .toLowerCase()
-      .trim()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "");
+    return texto.toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
-  
-  let DICC_IDX = {};
 
-  const jsonUrl = new URL('sinonimos.json', window.location.href).href;
-  
-  fetch(jsonUrl)
-    .then(r => {
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return r.json();
+  const urlDiccionario = new URL('sinonimos.json', window.location.href).href;
+
+  fetch(urlDiccionario)
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
     })
-    .then(data => { 
-      DICC = data;
-      for (let llave in DICC) {
-        DICC_IDX[normalizar(llave)] = llave;
+    .then(data => {
+      dataSinonimos = data;
+      for (const clave in dataSinonimos) {
+        indiceNormalizado[normalizar(clave)] = clave;
       }
-      console.log('✓ Sinónimos cargados:', Object.keys(DICC).length, 'palabras');
+      console.log('✓ sinónimos cargados:', Object.keys(dataSinonimos).length, 'palabras');
     })
-    .catch(error => {
-      console.error('✗ Error cargando sinonimos.json:', error);
-      showToast("Error al cargar diccionario", "#e74c3c");
+    .catch(err => {
+      console.error('✗ no se pudo cargar sinonimos.json:', err);
+      showToast('Error al cargar diccionario', '#e74c3c');
     });
 
   editor.addEventListener('input', () => {
-    const text = editor.value;
-    const count = text.trim() === '' ? 0 : text.trim().split(/\s+/).length;
-    wordCount.textContent = `${count} palabra${count !== 1 ? 's' : ''}`;
+    const texto = editor.value;
+    const cantidad = texto.trim() === '' ? 0 : texto.trim().split(/\s+/).length;
+    wordCount.textContent = `${cantidad} palabra${cantidad !== 1 ? 's' : ''}`;
 
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(() => {
-      const words = text.trim().split(/\s+/);
-      const word = (words[words.length - 1] || '')
+    clearTimeout(timerDebounce);
+    timerDebounce = setTimeout(() => {
+      const palabras = texto.trim().split(/\s+/);
+      const ultima = (palabras[palabras.length - 1] || '')
         .replace(/^[.,;:!?¿¡"'()\-]+/, '')
         .replace(/[.,;:!?¿¡"'()]+$/, '');
-      
-      if (word && word.toLowerCase() !== lastWord) {
-        lastWord = word.toLowerCase();
-        fetchSynonyms(word);
+
+      if (ultima && ultima.toLowerCase() !== ultimaPalabra) {
+        ultimaPalabra = ultima.toLowerCase();
+        buscarSinonimos(ultima);
       }
-    }, 400); 
+    }, 400);
   });
 
-  async function fetchSynonyms(word) {
-    if (!word || word.length < 2 || !DICC) return;
+  function buscarSinonimos(palabra) {
+    if (!palabra || palabra.length < 2 || !dataSinonimos) return;
 
-    const palabraBuscada = normalizar(word);
-    activeLabel.textContent = word;
+    const buscada = normalizar(palabra);
+    activeLabel.textContent = palabra;
     activeDisplay.style.display = 'block';
 
     let resultados = [];
-    
-    const claveOriginal = DICC_IDX[palabraBuscada];
+    const claveOriginal = indiceNormalizado[buscada];
+
     if (claveOriginal) {
-      resultados = [...DICC[claveOriginal]];
+      resultados = [...dataSinonimos[claveOriginal]];
     } else {
-      for (let llave in DICC) {
-        const listaSinonimos = DICC[llave].map(s => normalizar(s));
-        if (listaSinonimos.includes(palabraBuscada)) {
-          resultados.push(llave);
-          DICC[llave].forEach(s => {
-            if (normalizar(s) !== palabraBuscada) resultados.push(s);
+      
+      for (const clave in dataSinonimos) {
+        const lista = dataSinonimos[clave].map(normalizar);
+        if (lista.includes(buscada)) {
+          resultados.push(clave);
+          dataSinonimos[clave].forEach(s => {
+            if (normalizar(s) !== buscada) resultados.push(s);
           });
           break;
         }
       }
     }
 
-    renderSynonyms(resultados, word);
+    renderSinonimos(resultados, palabra);
   }
 
-  function renderSynonyms(synonyms, originalWord) {
-    currentWord.textContent = originalWord;
+  function renderSinonimos(sinonimos, palabraOriginal) {
+    currentWord.textContent = palabraOriginal;
     synList.innerHTML = '';
     activeDisplay.style.display = 'none';
 
-    if (!synonyms || !synonyms.length) {
-      synList.innerHTML = `<div class="syn-empty">No se encontraron sinónimos para <em>${originalWord}</em>.</div>`;
+    if (!sinonimos || !sinonimos.length) {
+      synList.innerHTML = `<div class="syn-empty">No se encontraron sinónimos para <em>${palabraOriginal}</em>.</div>`;
       return;
     }
 
-    synonyms.forEach(syn => {
+    for (const syn of sinonimos) {
       const item = document.createElement('div');
       item.className = 'syn-item';
-
-      const bar = document.createElement('div');
-      bar.className = 'syn-color';
-      bar.style.background = 'var(--accent)';
-
-      const label = document.createElement('div');
-      label.className = 'syn-word';
-      label.textContent = syn;
-
-      const hint = document.createElement('div');
-      hint.className = 'syn-hint';
-      hint.textContent = '↩ usar';
-
-      item.appendChild(bar);
-      item.appendChild(label);
-      item.appendChild(hint);
-      item.addEventListener('click', () => replaceWord(originalWord, syn));
+      item.innerHTML = `
+        <div class="syn-color" style="background: var(--accent)"></div>
+        <div class="syn-word">${syn}</div>
+        <div class="syn-hint">↩ usar</div>
+      `;
+      item.addEventListener('click', () => reemplazarPalabra(palabraOriginal, syn));
       synList.appendChild(item);
-    });
+    }
   }
 
-  function replaceWord(original, replacement) {
-    const text = editor.value;
+  function reemplazarPalabra(original, reemplazo) {
+    const texto = editor.value;
     const regex = new RegExp(`(?<![\\wáéíóúüñÁÉÍÓÚÜÑ])${escapeRegex(original)}(?![\\wáéíóúüñÁÉÍÓÚÜÑ])`, 'gi');
-    let lastMatch = null, m;
-    while ((m = regex.exec(text)) !== null) lastMatch = m;
-    
-    if (!lastMatch) {
+
+    let ultimaCoincidencia = null;
+    let match;
+    while ((match = regex.exec(texto)) !== null) ultimaCoincidencia = match;
+
+    if (!ultimaCoincidencia) {
       showToast(`No se encontró "${original}"`);
       return;
     }
 
-    editor.value = text.slice(0, lastMatch.index) + replacement + text.slice(lastMatch.index + lastMatch[0].length);
-    
-    lastWord = replacement.toLowerCase();
+    const inicio = ultimaCoincidencia.index;
+    const fin = inicio + ultimaCoincidencia[0].length;
+    editor.value = texto.slice(0, inicio) + reemplazo + texto.slice(fin);
+
+    ultimaPalabra = reemplazo.toLowerCase();
     editor.dispatchEvent(new Event('input'));
-    showToast(`"${original}" → "${replacement}"`);
+    showToast(`"${original}" → "${reemplazo}"`);
   }
 
-document.getElementById('copyBtn').addEventListener('click', () => {
-  const text = editor.value;
-  if (!text.trim()) {
-    showToast('No hay texto para copiar');
-    return;
+  const iconoCopiar = `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="5" width="9" height="9" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2H3.5A1.5 1.5 0 0 0 2 3.5V9.5A1.5 1.5 0 0 0 3.5 11H5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg> Copiar texto`;
+  const iconoCheck = `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><polyline points="2,8 6,12 14,4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Copiado`;
+
+  copyBtn.addEventListener('click', () => {
+    const texto = editor.value;
+    if (!texto.trim()) {
+      showToast('No hay texto para copiar');
+      return;
+    }
+
+    const marcarComoCopiado = () => {
+      copyBtn.classList.add('copied');
+      copyBtn.innerHTML = iconoCheck;
+      showToast('Texto copiado al portapapeles');
+      setTimeout(() => {
+        copyBtn.classList.remove('copied');
+        copyBtn.innerHTML = iconoCopiar;
+      }, 2000);
+    };
+
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(texto).then(marcarComoCopiado);
+    } else {
+      // fallback para contextos no seguros (http) donde no existe navigator.clipboard
+      const tmp = document.createElement('textarea');
+      tmp.value = texto;
+      tmp.style.position = 'fixed';
+      tmp.style.opacity = '0';
+      document.body.appendChild(tmp);
+      tmp.select();
+      document.execCommand('copy');
+      document.body.removeChild(tmp);
+      marcarComoCopiado();
+    }
+  });
+
+  function escapeRegex(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
-  const btn = document.getElementById('copyBtn');
-  const iconCopy = `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="5" width="9" height="9" rx="1.5" stroke="currentColor" stroke-width="1.4"/><path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2H3.5A1.5 1.5 0 0 0 2 3.5V9.5A1.5 1.5 0 0 0 3.5 11H5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg> Copiar texto`;
-  const iconCheck = `<svg width="13" height="13" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><polyline points="2,8 6,12 14,4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Copiado`;
-
-  function confirmar() {
-    btn.classList.add('copied');
-    btn.innerHTML = iconCheck;
-    showToast('Texto copiado al portapapeles');
-    setTimeout(() => {
-      btn.classList.remove('copied');
-      btn.innerHTML = iconCopy;
-    }, 2000);
-  }
-
-  if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(text).then(confirmar);
-  } else {
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    textarea.style.position = 'fixed';
-    textarea.style.opacity = '0';
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand('copy');
-    document.body.removeChild(textarea);
-    confirmar();
-  }
-});
-
-  function escapeRegex(str) { return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
-
-  function showToast(msg, bg = null) {
+  function showToast(msg, bg) {
     toast.textContent = msg;
     toast.style.background = bg || 'var(--accent)';
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 2200);
   }
 
+  /* ─── tema claro / oscuro ─── */
   const themeToggle = document.getElementById('themeToggle');
   const iconMoon = document.getElementById('iconMoon');
-  const iconSun  = document.getElementById('iconSun');
+  const iconSun = document.getElementById('iconSun');
+  const mobileIconMoon = document.getElementById('mobileIconMoon');
+  const mobileIconSun = document.getElementById('mobileIconSun');
 
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('sinonima-theme', theme);
-    if (theme === 'light') {
-      iconMoon.style.display = 'none';
-      iconSun.style.display  = 'block';
-      // sincronizar en menú móvil
-      const mobileIconMoon = document.getElementById('mobileIconMoon');
-      const mobileIconSun = document.getElementById('mobileIconSun');
-      if (mobileIconMoon) mobileIconMoon.style.display = 'none';
-      if (mobileIconSun) mobileIconSun.style.display = 'block';
-    } else {
-      iconMoon.style.display = 'block';
-      iconSun.style.display  = 'none';
-      // sincronizar en menú móvil
-      const mobileIconMoon = document.getElementById('mobileIconMoon');
-      const mobileIconSun = document.getElementById('mobileIconSun');
-      if (mobileIconMoon) mobileIconMoon.style.display = 'block';
-      if (mobileIconSun) mobileIconSun.style.display = 'none';
-    }
+
+    const esClaro = theme === 'light';
+    iconMoon.style.display = esClaro ? 'none' : 'block';
+    iconSun.style.display = esClaro ? 'block' : 'none';
+
+    // el menú móvil tiene su propio set de íconos, hay que mantenerlos sincronizados
+    if (mobileIconMoon) mobileIconMoon.style.display = esClaro ? 'none' : 'block';
+    if (mobileIconSun) mobileIconSun.style.display = esClaro ? 'block' : 'none';
   }
 
-  const savedTheme = localStorage.getItem('sinonima-theme') || 'dark';
-  setTheme(savedTheme);
+  setTheme(localStorage.getItem('sinonima-theme') || 'dark');
 
-  themeToggle.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    setTheme(current === 'light' ? 'dark' : 'light');
-  });
+  function toggleTheme() {
+    const actual = document.documentElement.getAttribute('data-theme');
+    setTheme(actual === 'light' ? 'dark' : 'light');
+  }
 
-  /* ─── Menú Hamburguesa ─── */
+  themeToggle.addEventListener('click', toggleTheme);
+  document.getElementById('mobileThemeToggle').addEventListener('click', toggleTheme);
+
+  /* ─── menú hamburguesa (móvil) ─── */
   const mobileMenuToggle = document.getElementById('mobileMenuToggle');
   const mobileMenu = document.getElementById('mobileMenu');
   const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
   const mobileMenuClose = document.getElementById('mobileMenuClose');
-  const mobileThemeToggle = document.getElementById('mobileThemeToggle');
 
-  function openMenu() {
+  function abrirMenu() {
     mobileMenu.classList.add('active');
     mobileMenuOverlay.classList.add('active');
     mobileMenuToggle.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
 
-  function closeMenu() {
+  function cerrarMenu() {
     mobileMenu.classList.remove('active');
     mobileMenuOverlay.classList.remove('active');
     mobileMenuToggle.classList.remove('active');
     document.body.style.overflow = 'auto';
   }
 
-  mobileMenuToggle.addEventListener('click', openMenu);
-  mobileMenuClose.addEventListener('click', closeMenu);
-  mobileMenuOverlay.addEventListener('click', closeMenu);
-
-  // sincronizar tema en menú móvil
-  mobileThemeToggle.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    setTheme(current === 'light' ? 'dark' : 'light');
-  });
+  mobileMenuToggle.addEventListener('click', abrirMenu);
+  mobileMenuClose.addEventListener('click', cerrarMenu);
+  mobileMenuOverlay.addEventListener('click', cerrarMenu);
 </script>
 </body>
 </html>
