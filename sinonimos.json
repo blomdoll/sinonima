@@ -338,7 +338,9 @@
     "dar un beso",
     "acariciar",
     "rozar",
-    "tocar"
+    "tocar",
+    "dar un beso a",
+    "unir los labios"
   ],
   "bloquear": [
     "obstaculizar",
@@ -1698,8 +1700,7 @@
     "retroceder",
     "reaparecer",
     "reincidir",
-    "recurrir",
-    "reaparecer"
+    "recurrir"
   ],
   "alegre": [
     "feliz",
@@ -3435,8 +3436,7 @@
     "vaticinio",
     "señal",
     "premonición",
-    "anuncio",
-    "vaticinio"
+    "anuncio"
   ],
   "bestia": [
     "criatura",
@@ -3642,13 +3642,15 @@
     "yemas",
     "falanges",
     "apéndices",
-    "extremidades"
+    "extremidades",
+    "manos"
   ],
   "espalda": [
     "dorso",
     "lomo",
     "reverso",
-    "zaga"
+    "zaga",
+    "parte posterior"
   ],
   "estómago": [
     "vientre",
@@ -3660,24 +3662,28 @@
   "hombros": [
     "espalda alta",
     "omóplatos",
-    "base del cuello"
+    "base del cuello",
+    "parte alta de la espalda"
   ],
   "labios": [
     "boca",
     "morros",
     "beso",
-    "bordes"
+    "bordes",
+    "comisuras"
   ],
   "manos": [
     "palmas",
     "garras",
     "diestras",
-    "extremidades superiores"
+    "extremidades superiores",
+    "puños"
   ],
   "mejillas": [
     "pómulos",
     "carrillos",
-    "faz"
+    "faz",
+    "cachetes"
   ],
   "ojos": [
     "mirada",
@@ -3690,7 +3696,8 @@
   "orejas": [
     "oídos",
     "pabellones",
-    "aurículas"
+    "aurículas",
+    "oído externo"
   ],
   "pecho": [
     "torso",
@@ -3703,13 +3710,15 @@
     "extremidades inferiores",
     "zancas",
     "columnas",
-    "soporte"
+    "soporte",
+    "patas"
   ],
   "pies": [
     "plantas",
     "pasos",
     "extremidades",
-    "base"
+    "base",
+    "dos pies"
   ],
   "piel": [
     "cutis",
@@ -3823,7 +3832,8 @@
     "sonrió",
     "carcajeó",
     "celebró",
-    "festejó"
+    "festejó",
+    "rompió a reír"
   ],
   "quiso": [
     "deseó",
@@ -3902,7 +3912,9 @@
     "oyó",
     "atendió",
     "percibió",
-    "asintió"
+    "asintió",
+    "captó",
+    "prestó oído"
   ],
   "tomó": [
     "agarró",
@@ -4539,9 +4551,10 @@
   "acechando": [
     "espiando",
     "vigilando",
-    "rondando",
+    "merodeando",
     "observando",
-    "atendiendo"
+    "aguardando",
+    "acosando"
   ],
   "fingió": [
     "simuló",
@@ -4750,7 +4763,9 @@
     "alboreaba",
     "despuntaba",
     "clareaba",
-    "nacía el día"
+    "nacía el día",
+    "se iluminaba el cielo",
+    "rompía el día"
   ],
   "crepuscular": [
     "atardecer",
@@ -5168,7 +5183,8 @@
     "descuidaba",
     "omitía",
     "relegaba",
-    "desatendía"
+    "desatendía",
+    "borraba de la mente"
   ],
   "recordó": [
     "evocó",
@@ -5181,13 +5197,15 @@
     "evocaba",
     "rememoraba",
     "añoraba",
-    "tenía presente"
+    "tenía presente",
+    "traía a la memoria"
   ],
   "soportaba": [
     "aguantaba",
     "resistía",
     "toleraba",
-    "sobrellevaba"
+    "sobrellevaba",
+    "llevaba con paciencia"
   ],
   "logró": [
     "alcanzó",
@@ -5201,7 +5219,9 @@
     "alcanzaba",
     "obtenía",
     "consiguía",
-    "conquistaba"
+    "conquistaba",
+    "cumplía",
+    "concretaba"
   ],
   "advertía": [
     "notaba",
@@ -5248,7 +5268,8 @@
     "recelaba",
     "sospechaba",
     "desconfiaba",
-    "se asustaba"
+    "se asustaba",
+    "se atemorizaba"
   ],
   "sacudió": [
     "agitó",
@@ -5261,7 +5282,8 @@
     "agitaba",
     "movía",
     "golpeaba",
-    "conmovía"
+    "conmovía",
+    "zarandeaba"
   ],
   "surgió": [
     "apareció",
@@ -5274,7 +5296,9 @@
     "aparecía",
     "emergía",
     "asomaba",
-    "brotaba"
+    "brotaba",
+    "afloraba",
+    "irrumpía"
   ],
   "reprender": [
     "corregir",
@@ -5335,7 +5359,8 @@
     "puntapié",
     "coz",
     "golpe",
-    "impacto"
+    "impacto",
+    "puntapié fuerte"
   ],
   "cuento": [
     "relato",
@@ -5520,13 +5545,16 @@
     "brincaba",
     "rebotaba",
     "repicaba",
-    "ondulaba"
+    "ondulaba",
+    "daba brincos"
   ],
   "caía": [
     "descendía",
     "goteaba",
     "derrumbaba",
-    "se hundía"
+    "se hundía",
+    "se precipitaba",
+    "se desplomaba"
   ],
   "subió": [
     "ascendió",
@@ -5539,7 +5567,8 @@
     "ascendía",
     "elevaba",
     "trepaba",
-    "incrementaba"
+    "incrementaba",
+    "ganaba altura"
   ],
   "bajó": [
     "descendió",
@@ -5552,7 +5581,9 @@
     "descendía",
     "caía",
     "aminoraba",
-    "se deslizaba"
+    "se deslizaba",
+    "disminuía",
+    "menguaba"
   ],
   "morder": [
     "dentellar",
@@ -5624,13 +5655,16 @@
     "presionaba",
     "oprimía",
     "estrujaba",
-    "comprimía"
+    "comprimía",
+    "ceñía",
+    "atenazaba"
   ],
   "susurraba": [
     "murmuraba",
     "musitaba",
     "bisbiceaba",
-    "mascullaba"
+    "mascullaba",
+    "hablaba en voz baja"
   ],
   "gritó": [
     "exclamó",
@@ -5643,7 +5677,9 @@
     "vociferaba",
     "chillaba",
     "bramaba",
-    "escandalizaba"
+    "escandalizaba",
+    "clamaba",
+    "alzaba la voz"
   ],
   "estruendo": [
     "estrépito",
@@ -7708,12 +7744,12 @@
     "rondando"
   ],
   "merodeando": [
-    "acechando",
     "rondando",
-    "vigilando",
-    "espidando",
+    "vagando",
+    "circulando",
+    "acechando",
     "curioseando",
-    "deambulando"
+    "husmeando"
   ],
   "callejeando": [
     "paseando",
@@ -7811,14 +7847,6 @@
     "preocupándose",
     "obsesionándose"
   ],
-  "acechando": [
-    "espiando",
-    "vigilando",
-    "merodeando",
-    "observando",
-    "aguardando",
-    "acosando"
-  ],
   "espiando": [
     "fisgoneando",
     "acechando",
@@ -7847,9 +7875,8 @@
     "surgiendo",
     "apareciendo",
     "brotando",
-    "creciendo",
-    "naciendo",
-    "asomando"
+    "asomando",
+    "emanando"
   ],
   "fluyendo": [
     "corriendo",
@@ -7875,22 +7902,6 @@
     "enroscándose",
     "desviándose"
   ],
-  "acechando": [
-    "espiando",
-    "vigilando",
-    "merodeando",
-    "observando",
-    "aguardando",
-    "acosando"
-  ],
-  "merodeando": [
-    "rondando",
-    "vagando",
-    "circulando",
-    "acechando",
-    "curioseando",
-    "husmeando"
-  ],
   "husmeando": [
     "olfateando",
     "rastreando",
@@ -7898,14 +7909,6 @@
     "fisgoneando",
     "curioseando",
     "merodeando"
-  ],
-  "emergiendo": [
-    "surgiendo",
-    "apareciendo",
-    "brotando",
-    "asomando",
-    "brotando",
-    "emanando"
   ],
   "emanando": [
     "irradiando",
@@ -7930,22 +7933,6 @@
     "oscilando",
     "tanteando",
     "fluctuando"
-  ],
-  "Antoine": [
-    "Marido de Sage",
-    "Compañero de vida",
-    "Pareja de Sage"
-  ],
-  "Sage": [
-    "Marido de Antoine",
-    "Compañero de vida",
-    "Pareja de Antoine"
-  ],
-  "Marido de Sage": [
-    "Antoine"
-  ],
-  "Marido de Antoine": [
-    "Sage"
   ],
   "felino": [
     "sigiloso",
@@ -8226,5 +8213,863 @@
     "se produjo",
     "emergía",
     "tenía lugar"
+  ],
+  "escribir": [
+    "redactar",
+    "plasmar",
+    "anotar",
+    "componer",
+    "transcribir",
+    "garabatear"
+  ],
+  "empezar": [
+    "comenzar",
+    "iniciar",
+    "arrancar",
+    "emprender",
+    "principiar",
+    "abrir"
+  ],
+  "terminar": [
+    "acabar",
+    "finalizar",
+    "concluir",
+    "cerrar",
+    "culminar",
+    "rematar"
+  ],
+  "acabar": [
+    "terminar",
+    "finalizar",
+    "concluir",
+    "rematar",
+    "consumarse"
+  ],
+  "entender": [
+    "comprender",
+    "captar",
+    "asimilar",
+    "interpretar",
+    "descifrar",
+    "concebir"
+  ],
+  "mostrar": [
+    "enseñar",
+    "exhibir",
+    "exponer",
+    "revelar",
+    "presentar",
+    "indicar"
+  ],
+  "contestar": [
+    "responder",
+    "replicar",
+    "atender",
+    "corresponder"
+  ],
+  "viajar": [
+    "recorrer",
+    "trasladarse",
+    "desplazarse",
+    "peregrinar",
+    "vagar"
+  ],
+  "vender": [
+    "comerciar",
+    "ofertar",
+    "despachar",
+    "liquidar",
+    "colocar"
+  ],
+  "cobrar": [
+    "percibir",
+    "recaudar",
+    "embolsarse",
+    "recibir pago",
+    "facturar"
+  ],
+  "deber": [
+    "tener que",
+    "corresponder",
+    "adeudar",
+    "competer"
+  ],
+  "molestar": [
+    "fastidiar",
+    "incomodar",
+    "importunar",
+    "incordiar",
+    "hastiar",
+    "irritar"
+  ],
+  "sorprender": [
+    "asombrar",
+    "maravillar",
+    "pasmar",
+    "dejar atónito",
+    "impresionar",
+    "desconcertar"
+  ],
+  "emocionar": [
+    "conmover",
+    "enternecer",
+    "impresionar",
+    "agitar el ánimo",
+    "exaltar"
+  ],
+  "arreglar": [
+    "reparar",
+    "componer",
+    "solucionar",
+    "remediar",
+    "ajustar",
+    "ordenar"
+  ],
+  "reparar": [
+    "arreglar",
+    "componer",
+    "restaurar",
+    "remendar",
+    "subsanar"
+  ],
+  "detener": [
+    "parar",
+    "frenar",
+    "paralizar",
+    "interrumpir",
+    "suspender",
+    "contener"
+  ],
+  "retroceder": [
+    "retirarse",
+    "recular",
+    "replegarse",
+    "ceder terreno",
+    "dar marcha atrás"
+  ],
+  "permanecer": [
+    "quedarse",
+    "mantenerse",
+    "continuar",
+    "persistir",
+    "perdurar"
+  ],
+  "desaparecer": [
+    "esfumarse",
+    "evaporarse",
+    "extinguirse",
+    "disiparse",
+    "desvanecerse"
+  ],
+  "ancho": [
+    "amplio",
+    "extenso",
+    "holgado",
+    "dilatado",
+    "espacioso"
+  ],
+  "estrecho": [
+    "angosto",
+    "ceñido",
+    "apretado",
+    "reducido",
+    "ajustado"
+  ],
+  "corto": [
+    "breve",
+    "escueto",
+    "sucinto",
+    "reducido",
+    "conciso"
+  ],
+  "grueso": [
+    "gordo",
+    "voluminoso",
+    "corpulento",
+    "robusto",
+    "macizo"
+  ],
+  "simple": [
+    "sencillo",
+    "básico",
+    "elemental",
+    "llano",
+    "fácil"
+  ],
+  "complicado": [
+    "complejo",
+    "enredado",
+    "difícil",
+    "intrincado",
+    "engorroso"
+  ],
+  "enojado": [
+    "molesto",
+    "furioso",
+    "irritado",
+    "enfadado",
+    "indignado"
+  ],
+  "enfadado": [
+    "enojado",
+    "furioso",
+    "molesto",
+    "indignado",
+    "airado"
+  ],
+  "calmado": [
+    "sereno",
+    "apacible",
+    "sosegado",
+    "plácido",
+    "relajado"
+  ],
+  "útil": [
+    "práctico",
+    "provechoso",
+    "beneficioso",
+    "valioso",
+    "funcional"
+  ],
+  "inútil": [
+    "innecesario",
+    "inservible",
+    "ineficaz",
+    "superfluo",
+    "prescindible"
+  ],
+  "probable": [
+    "factible",
+    "posible",
+    "previsible",
+    "presumible",
+    "plausible"
+  ],
+  "agradable": [
+    "placentero",
+    "grato",
+    "ameno",
+    "gustoso",
+    "satisfactorio"
+  ],
+  "desagradable": [
+    "molesto",
+    "incómodo",
+    "repulsivo",
+    "fastidioso",
+    "ingrato"
+  ],
+  "aburrido": [
+    "tedioso",
+    "monótono",
+    "fastidioso",
+    "insulso",
+    "pesado"
+  ],
+  "tonto": [
+    "bobo",
+    "necio",
+    "torpe",
+    "ingenuo",
+    "simple"
+  ],
+  "deshonesto": [
+    "falso",
+    "tramposo",
+    "embustero",
+    "mentiroso",
+    "corrupto"
+  ],
+  "sincero": [
+    "franco",
+    "honesto",
+    "veraz",
+    "transparente",
+    "genuino"
+  ],
+  "grosero": [
+    "descortés",
+    "irrespetuoso",
+    "maleducado",
+    "insolente",
+    "tosco"
+  ],
+  "educado": [
+    "cortés",
+    "correcto",
+    "atento",
+    "respetuoso",
+    "cordial"
+  ],
+  "maleducado": [
+    "grosero",
+    "descortés",
+    "insolente",
+    "irrespetuoso",
+    "mal criado"
+  ],
+  "paciente": [
+    "tolerante",
+    "sufrido",
+    "calmado",
+    "resignado",
+    "indulgente"
+  ],
+  "impaciente": [
+    "ansioso",
+    "inquieto",
+    "nervioso",
+    "apresurado",
+    "intranquilo"
+  ],
+  "dinero": [
+    "plata",
+    "efectivo",
+    "capital",
+    "fondos",
+    "recursos"
+  ],
+  "enemigo": [
+    "adversario",
+    "rival",
+    "contrincante",
+    "opositor",
+    "contrario"
+  ],
+  "familia": [
+    "parientes",
+    "allegados",
+    "seres queridos",
+    "clan",
+    "parentela"
+  ],
+  "país": [
+    "nación",
+    "territorio",
+    "estado",
+    "patria",
+    "tierra"
+  ],
+  "solución": [
+    "respuesta",
+    "remedio",
+    "salida",
+    "arreglo",
+    "resolución"
+  ],
+  "pregunta": [
+    "cuestión",
+    "interrogante",
+    "duda",
+    "consulta"
+  ],
+  "respuesta": [
+    "contestación",
+    "réplica",
+    "solución",
+    "reacción"
+  ],
+  "plan": [
+    "proyecto",
+    "estrategia",
+    "programa",
+    "propósito",
+    "esquema"
+  ],
+  "razón": [
+    "motivo",
+    "causa",
+    "argumento",
+    "fundamento",
+    "justificación"
+  ],
+  "causa": [
+    "motivo",
+    "razón",
+    "origen",
+    "fundamento",
+    "móvil"
+  ],
+  "efecto": [
+    "consecuencia",
+    "resultado",
+    "repercusión",
+    "secuela",
+    "impacto"
+  ],
+  "resultado": [
+    "consecuencia",
+    "efecto",
+    "desenlace",
+    "fruto",
+    "saldo"
+  ],
+  "consecuencia": [
+    "efecto",
+    "resultado",
+    "secuela",
+    "repercusión",
+    "derivación"
+  ],
+  "ejemplo": [
+    "modelo",
+    "muestra",
+    "caso",
+    "ilustración",
+    "referencia"
+  ],
+  "manera": [
+    "forma",
+    "modo",
+    "método",
+    "procedimiento",
+    "estilo"
+  ],
+  "forma": [
+    "manera",
+    "modo",
+    "figura",
+    "aspecto",
+    "contorno"
+  ],
+  "modo": [
+    "manera",
+    "forma",
+    "método",
+    "procedimiento",
+    "estilo"
+  ],
+  "describir": [
+    "narrar",
+    "detallar",
+    "relatar",
+    "retratar",
+    "exponer"
+  ],
+  "narrar": [
+    "relatar",
+    "contar",
+    "describir",
+    "referir",
+    "exponer"
+  ],
+  "comentar": [
+    "mencionar",
+    "opinar",
+    "señalar",
+    "observar",
+    "apuntar"
+  ],
+  "mencionar": [
+    "nombrar",
+    "citar",
+    "aludir",
+    "referir",
+    "señalar"
+  ],
+  "declarar": [
+    "manifestar",
+    "afirmar",
+    "exponer",
+    "testificar",
+    "sostener"
+  ],
+  "percibir": [
+    "sentir",
+    "notar",
+    "advertir",
+    "captar",
+    "distinguir"
+  ],
+  "distinguir": [
+    "diferenciar",
+    "discernir",
+    "identificar",
+    "reconocer",
+    "apreciar"
+  ],
+  "divisar": [
+    "avistar",
+    "distinguir",
+    "atisbar",
+    "vislumbrar",
+    "columbrar"
+  ],
+  "cooperar": [
+    "colaborar",
+    "ayudar",
+    "contribuir",
+    "participar",
+    "asistir"
+  ],
+  "captar": [
+    "entender",
+    "comprender",
+    "percibir",
+    "asimilar",
+    "atrapar"
+  ],
+  "asimilar": [
+    "comprender",
+    "absorber",
+    "incorporar",
+    "digerir",
+    "integrar"
+  ],
+  "realizar": [
+    "efectuar",
+    "ejecutar",
+    "llevar a cabo",
+    "cumplir",
+    "concretar"
+  ],
+  "ejecutar": [
+    "realizar",
+    "efectuar",
+    "llevar a cabo",
+    "cumplir",
+    "desempeñar"
+  ],
+  "efectuar": [
+    "realizar",
+    "ejecutar",
+    "cumplir",
+    "llevar a cabo",
+    "hacer"
+  ],
+  "utilizar": [
+    "usar",
+    "emplear",
+    "aprovechar",
+    "manejar",
+    "aplicar"
+  ],
+  "emplear": [
+    "usar",
+    "utilizar",
+    "aprovechar",
+    "contratar",
+    "manejar"
+  ],
+  "otorgar": [
+    "conceder",
+    "dar",
+    "brindar",
+    "proporcionar",
+    "adjudicar"
+  ],
+  "conceder": [
+    "otorgar",
+    "dar",
+    "permitir",
+    "brindar",
+    "ofrecer"
+  ],
+  "proporcionar": [
+    "dar",
+    "otorgar",
+    "suministrar",
+    "brindar",
+    "facilitar"
+  ],
+  "brindar": [
+    "ofrecer",
+    "dar",
+    "proporcionar",
+    "otorgar",
+    "regalar"
+  ],
+  "tomar": [
+    "coger",
+    "agarrar",
+    "asir",
+    "sujetar",
+    "atrapar"
+  ],
+  "coger": [
+    "tomar",
+    "agarrar",
+    "asir",
+    "sujetar",
+    "atrapar"
+  ],
+  "solicitar": [
+    "pedir",
+    "requerir",
+    "demandar",
+    "rogar",
+    "gestionar"
+  ],
+  "suplicar": [
+    "rogar",
+    "implorar",
+    "pedir",
+    "clamar",
+    "mendigar"
+  ],
+  "autorizar": [
+    "permitir",
+    "aprobar",
+    "facultar",
+    "habilitar",
+    "consentir"
+  ],
+  "consentir": [
+    "permitir",
+    "tolerar",
+    "aceptar",
+    "autorizar",
+    "condescender"
+  ],
+  "prohibir": [
+    "impedir",
+    "vetar",
+    "negar",
+    "denegar",
+    "restringir"
+  ],
+  "vetar": [
+    "prohibir",
+    "rechazar",
+    "denegar",
+    "impedir",
+    "bloquear"
+  ],
+  "obligar": [
+    "forzar",
+    "imponer",
+    "exigir",
+    "coaccionar",
+    "compeler"
+  ],
+  "forzar": [
+    "obligar",
+    "imponer",
+    "coaccionar",
+    "presionar",
+    "violentar"
+  ],
+  "imponer": [
+    "obligar",
+    "forzar",
+    "exigir",
+    "dictar",
+    "establecer"
+  ],
+  "alcanzar": [
+    "lograr",
+    "conseguir",
+    "obtener",
+    "llegar a",
+    "culminar"
+  ],
+  "obtener": [
+    "conseguir",
+    "lograr",
+    "adquirir",
+    "alcanzar",
+    "ganar"
+  ],
+  "fracasar": [
+    "fallar",
+    "malograrse",
+    "frustrarse",
+    "naufragar",
+    "hundirse"
+  ],
+  "equivocarse": [
+    "errar",
+    "confundirse",
+    "fallar",
+    "desacertar",
+    "meter la pata"
+  ],
+  "demostrar": [
+    "probar",
+    "evidenciar",
+    "comprobar",
+    "verificar",
+    "confirmar"
+  ],
+  "confirmar": [
+    "ratificar",
+    "corroborar",
+    "verificar",
+    "certificar",
+    "validar"
+  ],
+  "verificar": [
+    "comprobar",
+    "confirmar",
+    "constatar",
+    "revisar",
+    "corroborar"
+  ],
+  "considerar": [
+    "opinar",
+    "juzgar",
+    "estimar",
+    "evaluar",
+    "valorar"
+  ],
+  "opinar": [
+    "considerar",
+    "juzgar",
+    "pensar",
+    "creer",
+    "estimar"
+  ],
+  "determinar": [
+    "decidir",
+    "resolver",
+    "establecer",
+    "fijar",
+    "precisar"
+  ],
+  "sugerir": [
+    "proponer",
+    "recomendar",
+    "aconsejar",
+    "insinuar",
+    "plantear"
+  ],
+  "proponer": [
+    "sugerir",
+    "plantear",
+    "ofrecer",
+    "presentar",
+    "formular"
+  ],
+  "recomendar": [
+    "aconsejar",
+    "sugerir",
+    "indicar",
+    "orientar",
+    "guiar"
+  ],
+  "aconsejar": [
+    "recomendar",
+    "sugerir",
+    "orientar",
+    "guiar",
+    "advertir"
+  ],
+  "criticar": [
+    "censurar",
+    "reprochar",
+    "cuestionar",
+    "desaprobar",
+    "atacar"
+  ],
+  "elogiar": [
+    "alabar",
+    "felicitar",
+    "halagar",
+    "ensalzar",
+    "encomiar"
+  ],
+  "alabar": [
+    "elogiar",
+    "halagar",
+    "ensalzar",
+    "encomiar",
+    "celebrar"
+  ],
+  "cuestionar": [
+    "preguntar",
+    "indagar",
+    "dudar",
+    "objetar",
+    "discutir"
+  ],
+  "averiguar": [
+    "indagar",
+    "investigar",
+    "descubrir",
+    "inquirir",
+    "esclarecer"
+  ],
+  "rápidamente": [
+    "velozmente",
+    "deprisa",
+    "prestamente",
+    "ágilmente",
+    "aceleradamente"
+  ],
+  "lentamente": [
+    "despacio",
+    "pausadamente",
+    "gradualmente",
+    "paulatinamente",
+    "calmosamente"
+  ],
+  "fácilmente": [
+    "sencillamente",
+    "cómodamente",
+    "sin esfuerzo",
+    "llanamente"
+  ],
+  "difícilmente": [
+    "apenas",
+    "complicadamente",
+    "con dificultad",
+    "trabajosamente"
+  ],
+  "mucho": [
+    "bastante",
+    "abundante",
+    "considerable",
+    "en gran medida"
+  ],
+  "poco": [
+    "escaso",
+    "limitado",
+    "ligeramente",
+    "apenas"
+  ],
+  "muy": [
+    "sumamente",
+    "extremadamente",
+    "bastante",
+    "tremendamente",
+    "notablemente"
+  ],
+  "bastante": [
+    "suficiente",
+    "considerable",
+    "harto"
+  ],
+  "demasiado": [
+    "excesivo",
+    "en exceso",
+    "sobradamente",
+    "desmedidamente"
+  ],
+  "casi": [
+    "apenas",
+    "por poco",
+    "prácticamente",
+    "cerca de"
+  ],
+  "todavía": [
+    "aún",
+    "hasta ahora",
+    "por el momento"
+  ],
+  "ya": [
+    "ahora",
+    "en este momento",
+    "de inmediato"
+  ],
+  "a veces": [
+    "ocasionalmente",
+    "de vez en cuando",
+    "esporádicamente"
+  ],
+  "a menudo": [
+    "frecuentemente",
+    "habitualmente",
+    "con frecuencia",
+    "seguido"
   ]
 }
