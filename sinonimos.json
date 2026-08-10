@@ -9838,5 +9838,396 @@
     "investigó",
     "descubrió",
     "inquirió"
-  ]
+  ],
+"tocaba": [
+  "rozaba",
+  "palpaba",
+  "acariciaba",
+  "manoseaba",
+  "presionaba"
+],
+"tocó": [
+  "rozó",
+  "palpó",
+  "acarició",
+  "manoseó",
+  "presionó"
+],
+"soltaba": [
+  "liberaba",
+  "aflojaba",
+  "desprendía",
+  "largaba"
+],
+"soltó": [
+  "liberó",
+  "aflojó",
+  "desprendió",
+  "largó"
+],
+"empujar": [
+  "impulsar",
+  "presionar",
+  "forzar",
+  "apartar",
+  "arrojar"
+],
+"empujaba": [
+  "impulsaba",
+  "presionaba",
+  "forzaba",
+  "apartaba"
+],
+"empujó": [
+  "impulsó",
+  "presionó",
+  "forzó",
+  "apartó"
+],
+"jalar": [
+  "tirar de",
+  "halar",
+  "arrastrar",
+  "estirar"
+],
+"jalaba": [
+  "tiraba de",
+  "halaba",
+  "arrastraba",
+  "estiraba"
+],
+"jaló": [
+  "tiró de",
+  "haló",
+  "arrastró",
+  "estiró"
+],
+"girar": [
+  "rotar",
+  "voltear",
+  "virar",
+  "torcer",
+  "dar vueltas"
+],
+"giraba": [
+  "rotaba",
+  "volteaba",
+  "viraba",
+  "torcía"
+],
+"giró": [
+  "rotó",
+  "volteó",
+  "viró",
+  "torció"
+],
+"voltear": [
+  "girar",
+  "volver",
+  "invertir",
+  "dar vuelta a"
+],
+"volteaba": [
+  "giraba",
+  "volvía",
+  "invertía"
+],
+"volteó": [
+  "giró",
+  "volvió",
+  "invirtió"
+],
+"inclinar": [
+  "ladear",
+  "doblar",
+  "torcer",
+  "agachar"
+],
+"inclinaba": [
+  "ladeaba",
+  "doblaba",
+  "agachaba"
+],
+"inclinó": [
+  "ladeó",
+  "dobló",
+  "agachó"
+],
+"temblar": [
+  "estremecerse",
+  "tiritar",
+  "sacudirse"
+],
+"temblaba": [
+  "se estremecía",
+  "tiritaba",
+  "se sacudía"
+],
+"vibrar": [
+  "temblar",
+  "resonar",
+  "estremecerse",
+  "oscilar"
+],
+"vibraba": [
+  "temblaba",
+  "resonaba",
+  "se estremecía",
+  "oscilaba"
+],
+"vibró": [
+  "tembló",
+  "resonó",
+  "se estremeció",
+  "osciló"
+],
+"respirar": [
+  "inhalar",
+  "exhalar",
+  "resollar",
+  "tomar aire"
+],
+"respiraba": [
+  "inhalaba",
+  "exhalaba",
+  "resollaba"
+],
+"respiró": [
+  "inhaló",
+  "exhaló",
+  "resolló"
+],
+"herir": [
+  "lastimar",
+  "lesionar",
+  "dañar",
+  "lacerar"
+],
+"hería": [
+  "lastimaba",
+  "lesionaba",
+  "dañaba",
+  "laceraba"
+],
+"hirió": [
+  "lastimó",
+  "lesionó",
+  "dañó",
+  "laceró"
+],
+"sanar": [
+  "curar",
+  "recuperarse",
+  "restablecerse",
+  "aliviarse"
+],
+"sanaba": [
+  "curaba",
+  "se recuperaba",
+  "se restablecía"
+],
+"sanó": [
+  "curó",
+  "se recuperó",
+  "se restableció"
+],
+"curar": [
+  "sanar",
+  "tratar",
+  "remediar",
+  "aliviar"
+],
+"curaba": [
+  "sanaba",
+  "trataba",
+  "remediaba",
+  "aliviaba"
+],
+"curó": [
+  "sanó",
+  "trató",
+  "remedió",
+  "alivió"
+],
+"salvar": [
+  "rescatar",
+  "liberar",
+  "socorrer",
+  "auxiliar"
+],
+"salvaba": [
+  "rescataba",
+  "liberaba",
+  "socorría"
+],
+"salvó": [
+  "rescató",
+  "liberó",
+  "socorrió"
+],
+"matar": [
+  "asesinar",
+  "eliminar",
+  "aniquilar",
+  "ejecutar"
+],
+"mataba": [
+  "asesinaba",
+  "eliminaba",
+  "aniquilaba"
+],
+"mató": [
+  "asesinó",
+  "eliminó",
+  "aniquiló"
+],
+"nacía": [
+  "venía al mundo",
+  "surgía",
+  "se originaba"
+],
+"nació": [
+  "vino al mundo",
+  "surgió",
+  "se originó"
+],
+"envejecía": [
+  "se avejentaba",
+  "se ajaba",
+  "se marchitaba"
+],
+"envejeció": [
+  "se avejentó",
+  "se ajó",
+  "se marchitó"
+],
+"convertir": [
+  "transformar",
+  "cambiar",
+  "mutar"
+],
+"convertía": [
+  "transformaba",
+  "cambiaba",
+  "mutaba"
+],
+"convirtió": [
+  "transformó",
+  "cambió",
+  "mutó"
+],
+"formar": [
+  "crear",
+  "construir",
+  "moldear",
+  "configurar"
+],
+"formaba": [
+  "creaba",
+  "construía",
+  "moldeaba"
+],
+"formó": [
+  "creó",
+  "construyó",
+  "moldeó"
+],
+"quebrar": [
+  "romper",
+  "fracturar",
+  "partir"
+],
+"quebraba": [
+  "rompía",
+  "fracturaba",
+  "partía"
+],
+"quebró": [
+  "rompió",
+  "fracturó",
+  "partió"
+],
+"quitar": [
+  "retirar",
+  "sacar",
+  "eliminar",
+  "arrebatar"
+],
+"quitaba": [
+  "retiraba",
+  "sacaba",
+  "eliminaba",
+  "arrebataba"
+],
+"quitó": [
+  "retiró",
+  "sacó",
+  "eliminó",
+  "arrebató"
+],
+"ponía": [
+  "colocaba",
+  "situaba",
+  "ubicaba"
+],
+"puso": [
+  "colocó",
+  "situó",
+  "ubicó"
+],
+"faltar": [
+  "carecer",
+  "escasear"
+],
+"faltaba": [
+  "carecía",
+  "escaseaba"
+],
+"faltó": [
+  "careció",
+  "escaseó"
+],
+"perdonar": [
+  "disculpar",
+  "absolver",
+  "indultar"
+],
+"perdonaba": [
+  "disculpaba",
+  "absolvía",
+  "indultaba"
+],
+"perdonó": [
+  "disculpó",
+  "absolvió",
+  "indultó"
+],
+"envidiar": [
+  "codiciar",
+  "ambicionar"
+],
+"envidiaba": [
+  "codiciaba",
+  "ambicionaba"
+],
+"envidió": [
+  "codició",
+  "ambicionó"
+],
+"se levantaba": [
+  "se paraba",
+  "se incorporaba"
+],
+"se levantó": [
+  "se paró",
+  "se incorporó"
+],
+"se sentaba": [
+  "se acomodaba",
+  "se ubicaba"
+],
+"se sentó": [
+  "se acomodó",
+  "se ubicó"
+]
 }
